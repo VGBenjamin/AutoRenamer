@@ -1,0 +1,669 @@
+DEBUG 1 - AutoRenamer.StatusForm: Loading
+DEBUG 1 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 1 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 1 - AutoRenamer.StatusForm: Listing the files from 'D:\Projects\Ben\AutoRenamer\Examples\Source'
+DEBUG 1 - AutoRenamer.StatusForm: Listing the files from 'D:\Projects\Ben\AutoRenamer\Examples\Source2'
+DEBUG 1 - AutoRenamer.StatusForm: Filebot expression: filebot "%FILENAME%" -rename --action test -non-strict --format "/{n} ({y})/{n} - {s00e00} - {t}]"
+DEBUG 1 - AutoRenamer.StatusForm: Refilter the grid
+INFO 1 - AutoRenamer.StatusForm: Saving the info into 'D:\Projects\Ben\AutoRenamer\Examples\treated.xml'
+DEBUG 1 - AutoRenamer.StatusForm: Loading
+DEBUG 1 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 1 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 1 - AutoRenamer.StatusForm: Listing the files from 'D:\Projects\Ben\AutoRenamer\Examples\Source'
+DEBUG 1 - AutoRenamer.StatusForm: Listing the files from 'D:\Projects\Ben\AutoRenamer\Examples\Source2'
+DEBUG 1 - AutoRenamer.StatusForm: Filebot expression: "%FILENAME%" -rename --action test -non-strict --format "/{n} ({y})/{n} - {s00e00} - {t}]"
+DEBUG 1 - AutoRenamer.StatusForm: Refilter the grid
+INFO 1 - AutoRenamer.StatusForm: Saving the info into 'D:\Projects\Ben\AutoRenamer\Examples\treated.xml'
+DEBUG 9 - AutoRenamer.StatusForm: Loading
+DEBUG 9 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 9 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 9 - AutoRenamer.StatusForm: Listing the files from 'D:\Projects\Ben\AutoRenamer\Examples\Source'
+DEBUG 9 - AutoRenamer.StatusForm: Listing the files from 'D:\Projects\Ben\AutoRenamer\Examples\Source2'
+DEBUG 9 - AutoRenamer.StatusForm: Filebot expression: "%FILENAME%" -rename --action test -non-strict --format "/{n} ({y})/{n} - {s00e00} - {t}]"
+DEBUG 9 - AutoRenamer.StatusForm: Refilter the grid
+INFO 9 - AutoRenamer.StatusForm: Calling filebot for the file: D:\Projects\Ben\AutoRenamer\Examples\Source\castle.s01e02.hdtv.avi
+DEBUG 9 - AutoRenamer.StatusForm: Loading
+DEBUG 9 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 9 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 9 - AutoRenamer.StatusForm: Listing the files from 'D:\Projects\Ben\AutoRenamer\Examples\Source'
+DEBUG 9 - AutoRenamer.StatusForm: Listing the files from 'D:\Projects\Ben\AutoRenamer\Examples\Source2'
+DEBUG 9 - AutoRenamer.StatusForm: Filebot expression: "%FILENAME%" -rename --action test -non-strict --format "/{n} ({y})/{n} - {s00e00} - {t}]"
+DEBUG 9 - AutoRenamer.StatusForm: Refilter the grid
+INFO 9 - AutoRenamer.StatusForm: Calling filebot for the file: D:\Projects\Ben\AutoRenamer\Examples\Source\castle.s01e02.hdtv.avi
+DEBUG 8 - AutoRenamer.StatusForm: Loading
+DEBUG 8 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 8 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 8 - AutoRenamer.StatusForm: Listing the files from 'D:\Projects\Ben\AutoRenamer\Examples\Source'
+DEBUG 8 - AutoRenamer.StatusForm: Listing the files from 'D:\Projects\Ben\AutoRenamer\Examples\Source2'
+DEBUG 8 - AutoRenamer.StatusForm: Filebot expression: "%FILENAME%" -rename --action test -non-strict --format "/{n} ({y})/{n} - {s00e00} - {t}]"
+DEBUG 8 - AutoRenamer.StatusForm: Refilter the grid
+INFO 8 - AutoRenamer.StatusForm: Calling filebot for the file: D:\Projects\Ben\AutoRenamer\Examples\Source\castle.s01e02.hdtv.avi
+DEBUG 8 - AutoRenamer.StatusForm: Filebot arguments: "D:\Projects\Ben\AutoRenamer\Examples\Source\castle.s01e02.hdtv.avi" -rename --action test -non-strict --format "/{n} ({y})/{n} - {s00e00} - {t}]"
+DEBUG 9 - AutoRenamer.StatusForm: Loading
+DEBUG 9 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 9 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 9 - AutoRenamer.StatusForm: Listing the files from 'D:\Projects\Ben\AutoRenamer\Examples\Source'
+DEBUG 9 - AutoRenamer.StatusForm: Listing the files from 'D:\Projects\Ben\AutoRenamer\Examples\Source2'
+DEBUG 9 - AutoRenamer.StatusForm: Filebot expression: "%FILENAME%" -rename --action test -non-strict --format "/{n} ({y})/{n} - {s00e00} - {t}]"
+DEBUG 9 - AutoRenamer.StatusForm: Refilter the grid
+INFO 9 - AutoRenamer.StatusForm: Calling filebot for the file: D:\Projects\Ben\AutoRenamer\Examples\Source\castle.s01e02.hdtv.avi
+DEBUG 9 - AutoRenamer.StatusForm: Filebot arguments: "D:\Projects\Ben\AutoRenamer\Examples\Source\castle.s01e02.hdtv.avi" -rename --action test -non-strict --format "/{n} ({y})/{n} - {s00e00} - {t}]"
+DEBUG 9 - AutoRenamer.StatusForm: Filename pattern: [1,00] SxE, [0,00] CWS
+Rename episodes using [TheTVDB]
+Auto-detected query: [castle]
+Fetching episode data for [Castle]
+Fetching episode data for [Castle (2009)]
+Fetching episode data for [Castle Ghosts]
+Fetching episode data for [Castle Town Dandelion]
+[TEST] Rename [D:\Projects\Ben\AutoRenamer\Examples\Source\castle.s01e02.hdtv.avi] to [\Castle (2009) (2009)\Castle (2009) - S01E02 - Nanny McDead].avi]
+Processed 1 files
+Done ?(?????)?
+
+
+INFO 9 - AutoRenamer.StatusForm: Calling filebot for the file: D:\Projects\Ben\AutoRenamer\Examples\Source\the.big.bang.theory.s04e01.avi
+DEBUG 9 - AutoRenamer.StatusForm: Filebot arguments: "D:\Projects\Ben\AutoRenamer\Examples\Source\the.big.bang.theory.s04e01.avi" -rename --action test -non-strict --format "/{n} ({y})/{n} - {s00e00} - {t}]"
+DEBUG 9 - AutoRenamer.StatusForm: Filename pattern: [1,00] SxE, [0,00] CWS
+Rename episodes using [TheTVDB]
+Auto-detected query: [the big bang theory, the big bang]
+Fetching episode data for [The Big Bang Theory]
+Fetching episode data for [Eureka! The Big Bang Query]
+[TEST] Rename [D:\Projects\Ben\AutoRenamer\Examples\Source\the.big.bang.theory.s04e01.avi] to [\The Big Bang Theory (2007)\The Big Bang Theory - S04E01 - The Robotic Manipulation].avi]
+Processed 1 files
+Done ?(?????)?
+
+
+INFO 9 - AutoRenamer.StatusForm: Calling filebot for the file: D:\Projects\Ben\AutoRenamer\Examples\Source\the.big.bang.theory.s04e01.txt
+DEBUG 9 - AutoRenamer.StatusForm: Filebot arguments: "D:\Projects\Ben\AutoRenamer\Examples\Source\the.big.bang.theory.s04e01.txt" -rename --action test -non-strict --format "/{n} ({y})/{n} - {s00e00} - {t}]"
+DEBUG 9 - AutoRenamer.StatusForm: Loading
+DEBUG 9 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 9 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 9 - AutoRenamer.StatusForm: Listing the files from 'D:\Projects\Ben\AutoRenamer\Examples\Source'
+DEBUG 9 - AutoRenamer.StatusForm: Listing the files from 'D:\Projects\Ben\AutoRenamer\Examples\Source2'
+DEBUG 9 - AutoRenamer.StatusForm: Filebot expression: "%FILENAME%" -rename --action test -non-strict --format "/{n} ({y})/{n} - {s00e00} - {t}]"
+DEBUG 9 - AutoRenamer.StatusForm: Refilter the grid
+INFO 9 - AutoRenamer.StatusForm: Calling filebot for the file: D:\Projects\Ben\AutoRenamer\Examples\Source\castle.s01e02.hdtv.avi
+DEBUG 9 - AutoRenamer.StatusForm: Filebot arguments: "D:\Projects\Ben\AutoRenamer\Examples\Source\castle.s01e02.hdtv.avi" -rename --action test -non-strict --format "/{n} ({y})/{n} - {s00e00} - {t}]"
+DEBUG 9 - AutoRenamer.StatusForm: Filename pattern: [1,00] SxE, [0,00] CWS
+Rename episodes using [TheTVDB]
+Auto-detected query: [castle]
+Fetching episode data for [Castle]
+Fetching episode data for [Castle (2009)]
+Fetching episode data for [Castle Ghosts]
+Fetching episode data for [Castle Town Dandelion]
+[TEST] Rename [D:\Projects\Ben\AutoRenamer\Examples\Source\castle.s01e02.hdtv.avi] to [\Castle (2009) (2009)\Castle (2009) - S01E02 - Nanny McDead].avi]
+Processed 1 files
+Done ?(?????)?
+
+
+INFO 9 - AutoRenamer.StatusForm: Detected new name: Filename pattern: [1,00] SxE, [0,00] CWS
+Rename episodes using [TheTVDB]
+Auto-detected query: [castle]
+Fetching episode data for [Castle]
+Fetching episode data for [Castle (2009)]
+Fetching episode data for [Castle Ghosts]
+Fetching episode data for [Castle Town Dandelion]
+[TEST] Rename [D:\Projects\Ben\AutoRenamer\Examples\Source\castle.s01e02.hdtv.avi] to [\Castle (2009) (2009)\Castle (2009) - S01E02 - Nanny McDead].avi]
+Processed 1 files
+Done ?(?????)?
+
+
+INFO 9 - AutoRenamer.StatusForm: Calling filebot for the file: D:\Projects\Ben\AutoRenamer\Examples\Source\the.big.bang.theory.s04e01.avi
+DEBUG 9 - AutoRenamer.StatusForm: Filebot arguments: "D:\Projects\Ben\AutoRenamer\Examples\Source\the.big.bang.theory.s04e01.avi" -rename --action test -non-strict --format "/{n} ({y})/{n} - {s00e00} - {t}]"
+DEBUG 9 - AutoRenamer.StatusForm: Filename pattern: [1,00] SxE, [0,00] CWS
+Rename episodes using [TheTVDB]
+Auto-detected query: [the big bang theory, the big bang]
+Fetching episode data for [The Big Bang Theory]
+Fetching episode data for [Eureka! The Big Bang Query]
+[TEST] Rename [D:\Projects\Ben\AutoRenamer\Examples\Source\the.big.bang.theory.s04e01.avi] to [\The Big Bang Theory (2007)\The Big Bang Theory - S04E01 - The Robotic Manipulation].avi]
+Processed 1 files
+Done ?(?????)?
+
+
+INFO 9 - AutoRenamer.StatusForm: Detected new name: Filename pattern: [1,00] SxE, [0,00] CWS
+Rename episodes using [TheTVDB]
+Auto-detected query: [the big bang theory, the big bang]
+Fetching episode data for [The Big Bang Theory]
+Fetching episode data for [Eureka! The Big Bang Query]
+[TEST] Rename [D:\Projects\Ben\AutoRenamer\Examples\Source\the.big.bang.theory.s04e01.avi] to [\The Big Bang Theory (2007)\The Big Bang Theory - S04E01 - The Robotic Manipulation].avi]
+Processed 1 files
+Done ?(?????)?
+
+
+INFO 9 - AutoRenamer.StatusForm: Calling filebot for the file: D:\Projects\Ben\AutoRenamer\Examples\Source\the.big.bang.theory.s04e01.txt
+DEBUG 9 - AutoRenamer.StatusForm: Filebot arguments: "D:\Projects\Ben\AutoRenamer\Examples\Source\the.big.bang.theory.s04e01.txt" -rename --action test -non-strict --format "/{n} ({y})/{n} - {s00e00} - {t}]"
+DEBUG 9 - AutoRenamer.StatusForm: Filename pattern: [NaN] SxE, [NaN] CWS
+Rename movies using [TheMovieDB]
+Failure (°_°)
+
+
+INFO 9 - AutoRenamer.StatusForm: Detected new name: Filename pattern: [NaN] SxE, [NaN] CWS
+Rename movies using [TheMovieDB]
+Failure (°_°)
+
+
+INFO 9 - AutoRenamer.StatusForm: Calling filebot for the file: D:\Projects\Ben\AutoRenamer\Examples\Source2\code.black.c01e05 - Copy.mpg
+DEBUG 9 - AutoRenamer.StatusForm: Filebot arguments: "D:\Projects\Ben\AutoRenamer\Examples\Source2\code.black.c01e05 - Copy.mpg" -rename --action test -non-strict --format "/{n} ({y})/{n} - {s00e00} - {t}]"
+DEBUG 9 - AutoRenamer.StatusForm: Filename pattern: [0,00] SxE, [0,00] CWS
+Rename movies using [TheMovieDB]
+Auto-detect movie from context: [D:\Projects\Ben\AutoRenamer\Examples\Source2\code.black.c01e05 - Copy.mpg]
+[TEST] Rename [D:\Projects\Ben\AutoRenamer\Examples\Source2\code.black.c01e05 - Copy.mpg] to [\Code Black (2014)\Code Black - - ].mpg]
+Processed 1 files
+Done ?(?????)?
+
+
+INFO 9 - AutoRenamer.StatusForm: Detected new name: Filename pattern: [0,00] SxE, [0,00] CWS
+Rename movies using [TheMovieDB]
+Auto-detect movie from context: [D:\Projects\Ben\AutoRenamer\Examples\Source2\code.black.c01e05 - Copy.mpg]
+[TEST] Rename [D:\Projects\Ben\AutoRenamer\Examples\Source2\code.black.c01e05 - Copy.mpg] to [\Code Black (2014)\Code Black - - ].mpg]
+Processed 1 files
+Done ?(?????)?
+
+
+INFO 9 - AutoRenamer.StatusForm: Calling filebot for the file: D:\Projects\Ben\AutoRenamer\Examples\Source2\code.black.c01e06.mpg
+DEBUG 9 - AutoRenamer.StatusForm: Filebot arguments: "D:\Projects\Ben\AutoRenamer\Examples\Source2\code.black.c01e06.mpg" -rename --action test -non-strict --format "/{n} ({y})/{n} - {s00e00} - {t}]"
+DEBUG 9 - AutoRenamer.StatusForm: Filename pattern: [0,00] SxE, [0,00] CWS
+Rename movies using [TheMovieDB]
+Auto-detect movie from context: [D:\Projects\Ben\AutoRenamer\Examples\Source2\code.black.c01e06.mpg]
+[TEST] Rename [D:\Projects\Ben\AutoRenamer\Examples\Source2\code.black.c01e06.mpg] to [\Code Black (2014)\Code Black - - ].mpg]
+Processed 1 files
+Done ?(?????)?
+
+
+INFO 9 - AutoRenamer.StatusForm: Detected new name: Filename pattern: [0,00] SxE, [0,00] CWS
+Rename movies using [TheMovieDB]
+Auto-detect movie from context: [D:\Projects\Ben\AutoRenamer\Examples\Source2\code.black.c01e06.mpg]
+[TEST] Rename [D:\Projects\Ben\AutoRenamer\Examples\Source2\code.black.c01e06.mpg] to [\Code Black (2014)\Code Black - - ].mpg]
+Processed 1 files
+Done ?(?????)?
+
+
+INFO 9 - AutoRenamer.StatusForm: Calling filebot for the file: D:\Projects\Ben\AutoRenamer\Examples\Source\Castle (2009) - 1x02 - Nanny McDead.avi
+DEBUG 9 - AutoRenamer.StatusForm: Filebot arguments: "D:\Projects\Ben\AutoRenamer\Examples\Source\Castle (2009) - 1x02 - Nanny McDead.avi" -rename --action test -non-strict --format "/{n} ({y})/{n} - {s00e00} - {t}]"
+DEBUG 9 - AutoRenamer.StatusForm: Filename pattern: [1,00] SxE, [0,00] CWS
+Rename episodes using [TheTVDB]
+Auto-detected query: [Castle (2009)]
+Fetching episode data for [Castle (2009)]
+[TEST] Rename [D:\Projects\Ben\AutoRenamer\Examples\Source\Castle (2009) - 1x02 - Nanny McDead.avi] to [\Castle (2009) (2009)\Castle (2009) - S01E02 - Nanny McDead].avi]
+Processed 1 files
+Done ?(?????)?
+
+
+INFO 9 - AutoRenamer.StatusForm: Detected new name: Filename pattern: [1,00] SxE, [0,00] CWS
+Rename episodes using [TheTVDB]
+Auto-detected query: [Castle (2009)]
+Fetching episode data for [Castle (2009)]
+[TEST] Rename [D:\Projects\Ben\AutoRenamer\Examples\Source\Castle (2009) - 1x02 - Nanny McDead.avi] to [\Castle (2009) (2009)\Castle (2009) - S01E02 - Nanny McDead].avi]
+Processed 1 files
+Done ?(?????)?
+
+
+INFO 9 - AutoRenamer.StatusForm: Saving the info into 'D:\Projects\Ben\AutoRenamer\Examples\treated.xml'
+DEBUG 9 - AutoRenamer.StatusForm: Loading
+DEBUG 9 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 9 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 9 - AutoRenamer.StatusForm: Listing the files from 'D:\Projects\Ben\AutoRenamer\Examples\Source'
+DEBUG 9 - AutoRenamer.StatusForm: Listing the files from 'D:\Projects\Ben\AutoRenamer\Examples\Source2'
+DEBUG 9 - AutoRenamer.StatusForm: Filebot expression: "%FILENAME%" -rename --action test -non-strict --format "/{n} ({y})/{n} - {s00e00} - {t}]"
+DEBUG 9 - AutoRenamer.StatusForm: Refilter the grid
+INFO 9 - AutoRenamer.StatusForm: Saving the info into 'D:\Projects\Ben\AutoRenamer\Examples\treated.xml'
+DEBUG 10 - AutoRenamer.StatusForm: Loading
+DEBUG 10 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 10 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 10 - AutoRenamer.StatusForm: Listing the files from 'D:\Projects\Ben\AutoRenamer\Examples\Source'
+DEBUG 10 - AutoRenamer.StatusForm: Listing the files from 'D:\Projects\Ben\AutoRenamer\Examples\Source2'
+DEBUG 10 - AutoRenamer.StatusForm: Filebot expression: "%FILENAME%" -rename --action test -non-strict --format "/{n} ({y})/{n} - {s00e00} - {t}]"
+DEBUG 10 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 9 - AutoRenamer.StatusForm: Loading
+DEBUG 9 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 9 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 9 - AutoRenamer.StatusForm: Listing the files from 'D:\Projects\Ben\AutoRenamer\Examples\Source'
+DEBUG 9 - AutoRenamer.StatusForm: Listing the files from 'D:\Projects\Ben\AutoRenamer\Examples\Source2'
+DEBUG 9 - AutoRenamer.StatusForm: Filebot expression: "%FILENAME%" -rename --action test -non-strict --format "/{n} ({y})/{n} - {s00e00} - {t}]"
+DEBUG 9 - AutoRenamer.StatusForm: Refilter the grid
+INFO 9 - AutoRenamer.StatusForm: Calling filebot for the file: D:\Projects\Ben\AutoRenamer\Examples\Source\castle.s01e02.hdtv.avi
+DEBUG 9 - AutoRenamer.StatusForm: Filebot arguments: "D:\Projects\Ben\AutoRenamer\Examples\Source\castle.s01e02.hdtv.avi" -rename --action test -non-strict --format "/{n} ({y})/{n} - {s00e00} - {t}]"
+DEBUG 9 - AutoRenamer.StatusForm: Filename pattern: [1,00] SxE, [0,00] CWS
+Rename episodes using [TheTVDB]
+Auto-detected query: [castle]
+Fetching episode data for [Castle]
+Fetching episode data for [Castle (2009)]
+Fetching episode data for [Castle Ghosts]
+Fetching episode data for [Castle Town Dandelion]
+[TEST] Rename [D:\Projects\Ben\AutoRenamer\Examples\Source\castle.s01e02.hdtv.avi] to [\Castle (2009) (2009)\Castle (2009) - S01E02 - Nanny McDead].avi]
+Processed 1 files
+Done ?(?????)?
+
+
+DEBUG 9 - AutoRenamer.StatusForm: Loading
+DEBUG 9 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 9 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 9 - AutoRenamer.StatusForm: Listing the files from 'D:\Projects\Ben\AutoRenamer\Examples\Source'
+DEBUG 9 - AutoRenamer.StatusForm: Listing the files from 'D:\Projects\Ben\AutoRenamer\Examples\Source2'
+DEBUG 9 - AutoRenamer.StatusForm: Filebot expression: "%FILENAME%" -rename --action test -non-strict --format "/{n} ({y})/{n} - {s00e00} - {t}"
+DEBUG 9 - AutoRenamer.StatusForm: Refilter the grid
+INFO 9 - AutoRenamer.StatusForm: Calling filebot for the file: D:\Projects\Ben\AutoRenamer\Examples\Source\castle.s01e02.hdtv.avi
+DEBUG 9 - AutoRenamer.StatusForm: Filebot arguments: "D:\Projects\Ben\AutoRenamer\Examples\Source\castle.s01e02.hdtv.avi" -rename --action test -non-strict --format "/{n} ({y})/{n} - {s00e00} - {t}"
+DEBUG 9 - AutoRenamer.StatusForm: Filename pattern: [1,00] SxE, [0,00] CWS
+Rename episodes using [TheTVDB]
+Auto-detected query: [castle]
+Fetching episode data for [Castle]
+Fetching episode data for [Castle (2009)]
+Fetching episode data for [Castle Ghosts]
+Fetching episode data for [Castle Town Dandelion]
+[TEST] Rename [D:\Projects\Ben\AutoRenamer\Examples\Source\castle.s01e02.hdtv.avi] to [\Castle (2009) (2009)\Castle (2009) - S01E02 - Nanny McDead.avi]
+Processed 1 files
+Done ?(?????)?
+
+
+INFO 9 - AutoRenamer.StatusForm: Detected new name: \Castle (2009) (2009)\Castle (2009) - S01E02 - Nanny McDead.avi
+INFO 9 - AutoRenamer.StatusForm: Saving the info into 'D:\Projects\Ben\AutoRenamer\Examples\treated.xml'
+DEBUG 1 - AutoRenamer.StatusForm: Loading
+DEBUG 1 - AutoRenamer.StatusForm: The file does not exist yet => create it in 'D:\Projects\Ben\AutoRenamer\Examples\treated.xml'
+DEBUG 1 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 1 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 1 - AutoRenamer.StatusForm: Listing the files from 'D:\Projects\Ben\AutoRenamer\Examples\Source'
+DEBUG 1 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 1 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 1 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 1 - AutoRenamer.StatusForm: Listing the files from 'D:\Projects\Ben\AutoRenamer\Examples\Source2'
+DEBUG 1 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 1 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 1 - AutoRenamer.StatusForm: Filebot expression: "%FILENAME%" -rename --action test -non-strict --format "/{n} ({y})/{n} - {s00e00} - {t}"
+DEBUG 1 - AutoRenamer.StatusForm: Refilter the grid
+INFO 1 - AutoRenamer.StatusForm: Saving the info into 'D:\Projects\Ben\AutoRenamer\Examples\treated.xml'
+DEBUG 1 - AutoRenamer.StatusForm: Loading
+DEBUG 1 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 1 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 1 - AutoRenamer.StatusForm: Listing the files from 'D:\Projects\Ben\AutoRenamer\Examples\Source'
+DEBUG 1 - AutoRenamer.StatusForm: Listing the files from 'D:\Projects\Ben\AutoRenamer\Examples\Source2'
+DEBUG 1 - AutoRenamer.StatusForm: Filebot expression: "%FILENAME%" -rename --action test -non-strict --format "/{n} ({y})/{n} - {s00e00} - {t}"
+DEBUG 1 - AutoRenamer.StatusForm: Refilter the grid
+INFO 1 - AutoRenamer.StatusForm: Saving the info into 'D:\Projects\Ben\AutoRenamer\Examples\treated.xml'
+DEBUG 1 - AutoRenamer.StatusForm: Loading
+DEBUG 1 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 1 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 1 - AutoRenamer.StatusForm: Listing the files from 'D:\Projects\Ben\AutoRenamer\Examples\Source'
+DEBUG 1 - AutoRenamer.StatusForm: Listing the files from 'D:\Projects\Ben\AutoRenamer\Examples\Source2'
+DEBUG 1 - AutoRenamer.StatusForm: Filebot expression: "%FILENAME%" -rename --action test -non-strict --format "/{n} ({y})/{n} - {s00e00} - {t}"
+DEBUG 1 - AutoRenamer.StatusForm: Refilter the grid
+INFO 1 - AutoRenamer.StatusForm: Calling filebot for the file: D:\Projects\Ben\AutoRenamer\Examples\Source\Castle (2009) - 1x02 - Nanny McDead.avi
+DEBUG 1 - AutoRenamer.StatusForm: Filebot arguments: "D:\Projects\Ben\AutoRenamer\Examples\Source\Castle (2009) - 1x02 - Nanny McDead.avi" -rename --action test -non-strict --format "/{n} ({y})/{n} - {s00e00} - {t}"
+DEBUG 1 - AutoRenamer.StatusForm: Filename pattern: [1,00] SxE, [0,00] CWS
+Rename episodes using [TheTVDB]
+Auto-detected query: [Castle (2009)]
+Fetching episode data for [Castle (2009)]
+[TEST] Rename [D:\Projects\Ben\AutoRenamer\Examples\Source\Castle (2009) - 1x02 - Nanny McDead.avi] to [\Castle (2009) (2009)\Castle (2009) - S01E02 - Nanny McDead.avi]
+Processed 1 files
+Done ?(?????)?
+
+
+INFO 1 - AutoRenamer.StatusForm: Detected new name: \Castle (2009) (2009)\Castle (2009) - S01E02 - Nanny McDead.avi.
+INFO 1 - AutoRenamer.StatusForm: Copying from: 'D:\Projects\Ben\AutoRenamer\Examples\Source\Castle (2009) - 1x02 - Nanny McDead.avi' to '\Castle (2009) (2009)\Castle (2009) - S01E02 - Nanny McDead.avi'
+INFO 1 - AutoRenamer.StatusForm: Saving the info into 'D:\Projects\Ben\AutoRenamer\Examples\treated.xml'
+DEBUG 10 - AutoRenamer.StatusForm: Loading
+DEBUG 10 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 10 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 10 - AutoRenamer.StatusForm: Listing the files from 'D:\Projects\Ben\AutoRenamer\Examples\Source'
+DEBUG 10 - AutoRenamer.StatusForm: Listing the files from 'D:\Projects\Ben\AutoRenamer\Examples\Source2'
+DEBUG 10 - AutoRenamer.StatusForm: Filebot expression: "%FILENAME%" -rename --action test -non-strict --format "/{n} ({y})/{n} - {s00e00} - {t}"
+DEBUG 10 - AutoRenamer.StatusForm: Refilter the grid
+INFO 10 - AutoRenamer.StatusForm: Calling filebot for the file: D:\Projects\Ben\AutoRenamer\Examples\Source\Castle (2009) - 1x02 - Nanny McDead.avi
+DEBUG 10 - AutoRenamer.StatusForm: Filebot arguments: "D:\Projects\Ben\AutoRenamer\Examples\Source\Castle (2009) - 1x02 - Nanny McDead.avi" -rename --action test -non-strict --format "/{n} ({y})/{n} - {s00e00} - {t}"
+DEBUG 10 - AutoRenamer.StatusForm: Filename pattern: [1,00] SxE, [0,00] CWS
+Rename episodes using [TheTVDB]
+Auto-detected query: [Castle (2009)]
+Fetching episode data for [Castle (2009)]
+[TEST] Rename [D:\Projects\Ben\AutoRenamer\Examples\Source\Castle (2009) - 1x02 - Nanny McDead.avi] to [\Castle (2009) (2009)\Castle (2009) - S01E02 - Nanny McDead.avi]
+Processed 1 files
+Done ?(?????)?
+
+
+INFO 10 - AutoRenamer.StatusForm: Detected new name: \Castle (2009) (2009)\Castle (2009) - S01E02 - Nanny McDead.avi.
+INFO 10 - AutoRenamer.StatusForm: Copying from: 'D:\Projects\Ben\AutoRenamer\Examples\Source\Castle (2009) - 1x02 - Nanny McDead.avi' to '\Castle (2009) (2009)\Castle (2009) - S01E02 - Nanny McDead.avi'
+DEBUG 8 - AutoRenamer.StatusForm: Loading
+DEBUG 8 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 8 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 8 - AutoRenamer.StatusForm: Listing the files from 'D:\Projects\Ben\AutoRenamer\Examples\Source'
+DEBUG 8 - AutoRenamer.StatusForm: Listing the files from 'D:\Projects\Ben\AutoRenamer\Examples\Source2'
+DEBUG 8 - AutoRenamer.StatusForm: Filebot expression: "%FILENAME%" -rename --action test -non-strict --format "/{n} ({y})/{n} - {s00e00} - {t}"
+DEBUG 8 - AutoRenamer.StatusForm: Refilter the grid
+INFO 8 - AutoRenamer.StatusForm: Calling filebot for the file: D:\Projects\Ben\AutoRenamer\Examples\Source\Castle (2009) - 1x02 - Nanny McDead.avi
+DEBUG 8 - AutoRenamer.StatusForm: Filebot arguments: "D:\Projects\Ben\AutoRenamer\Examples\Source\Castle (2009) - 1x02 - Nanny McDead.avi" -rename --action test -non-strict --format "/{n} ({y})/{n} - {s00e00} - {t}"
+DEBUG 8 - AutoRenamer.StatusForm: Filename pattern: [1,00] SxE, [0,00] CWS
+Rename episodes using [TheTVDB]
+Auto-detected query: [Castle (2009)]
+Fetching episode data for [Castle (2009)]
+[TEST] Rename [D:\Projects\Ben\AutoRenamer\Examples\Source\Castle (2009) - 1x02 - Nanny McDead.avi] to [\Castle (2009) (2009)\Castle (2009) - S01E02 - Nanny McDead.avi]
+Processed 1 files
+Done ?(?????)?
+
+
+INFO 8 - AutoRenamer.StatusForm: Detected new name: \Castle (2009) (2009)\Castle (2009) - S01E02 - Nanny McDead.avi.
+INFO 8 - AutoRenamer.StatusForm: Copying from: 'D:\Projects\Ben\AutoRenamer\Examples\Source\Castle (2009) - 1x02 - Nanny McDead.avi' to 'D:\Projects\Ben\AutoRenamer\Examples\Destination\Castle (2009) (2009)\Castle (2009) - S01E02 - Nanny McDead.avi'
+DEBUG 9 - AutoRenamer.StatusForm: Loading
+DEBUG 9 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 9 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 9 - AutoRenamer.StatusForm: Listing the files from 'D:\Projects\Ben\AutoRenamer\Examples\Source'
+DEBUG 9 - AutoRenamer.StatusForm: Listing the files from 'D:\Projects\Ben\AutoRenamer\Examples\Source2'
+DEBUG 9 - AutoRenamer.StatusForm: Filebot expression: "%FILENAME%" -rename --action test -non-strict --format "/{n} ({y})/{n} - {s00e00} - {t}"
+DEBUG 9 - AutoRenamer.StatusForm: Refilter the grid
+INFO 9 - AutoRenamer.StatusForm: Calling filebot for the file: D:\Projects\Ben\AutoRenamer\Examples\Source\Castle (2009) - 1x02 - Nanny McDead.avi
+DEBUG 9 - AutoRenamer.StatusForm: Filebot arguments: "D:\Projects\Ben\AutoRenamer\Examples\Source\Castle (2009) - 1x02 - Nanny McDead.avi" -rename --action test -non-strict --format "/{n} ({y})/{n} - {s00e00} - {t}"
+DEBUG 9 - AutoRenamer.StatusForm: Filename pattern: [1,00] SxE, [0,00] CWS
+Rename episodes using [TheTVDB]
+Auto-detected query: [Castle (2009)]
+Fetching episode data for [Castle (2009)]
+[TEST] Rename [D:\Projects\Ben\AutoRenamer\Examples\Source\Castle (2009) - 1x02 - Nanny McDead.avi] to [\Castle (2009) (2009)\Castle (2009) - S01E02 - Nanny McDead.avi]
+Processed 1 files
+Done ?(?????)?
+
+
+INFO 9 - AutoRenamer.StatusForm: Detected new name: \Castle (2009) (2009)\Castle (2009) - S01E02 - Nanny McDead.avi.
+INFO 9 - AutoRenamer.StatusForm: Copying from: 'D:\Projects\Ben\AutoRenamer\Examples\Source\Castle (2009) - 1x02 - Nanny McDead.avi' to 'D:\Projects\Ben\AutoRenamer\Examples\Destination\Castle (2009) (2009)\Castle (2009) - S01E02 - Nanny McDead.avi'
+INFO 9 - AutoRenamer.StatusForm: File copied
+INFO 9 - AutoRenamer.StatusForm: Saving the info into 'D:\Projects\Ben\AutoRenamer\Examples\treated.xml'
+DEBUG 9 - AutoRenamer.StatusForm: Loading
+DEBUG 9 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 9 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 9 - AutoRenamer.StatusForm: Listing the files from 'D:\Projects\Ben\AutoRenamer\Examples\Source'
+DEBUG 9 - AutoRenamer.StatusForm: Listing the files from 'D:\Projects\Ben\AutoRenamer\Examples\Source2'
+DEBUG 9 - AutoRenamer.StatusForm: Filebot expression: "%FILENAME%" -rename --action test -non-strict --format "/{n}/{n} - {s00e00} - {t}"
+DEBUG 9 - AutoRenamer.StatusForm: Refilter the grid
+INFO 9 - AutoRenamer.StatusForm: Calling filebot for the file: D:\Projects\Ben\AutoRenamer\Examples\Source\Castle (2009) - 1x02 - Nanny McDead.avi
+DEBUG 9 - AutoRenamer.StatusForm: Filebot arguments: "D:\Projects\Ben\AutoRenamer\Examples\Source\Castle (2009) - 1x02 - Nanny McDead.avi" -rename --action test -non-strict --format "/{n}/{n} - {s00e00} - {t}"
+DEBUG 9 - AutoRenamer.StatusForm: Filename pattern: [1,00] SxE, [0,00] CWS
+Rename episodes using [TheTVDB]
+Auto-detected query: [Castle (2009)]
+Fetching episode data for [Castle (2009)]
+[TEST] Rename [D:\Projects\Ben\AutoRenamer\Examples\Source\Castle (2009) - 1x02 - Nanny McDead.avi] to [\Castle (2009)\Castle (2009) - S01E02 - Nanny McDead.avi]
+Processed 1 files
+Done ?(?????)?
+
+
+INFO 9 - AutoRenamer.StatusForm: Detected new name: \Castle (2009)\Castle (2009) - S01E02 - Nanny McDead.avi.
+INFO 9 - AutoRenamer.StatusForm: Copying from: 'D:\Projects\Ben\AutoRenamer\Examples\Source\Castle (2009) - 1x02 - Nanny McDead.avi' to 'D:\Projects\Ben\AutoRenamer\Examples\Destination\Castle (2009)\Castle (2009) - S01E02 - Nanny McDead.avi'
+INFO 9 - AutoRenamer.StatusForm: File copied
+INFO 9 - AutoRenamer.StatusForm: Calling filebot for the file: D:\Projects\Ben\AutoRenamer\Examples\Source\the.big.bang.theory.s04e01.avi
+DEBUG 9 - AutoRenamer.StatusForm: Filebot arguments: "D:\Projects\Ben\AutoRenamer\Examples\Source\the.big.bang.theory.s04e01.avi" -rename --action test -non-strict --format "/{n}/{n} - {s00e00} - {t}"
+DEBUG 9 - AutoRenamer.StatusForm: Filename pattern: [1,00] SxE, [0,00] CWS
+Rename episodes using [TheTVDB]
+Auto-detected query: [the big bang theory, the big bang]
+Fetching episode data for [The Big Bang Theory]
+Fetching episode data for [Eureka! The Big Bang Query]
+[TEST] Rename [D:\Projects\Ben\AutoRenamer\Examples\Source\the.big.bang.theory.s04e01.avi] to [\The Big Bang Theory\The Big Bang Theory - S04E01 - The Robotic Manipulation.avi]
+Processed 1 files
+Done ?(?????)?
+
+
+INFO 9 - AutoRenamer.StatusForm: Detected new name: \The Big Bang Theory\The Big Bang Theory - S04E01 - The Robotic Manipulation.avi.
+INFO 9 - AutoRenamer.StatusForm: Copying from: 'D:\Projects\Ben\AutoRenamer\Examples\Source\the.big.bang.theory.s04e01.avi' to 'D:\Projects\Ben\AutoRenamer\Examples\Destination\The Big Bang Theory\The Big Bang Theory - S04E01 - The Robotic Manipulation.avi'
+INFO 9 - AutoRenamer.StatusForm: File copied
+INFO 9 - AutoRenamer.StatusForm: Saving the info into 'D:\Projects\Ben\AutoRenamer\Examples\treated.xml'
+DEBUG 1 - AutoRenamer.StatusForm: Loading
+DEBUG 1 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 1 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 1 - AutoRenamer.StatusForm: Listing the files from 'D:\Projects\Ben\AutoRenamer\Examples\Source'
+DEBUG 1 - AutoRenamer.StatusForm: Listing the files from 'D:\Projects\Ben\AutoRenamer\Examples\Source2'
+DEBUG 1 - AutoRenamer.StatusForm: Filebot expression: "%FILENAME%" -rename --action test -non-strict --format "/{n}/{n} - {s00e00} - {t}"
+DEBUG 1 - AutoRenamer.StatusForm: Refilter the grid
+INFO 1 - AutoRenamer.StatusForm: Saving the info into 'D:\Projects\Ben\AutoRenamer\Examples\treated.xml'
+DEBUG 1 - AutoRenamer.StatusForm: Loading
+DEBUG 1 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 1 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 1 - AutoRenamer.StatusForm: Listing the files from 'D:\Projects\Ben\AutoRenamer\Examples\Source'
+DEBUG 1 - AutoRenamer.StatusForm: Listing the files from 'D:\Projects\Ben\AutoRenamer\Examples\Source2'
+DEBUG 1 - AutoRenamer.StatusForm: Filebot expression: "%FILENAME%" -rename --action test -non-strict --format "/{n}/{n} - {s00e00} - {t}"
+DEBUG 1 - AutoRenamer.StatusForm: Refilter the grid
+INFO 1 - AutoRenamer.StatusForm: Saving the info into 'D:\Projects\Ben\AutoRenamer\Examples\treated.xml'
+DEBUG 1 - AutoRenamer.StatusForm: Loading
+DEBUG 1 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 1 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 1 - AutoRenamer.StatusForm: Listing the files from 'D:\Projects\Ben\AutoRenamer\Examples\Source'
+DEBUG 1 - AutoRenamer.StatusForm: Listing the files from 'D:\Projects\Ben\AutoRenamer\Examples\Source2'
+DEBUG 1 - AutoRenamer.StatusForm: Filebot expression: "%FILENAME%" -rename --action test -non-strict --format "/{n}/{n} - {s00e00} - {t}"
+DEBUG 1 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 1 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 1 - AutoRenamer.StatusForm: Refilter the grid
+INFO 1 - AutoRenamer.StatusForm: Saving the info into 'D:\Projects\Ben\AutoRenamer\Examples\treated.xml'
+DEBUG 1 - AutoRenamer.StatusForm: Loading
+DEBUG 9 - AutoRenamer.StatusForm: Loading
+DEBUG 8 - AutoRenamer.StatusForm: Loading
+DEBUG 9 - AutoRenamer.StatusForm: Loading
+DEBUG 9 - AutoRenamer.StatusForm: Loading
+DEBUG 9 - AutoRenamer.StatusForm: Loading
+DEBUG 10 - AutoRenamer.StatusForm: Loading
+DEBUG 9 - AutoRenamer.StatusForm: Loading
+DEBUG 9 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 9 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 9 - AutoRenamer.StatusForm: Listing the files from 'D:\Projects\Ben\AutoRenamer\Examples\Source'
+DEBUG 9 - AutoRenamer.StatusForm: Listing the files from 'D:\Projects\Ben\AutoRenamer\Examples\Source2'
+DEBUG 9 - AutoRenamer.StatusForm: Filebot expression: "%FILENAME%" -rename --action test -non-strict --format "/{n}/{n} - {s00e00} - {t}"
+DEBUG 9 - AutoRenamer.StatusForm: Refilter the grid
+INFO 9 - AutoRenamer.StatusForm: Saving the info into 'D:\Projects\Ben\AutoRenamer\Examples\treated.xml'
+DEBUG 10 - AutoRenamer.StatusForm: Loading
+DEBUG 10 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 10 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 10 - AutoRenamer.StatusForm: Listing the files from 'D:\Projects\Ben\AutoRenamer\Examples\Source'
+DEBUG 10 - AutoRenamer.StatusForm: Listing the files from 'D:\Projects\Ben\AutoRenamer\Examples\Source2'
+DEBUG 10 - AutoRenamer.StatusForm: Filebot expression: "%FILENAME%" -rename --action test -non-strict --format "/{n}/{n} - {s00e00} - {t}"
+DEBUG 10 - AutoRenamer.StatusForm: Refilter the grid
+INFO 10 - AutoRenamer.StatusForm: Saving the info into 'D:\Projects\Ben\AutoRenamer\Examples\treated.xml'
+DEBUG 8 - AutoRenamer.StatusForm: Loading
+DEBUG 8 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 8 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 8 - AutoRenamer.StatusForm: Listing the files from 'D:\Projects\Ben\AutoRenamer\Examples\Source'
+DEBUG 8 - AutoRenamer.StatusForm: Listing the files from 'D:\Projects\Ben\AutoRenamer\Examples\Source2'
+DEBUG 8 - AutoRenamer.StatusForm: Filebot expression: "%FILENAME%" -rename --action test -non-strict --format "/{n}/{n} - {s00e00} - {t}"
+DEBUG 8 - AutoRenamer.StatusForm: Refilter the grid
+INFO 8 - AutoRenamer.StatusForm: Saving the info into 'D:\Projects\Ben\AutoRenamer\Examples\treated.xml'
+DEBUG 1 - AutoRenamer.StatusForm: Loading
+DEBUG 1 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 1 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 1 - AutoRenamer.StatusForm: Listing the files from 'D:\Projects\Ben\AutoRenamer\Examples\Source'
+DEBUG 1 - AutoRenamer.StatusForm: Listing the files from 'D:\Projects\Ben\AutoRenamer\Examples\Source2'
+DEBUG 1 - AutoRenamer.StatusForm: Filebot expression: "%FILENAME%" -rename --action test -non-strict --format "/{n}/{n} - {s00e00} - {t}"
+DEBUG 1 - AutoRenamer.StatusForm: Refilter the grid
+INFO 1 - AutoRenamer.StatusForm: Saving the info into 'D:\Projects\Ben\AutoRenamer\Examples\treated.xml'
+DEBUG 9 - AutoRenamer.StatusForm: Loading
+DEBUG 9 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 9 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 9 - AutoRenamer.StatusForm: Listing the files from 'D:\Projects\Ben\AutoRenamer\Examples\Source'
+DEBUG 9 - AutoRenamer.StatusForm: Listing the files from 'D:\Projects\Ben\AutoRenamer\Examples\Source2'
+DEBUG 9 - AutoRenamer.StatusForm: Filebot expression: "%FILENAME%" -rename --action test -non-strict --format "/{n}/{n} - {s00e00} - {t}"
+DEBUG 9 - AutoRenamer.StatusForm: Refilter the grid
+INFO 9 - AutoRenamer.StatusForm: Saving the info into 'D:\Projects\Ben\AutoRenamer\Examples\treated.xml'
+DEBUG 1 - AutoRenamer.StatusForm: Loading
+DEBUG 1 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 1 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 1 - AutoRenamer.StatusForm: Listing the files from 'D:\Projects\Ben\AutoRenamer\Examples\Source'
+DEBUG 1 - AutoRenamer.StatusForm: Listing the files from 'D:\Projects\Ben\AutoRenamer\Examples\Source2'
+DEBUG 1 - AutoRenamer.StatusForm: Filebot expression: "%FILENAME%" -rename --action test -non-strict --format "/{n}/{n} - {s00e00} - {t}"
+DEBUG 1 - AutoRenamer.StatusForm: Refilter the grid
+INFO 1 - AutoRenamer.StatusForm: Saving the info into 'D:\Projects\Ben\AutoRenamer\Examples\treated.xml'
+DEBUG 9 - AutoRenamer.StatusForm: Loading
+DEBUG 9 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 9 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 9 - AutoRenamer.StatusForm: Listing the files from 'D:\Projects\Ben\AutoRenamer\Examples\Source'
+DEBUG 9 - AutoRenamer.StatusForm: Listing the files from 'D:\Projects\Ben\AutoRenamer\Examples\Source2'
+DEBUG 9 - AutoRenamer.StatusForm: Filebot expression: "%FILENAME%" -rename --action test -non-strict --format "/{n}/{n} - {s00e00} - {t}"
+DEBUG 9 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 9 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 9 - AutoRenamer.StatusForm: Refilter the grid
+INFO 9 - AutoRenamer.StatusForm: Saving the info into 'D:\Projects\Ben\AutoRenamer\Examples\treated.xml'
+DEBUG 8 - AutoRenamer.StatusForm: Loading
+DEBUG 8 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 8 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 8 - AutoRenamer.StatusForm: Listing the files from 'D:\Projects\Ben\AutoRenamer\Examples\Source'
+DEBUG 8 - AutoRenamer.StatusForm: Listing the files from 'D:\Projects\Ben\AutoRenamer\Examples\Source2'
+DEBUG 8 - AutoRenamer.StatusForm: Filebot expression: "%FILENAME%" -rename --action test -non-strict --format "/{n}/{n} - {s00e00} - {t}"
+DEBUG 8 - AutoRenamer.StatusForm: Refilter the grid
+INFO 8 - AutoRenamer.StatusForm: Saving the info into 'D:\Projects\Ben\AutoRenamer\Examples\treated.xml'
+DEBUG 9 - AutoRenamer.StatusForm: Loading
+DEBUG 9 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 9 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 9 - AutoRenamer.StatusForm: Listing the files from 'D:\Projects\Ben\AutoRenamer\Examples\Source'
+DEBUG 9 - AutoRenamer.StatusForm: Listing the files from 'D:\Projects\Ben\AutoRenamer\Examples\Source2'
+DEBUG 9 - AutoRenamer.StatusForm: Filebot expression: "%FILENAME%" -rename --action test -non-strict --format "/{n}/{n} - {s00e00} - {t}"
+DEBUG 9 - AutoRenamer.StatusForm: Refilter the grid
+INFO 9 - AutoRenamer.StatusForm: Saving the info into 'D:\Projects\Ben\AutoRenamer\Examples\treated.xml'
+DEBUG 9 - AutoRenamer.StatusForm: Loading
+DEBUG 9 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 9 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 9 - AutoRenamer.StatusForm: Listing the files from 'D:\Projects\Ben\AutoRenamer\Examples\Source'
+DEBUG 9 - AutoRenamer.StatusForm: Listing the files from 'D:\Projects\Ben\AutoRenamer\Examples\Source2'
+DEBUG 9 - AutoRenamer.StatusForm: Filebot expression: "%FILENAME%" -rename --action test -non-strict --format "/{n}/{n} - {s00e00} - {t}"
+DEBUG 9 - AutoRenamer.StatusForm: Refilter the grid
+INFO 9 - AutoRenamer.StatusForm: Saving the info into 'D:\Projects\Ben\AutoRenamer\Examples\treated.xml'
+DEBUG 9 - AutoRenamer.StatusForm: Loading
+DEBUG 9 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 9 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 9 - AutoRenamer.StatusForm: Listing the files from 'D:\Projects\Ben\AutoRenamer\Examples\Source'
+DEBUG 9 - AutoRenamer.StatusForm: Listing the files from 'D:\Projects\Ben\AutoRenamer\Examples\Source2'
+DEBUG 9 - AutoRenamer.StatusForm: Filebot expression: "%FILENAME%" -rename --action test -non-strict --format "/{n}/{n} - {s00e00} - {t}"
+DEBUG 9 - AutoRenamer.StatusForm: Refilter the grid
+INFO 9 - AutoRenamer.StatusForm: Saving the info into 'D:\Projects\Ben\AutoRenamer\Examples\treated.xml'
+DEBUG 9 - AutoRenamer.StatusForm: Loading
+DEBUG 9 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 9 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 9 - AutoRenamer.StatusForm: Listing the files from 'D:\Projects\Ben\AutoRenamer\Examples\Source'
+DEBUG 9 - AutoRenamer.StatusForm: Listing the files from 'D:\Projects\Ben\AutoRenamer\Examples\Source2'
+DEBUG 9 - AutoRenamer.StatusForm: Filebot expression: "%FILENAME%" -rename --action test -non-strict --format "/{n}/{n} - {s00e00} - {t}"
+DEBUG 9 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 9 - AutoRenamer.StatusForm: Loading
+DEBUG 9 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 9 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 9 - AutoRenamer.StatusForm: Listing the files from 'D:\Projects\Ben\AutoRenamer\Examples\Source'
+DEBUG 9 - AutoRenamer.StatusForm: Listing the files from 'D:\Projects\Ben\AutoRenamer\Examples\Source2'
+DEBUG 9 - AutoRenamer.StatusForm: Filebot expression: "%FILENAME%" -rename --action test -non-strict --format "/{n}/{n} - {s00e00} - {t}"
+DEBUG 9 - AutoRenamer.StatusForm: Refilter the grid
+INFO 9 - AutoRenamer.StatusForm: Saving the info into 'D:\Projects\Ben\AutoRenamer\Examples\treated.xml'
+DEBUG 9 - AutoRenamer.StatusForm: Loading
+DEBUG 9 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 9 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 9 - AutoRenamer.StatusForm: Listing the files from 'D:\Projects\Ben\AutoRenamer\Examples\Source'
+DEBUG 9 - AutoRenamer.StatusForm: Listing the files from 'D:\Projects\Ben\AutoRenamer\Examples\Source2'
+DEBUG 9 - AutoRenamer.StatusForm: Filebot expression: "%FILENAME%" -rename --action test -non-strict --format "/{n}/{n} - {s00e00} - {t}"
+DEBUG 9 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 10 - AutoRenamer.StatusForm: Loading
+DEBUG 10 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 10 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 10 - AutoRenamer.StatusForm: Listing the files from 'D:\Projects\Ben\AutoRenamer\Examples\Source'
+DEBUG 10 - AutoRenamer.StatusForm: Listing the files from 'D:\Projects\Ben\AutoRenamer\Examples\Source2'
+DEBUG 10 - AutoRenamer.StatusForm: Filebot expression: "%FILENAME%" -rename --action test -non-strict --format "/{n}/{n} - {s00e00} - {t}"
+DEBUG 10 - AutoRenamer.StatusForm: Refilter the grid
+INFO 10 - AutoRenamer.StatusForm: Saving the info into 'D:\Projects\Ben\AutoRenamer\Examples\treated.xml'
+DEBUG 9 - AutoRenamer.StatusForm: Loading
+DEBUG 9 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 9 - AutoRenamer.StatusForm: Loading
+DEBUG 9 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 9 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 9 - AutoRenamer.StatusForm: Listing the files from 'D:\Projects\Ben\AutoRenamer\Examples\Source'
+DEBUG 9 - AutoRenamer.StatusForm: Listing the files from 'D:\Projects\Ben\AutoRenamer\Examples\Source2'
+DEBUG 9 - AutoRenamer.StatusForm: Filebot expression: "%FILENAME%" -rename --action test -non-strict --format "/{n}/{n} - {s00e00} - {t}"
+DEBUG 9 - AutoRenamer.StatusForm: Refilter the grid
+INFO 9 - AutoRenamer.StatusForm: Saving the info into 'D:\Projects\Ben\AutoRenamer\Examples\treated.xml'
+DEBUG 9 - AutoRenamer.StatusForm: Loading
+DEBUG 9 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 9 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 9 - AutoRenamer.StatusForm: Listing the files from 'D:\Projects\Ben\AutoRenamer\Examples\Source'
+DEBUG 9 - AutoRenamer.StatusForm: Listing the files from 'D:\Projects\Ben\AutoRenamer\Examples\Source2'
+DEBUG 9 - AutoRenamer.StatusForm: Filebot expression: "%FILENAME%" -rename --action test -non-strict --format "/{n}/{n} - {s00e00} - {t}"
+DEBUG 9 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 9 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 9 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 9 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 9 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 9 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 9 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 9 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 9 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 9 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 9 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 9 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 9 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 9 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 9 - AutoRenamer.StatusForm: Refilter the grid
+INFO 9 - AutoRenamer.StatusForm: Saving the info into 'D:\Projects\Ben\AutoRenamer\Examples\treated.xml'
+DEBUG 1 - AutoRenamer.StatusForm: Loading
+DEBUG 1 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 1 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 1 - AutoRenamer.StatusForm: Listing the files from 'D:\Projects\Ben\AutoRenamer\Examples\Source'
+DEBUG 1 - AutoRenamer.StatusForm: Listing the files from 'D:\Projects\Ben\AutoRenamer\Examples\Source2'
+DEBUG 1 - AutoRenamer.StatusForm: Filebot expression: "%FILENAME%" -rename --action test -non-strict --format "/{n}/{n} - {s00e00} - {t}"
+DEBUG 1 - AutoRenamer.StatusForm: Refilter the grid
+INFO 1 - AutoRenamer.StatusForm: Calling filebot for the file: D:\Projects\Ben\AutoRenamer\Examples\Source\Castle (2009) - 1x02 - Nanny McDead.avi
+DEBUG 1 - AutoRenamer.StatusForm: Filebot arguments: "D:\Projects\Ben\AutoRenamer\Examples\Source\Castle (2009) - 1x02 - Nanny McDead.avi" -rename --action test -non-strict --format "/{n}/{n} - {s00e00} - {t}"
+DEBUG 1 - AutoRenamer.StatusForm: Filename pattern: [1,00] SxE, [0,00] CWS
+Rename episodes using [TheTVDB]
+Auto-detected query: [Castle (2009)]
+Fetching episode data for [Castle (2009)]
+[TEST] Rename [D:\Projects\Ben\AutoRenamer\Examples\Source\Castle (2009) - 1x02 - Nanny McDead.avi] to [\Castle (2009)\Castle (2009) - S01E02 - Nanny McDead.avi]
+Processed 1 files
+Done ?(?????)?
+
+
+INFO 1 - AutoRenamer.StatusForm: Detected new name: \Castle (2009)\Castle (2009) - S01E02 - Nanny McDead.avi.
+INFO 1 - AutoRenamer.StatusForm: Copying from: 'D:\Projects\Ben\AutoRenamer\Examples\Source\Castle (2009) - 1x02 - Nanny McDead.avi' to 'D:\Projects\Ben\AutoRenamer\Examples\Destination\Castle (2009)\Castle (2009) - S01E02 - Nanny McDead.avi'
+INFO 1 - AutoRenamer.StatusForm: File copied
+INFO 1 - AutoRenamer.StatusForm: Calling filebot for the file: D:\Projects\Ben\AutoRenamer\Examples\Source\the.big.bang.theory.s04e01.avi
+DEBUG 1 - AutoRenamer.StatusForm: Filebot arguments: "D:\Projects\Ben\AutoRenamer\Examples\Source\the.big.bang.theory.s04e01.avi" -rename --action test -non-strict --format "/{n}/{n} - {s00e00} - {t}"
+DEBUG 1 - AutoRenamer.StatusForm: Filename pattern: [1,00] SxE, [0,00] CWS
+Rename episodes using [TheTVDB]
+Auto-detected query: [the big bang theory, the big bang]
+Fetching episode data for [The Big Bang Theory]
+Fetching episode data for [Eureka! The Big Bang Query]
+[TEST] Rename [D:\Projects\Ben\AutoRenamer\Examples\Source\the.big.bang.theory.s04e01.avi] to [\The Big Bang Theory\The Big Bang Theory - S04E01 - The Robotic Manipulation.avi]
+Processed 1 files
+Done ?(?????)?
+
+
+INFO 1 - AutoRenamer.StatusForm: Detected new name: \The Big Bang Theory\The Big Bang Theory - S04E01 - The Robotic Manipulation.avi.
+INFO 1 - AutoRenamer.StatusForm: Copying from: 'D:\Projects\Ben\AutoRenamer\Examples\Source\the.big.bang.theory.s04e01.avi' to 'D:\Projects\Ben\AutoRenamer\Examples\Destination\The Big Bang Theory\The Big Bang Theory - S04E01 - The Robotic Manipulation.avi'
+INFO 1 - AutoRenamer.StatusForm: File copied
+INFO 1 - AutoRenamer.StatusForm: Calling filebot for the file: D:\Projects\Ben\AutoRenamer\Examples\Source2\code.black.c01e05 - Copy.mpg
+DEBUG 1 - AutoRenamer.StatusForm: Filebot arguments: "D:\Projects\Ben\AutoRenamer\Examples\Source2\code.black.c01e05 - Copy.mpg" -rename --action test -non-strict --format "/{n}/{n} - {s00e00} - {t}"
+DEBUG 1 - AutoRenamer.StatusForm: Filename pattern: [0,00] SxE, [0,00] CWS
+Rename movies using [TheMovieDB]
+Auto-detect movie from context: [D:\Projects\Ben\AutoRenamer\Examples\Source2\code.black.c01e05 - Copy.mpg]
+[TEST] Rename [D:\Projects\Ben\AutoRenamer\Examples\Source2\code.black.c01e05 - Copy.mpg] to [\Code Black\Code Black - -.mpg]
+Processed 1 files
+Done ?(?????)?
+
+
+INFO 1 - AutoRenamer.StatusForm: Detected new name: \Code Black\Code Black - -.mpg.
+INFO 1 - AutoRenamer.StatusForm: Copying from: 'D:\Projects\Ben\AutoRenamer\Examples\Source2\code.black.c01e05 - Copy.mpg' to 'D:\Projects\Ben\AutoRenamer\Examples\Destination\Code Black\Code Black - -.mpg'
+INFO 1 - AutoRenamer.StatusForm: File copied
+INFO 1 - AutoRenamer.StatusForm: Calling filebot for the file: D:\Projects\Ben\AutoRenamer\Examples\Source2\code.black.c01e06.mpg
+DEBUG 1 - AutoRenamer.StatusForm: Filebot arguments: "D:\Projects\Ben\AutoRenamer\Examples\Source2\code.black.c01e06.mpg" -rename --action test -non-strict --format "/{n}/{n} - {s00e00} - {t}"
+DEBUG 1 - AutoRenamer.StatusForm: Filename pattern: [0,00] SxE, [0,00] CWS
+Rename movies using [TheMovieDB]
+Auto-detect movie from context: [D:\Projects\Ben\AutoRenamer\Examples\Source2\code.black.c01e06.mpg]
+[TEST] Rename [D:\Projects\Ben\AutoRenamer\Examples\Source2\code.black.c01e06.mpg] to [\Code Black\Code Black - -.mpg]
+Processed 1 files
+Done ?(?????)?
+
+
+INFO 1 - AutoRenamer.StatusForm: Detected new name: \Code Black\Code Black - -.mpg.
+INFO 1 - AutoRenamer.StatusForm: Copying from: 'D:\Projects\Ben\AutoRenamer\Examples\Source2\code.black.c01e06.mpg' to 'D:\Projects\Ben\AutoRenamer\Examples\Destination\Code Black\Code Black - -.mpg'
+INFO 1 - AutoRenamer.StatusForm: Saving the info into 'D:\Projects\Ben\AutoRenamer\Examples\treated.xml'
+DEBUG 9 - AutoRenamer.StatusForm: Loading
+DEBUG 9 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 9 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 9 - AutoRenamer.StatusForm: Listing the files from 'D:\Projects\Ben\AutoRenamer\Examples\Source'
+DEBUG 9 - AutoRenamer.StatusForm: Listing the files from 'D:\Projects\Ben\AutoRenamer\Examples\Source2'
+DEBUG 9 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 9 - AutoRenamer.StatusForm: Filebot expression: "%FILENAME%" -rename --action test -non-strict --format "/{n}/{n} - {s00e00} - {t}"
+DEBUG 9 - AutoRenamer.StatusForm: Refilter the grid
+INFO 9 - AutoRenamer.StatusForm: Calling filebot for the file: D:\Projects\Ben\AutoRenamer\Examples\Source\Castle (2009) - 1x02 - Nanny McDead.avi
+DEBUG 9 - AutoRenamer.StatusForm: Filebot arguments: "D:\Projects\Ben\AutoRenamer\Examples\Source\Castle (2009) - 1x02 - Nanny McDead.avi" -rename --action test -non-strict --format "/{n}/{n} - {s00e00} - {t}"
+DEBUG 9 - AutoRenamer.StatusForm: Filename pattern: [1,00] SxE, [0,00] CWS
+Rename episodes using [TheTVDB]
+Auto-detected query: [Castle (2009)]
+Fetching episode data for [Castle (2009)]
+[TEST] Rename [D:\Projects\Ben\AutoRenamer\Examples\Source\Castle (2009) - 1x02 - Nanny McDead.avi] to [\Castle (2009)\Castle (2009) - S01E02 - Nanny McDead.avi]
+Processed 1 files
+Done ?(?????)?
+
+
+INFO 9 - AutoRenamer.StatusForm: Detected new name: \Castle (2009)\Castle (2009) - S01E02 - Nanny McDead.avi.
+INFO 9 - AutoRenamer.StatusForm: Copying from: 'D:\Projects\Ben\AutoRenamer\Examples\Source\Castle (2009) - 1x02 - Nanny McDead.avi' to 'D:\Projects\Ben\AutoRenamer\Examples\Destination\Castle (2009)\Castle (2009) - S01E02 - Nanny McDead.avi'

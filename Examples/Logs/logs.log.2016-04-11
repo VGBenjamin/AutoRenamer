@@ -1,0 +1,170 @@
+DEBUG 1 - AutoRenamer.StatusForm: Loading
+DEBUG 1 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 1 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 1 - AutoRenamer.StatusForm: Listing the files from 'D:\Projects\Ben\AutoRenamer\Examples\Source'
+DEBUG 1 - AutoRenamer.StatusForm: Listing the files from 'D:\Projects\Ben\AutoRenamer\Examples\Source2'
+DEBUG 1 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 1 - AutoRenamer.StatusForm: Filebot expression: "%FILENAME%" -rename --action test -non-strict --format "/{n}/{n} - {s00e00} - {t}"
+DEBUG 1 - AutoRenamer.StatusForm: Refilter the grid
+INFO 1 - AutoRenamer.StatusForm: Calling filebot for the file: D:\Projects\Ben\AutoRenamer\Examples\Source2\code.black.c01e05 - Copy.mpg
+DEBUG 1 - AutoRenamer.StatusForm: Filebot arguments: "D:\Projects\Ben\AutoRenamer\Examples\Source2\code.black.c01e05 - Copy.mpg" -rename --action test -non-strict --format "/{n}/{n} - {s00e00} - {t}"
+DEBUG 1 - AutoRenamer.StatusForm: Filename pattern: [0,00] SxE, [0,00] CWS
+Rename movies using [TheMovieDB]
+Auto-detect movie from context: [D:\Projects\Ben\AutoRenamer\Examples\Source2\code.black.c01e05 - Copy.mpg]
+[TEST] Rename [D:\Projects\Ben\AutoRenamer\Examples\Source2\code.black.c01e05 - Copy.mpg] to [\Code Black\Code Black - -.mpg]
+Processed 1 files
+Done ?(?????)?
+
+
+INFO 1 - AutoRenamer.StatusForm: Detected new name: \Code Black\Code Black - -.mpg.
+DEBUG 1 - AutoRenamer.StatusForm: Conflict with the target file: 'D:\Projects\Ben\AutoRenamer\Examples\Destination\Code Black\Code Black - -.mpg' - Source : 'D:\Projects\Ben\AutoRenamer\Examples\Source2\code.black.c01e05 - Copy.mpg' - Copy: True - New status: NotSynched
+INFO 1 - AutoRenamer.StatusForm: Copying from: 'D:\Projects\Ben\AutoRenamer\Examples\Source2\code.black.c01e05 - Copy.mpg' to 'D:\Projects\Ben\AutoRenamer\Examples\Destination\Code Black\Code Black - -.mpg'
+INFO 1 - AutoRenamer.StatusForm: Saving the info into 'D:\Projects\Ben\AutoRenamer\Examples\treated.xml'
+INFO 1 - AutoRenamer.StatusForm: Saved!
+DEBUG 1 - AutoRenamer.StatusForm: Loading
+DEBUG 1 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 1 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 1 - AutoRenamer.StatusForm: Listing the files from 'D:\Projects\Ben\AutoRenamer\Examples\Source'
+DEBUG 1 - AutoRenamer.StatusForm: Listing the files from 'D:\Projects\Ben\AutoRenamer\Examples\Source2'
+DEBUG 1 - AutoRenamer.StatusForm: Filebot expression: "%FILENAME%" -rename --action test -non-strict --format "/{n}/{n} - {s00e00} - {t}"
+DEBUG 4 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 1 - AutoRenamer.StatusForm: Refilter the grid
+INFO 1 - AutoRenamer.StatusForm: Saving the info into 'D:\Projects\Ben\AutoRenamer\Examples\treated.xml'
+INFO 1 - AutoRenamer.StatusForm: Saved!
+DEBUG 9 - AutoRenamer.StatusForm: Loading
+DEBUG 9 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 9 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 9 - AutoRenamer.StatusForm: Listing the files from 'D:\Projects\Ben\AutoRenamer\Examples\Source'
+DEBUG 9 - AutoRenamer.StatusForm: Listing the files from 'D:\Projects\Ben\AutoRenamer\Examples\Source2'
+DEBUG 9 - AutoRenamer.StatusForm: Filebot expression: "%FILENAME%" -rename --action test -non-strict --format "/{n}/{n} - {s00e00} - {t}"
+DEBUG 9 - AutoRenamer.StatusForm: Loading
+DEBUG 9 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 9 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 9 - AutoRenamer.StatusForm: Listing the files from 'D:\Projects\Ben\AutoRenamer\Examples\Source'
+DEBUG 9 - AutoRenamer.StatusForm: Listing the files from 'D:\Projects\Ben\AutoRenamer\Examples\Source2'
+DEBUG 9 - AutoRenamer.StatusForm: Filebot expression: "%FILENAME%" -rename --action test -non-strict --format "/{n}/{n} - {s00e00} - {t}"
+DEBUG 9 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 11 - AutoRenamer.StatusForm: Refilter the grid
+INFO 9 - AutoRenamer.StatusForm: Saving the info into 'D:\Projects\Ben\AutoRenamer\Examples\treated.xml'
+INFO 9 - AutoRenamer.StatusForm: Saved!
+DEBUG 8 - AutoRenamer.StatusForm: Loading
+DEBUG 8 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 8 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 8 - AutoRenamer.StatusForm: Listing the files from 'D:\Projects\Ben\AutoRenamer\Examples\Source'
+DEBUG 8 - AutoRenamer.StatusForm: Listing the files from 'D:\Projects\Ben\AutoRenamer\Examples\Source2'
+DEBUG 8 - AutoRenamer.StatusForm: Filebot expression: "%FILENAME%" -rename --action test -non-strict --format "/{n}/{n} - {s00e00} - {t}"
+DEBUG 8 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 8 - AutoRenamer.StatusForm: Loading
+DEBUG 8 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 8 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 8 - AutoRenamer.StatusForm: Listing the files from 'D:\Projects\Ben\AutoRenamer\Examples\Source'
+DEBUG 8 - AutoRenamer.StatusForm: Listing the files from 'D:\Projects\Ben\AutoRenamer\Examples\Source2'
+DEBUG 8 - AutoRenamer.StatusForm: Filebot expression: "%FILENAME%" -rename --action test -non-strict --format "/{n}/{n} - {s00e00} - {t}"
+DEBUG 8 - AutoRenamer.StatusForm: Loading
+DEBUG 8 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 8 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 8 - AutoRenamer.StatusForm: Listing the files from 'D:\Projects\Ben\AutoRenamer\Examples\Source'
+DEBUG 8 - AutoRenamer.StatusForm: Listing the files from 'D:\Projects\Ben\AutoRenamer\Examples\Source2'
+DEBUG 8 - AutoRenamer.StatusForm: Filebot expression: "%FILENAME%" -rename --action test -non-strict --format "/{n}/{n} - {s00e00} - {t}"
+DEBUG 8 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 10 - AutoRenamer.StatusForm: Refilter the grid
+INFO 8 - AutoRenamer.StatusForm: Saving the info into 'D:\Projects\Ben\AutoRenamer\Examples\treated.xml'
+INFO 8 - AutoRenamer.StatusForm: Saved!
+DEBUG 9 - AutoRenamer.StatusForm: Loading
+DEBUG 9 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 9 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 9 - AutoRenamer.StatusForm: Listing the files from 'D:\Projects\Ben\AutoRenamer\Examples\Source'
+DEBUG 9 - AutoRenamer.StatusForm: Listing the files from 'D:\Projects\Ben\AutoRenamer\Examples\Source2'
+DEBUG 9 - AutoRenamer.StatusForm: Filebot expression: "%FILENAME%" -rename --action test -non-strict --format "/{n}/{n} - {s00e00} - {t}"
+DEBUG 9 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 6 - AutoRenamer.StatusForm: Refilter the grid
+INFO 9 - AutoRenamer.StatusForm: Saving the info into 'D:\Projects\Ben\AutoRenamer\Examples\treated.xml'
+INFO 9 - AutoRenamer.StatusForm: Saved!
+DEBUG 9 - AutoRenamer.StatusForm: Loading
+DEBUG 9 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 9 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 9 - AutoRenamer.StatusForm: Listing the files from 'D:\Projects\Ben\AutoRenamer\Examples\Source'
+DEBUG 9 - AutoRenamer.StatusForm: Listing the files from 'D:\Projects\Ben\AutoRenamer\Examples\Source2'
+DEBUG 9 - AutoRenamer.StatusForm: Filebot expression: "%FILENAME%" -rename --action test -non-strict --format "/{n}/{n} - {s00e00} - {t}"
+DEBUG 9 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 6 - AutoRenamer.StatusForm: Refilter the grid
+INFO 9 - AutoRenamer.StatusForm: Saving the info into 'D:\Projects\Ben\AutoRenamer\Examples\treated.xml'
+INFO 9 - AutoRenamer.StatusForm: Saved!
+DEBUG 8 - AutoRenamer.StatusForm: Loading
+DEBUG 8 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 8 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 8 - AutoRenamer.StatusForm: Listing the files from 'D:\Projects\Ben\AutoRenamer\Examples\Source'
+DEBUG 8 - AutoRenamer.StatusForm: Listing the files from 'D:\Projects\Ben\AutoRenamer\Examples\Source2'
+DEBUG 8 - AutoRenamer.StatusForm: Filebot expression: "%FILENAME%" -rename --action test -non-strict --format "/{n}/{n} - {s00e00} - {t}"
+DEBUG 8 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 10 - AutoRenamer.StatusForm: Refilter the grid
+INFO 8 - AutoRenamer.StatusForm: Saving the info into 'D:\Projects\Ben\AutoRenamer\Examples\treated.xml'
+INFO 8 - AutoRenamer.StatusForm: Saved!
+DEBUG 9 - AutoRenamer.StatusForm: Loading
+DEBUG 9 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 9 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 9 - AutoRenamer.StatusForm: Listing the files from 'D:\Projects\Ben\AutoRenamer\Examples\Source'
+DEBUG 9 - AutoRenamer.StatusForm: Listing the files from 'D:\Projects\Ben\AutoRenamer\Examples\Source2'
+DEBUG 9 - AutoRenamer.StatusForm: Filebot expression: "%FILENAME%" -rename --action test -non-strict --format "/{n}/{n} - {s00e00} - {t}"
+DEBUG 9 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 9 - AutoRenamer.StatusForm: Loading
+DEBUG 9 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 9 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 9 - AutoRenamer.StatusForm: Listing the files from 'D:\Projects\Ben\AutoRenamer\Examples\Source'
+DEBUG 9 - AutoRenamer.StatusForm: Listing the files from 'D:\Projects\Ben\AutoRenamer\Examples\Source2'
+DEBUG 9 - AutoRenamer.StatusForm: Filebot expression: "%FILENAME%" -rename --action test -non-strict --format "/{n}/{n} - {s00e00} - {t}"
+DEBUG 9 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 11 - AutoRenamer.StatusForm: Refilter the grid
+INFO 9 - AutoRenamer.StatusForm: Saving the info into 'D:\Projects\Ben\AutoRenamer\Examples\treated.xml'
+INFO 9 - AutoRenamer.StatusForm: Saved!
+DEBUG 9 - AutoRenamer.StatusForm: Loading
+DEBUG 9 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 9 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 9 - AutoRenamer.StatusForm: Listing the files from 'D:\Projects\Ben\AutoRenamer\Examples\Source'
+DEBUG 9 - AutoRenamer.StatusForm: Listing the files from 'D:\Projects\Ben\AutoRenamer\Examples\Source2'
+DEBUG 9 - AutoRenamer.StatusForm: Filebot expression: "%FILENAME%" -rename --action test -non-strict --format "/{n}/{n} - {s00e00} - {t}"
+DEBUG 9 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 11 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 9 - AutoRenamer.StatusForm: Loading
+DEBUG 9 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 9 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 9 - AutoRenamer.StatusForm: Listing the files from 'D:\Projects\Ben\AutoRenamer\Examples\Source'
+DEBUG 9 - AutoRenamer.StatusForm: Listing the files from 'D:\Projects\Ben\AutoRenamer\Examples\Source2'
+DEBUG 9 - AutoRenamer.StatusForm: Filebot expression: "%FILENAME%" -rename --action test -non-strict --format "/{n}/{n} - {s00e00} - {t}"
+DEBUG 9 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 6 - AutoRenamer.StatusForm: Refilter the grid
+INFO 9 - AutoRenamer.StatusForm: Saving the info into 'D:\Projects\Ben\AutoRenamer\Examples\treated.xml'
+INFO 9 - AutoRenamer.StatusForm: Saved!
+DEBUG 8 - AutoRenamer.StatusForm: Loading
+DEBUG 8 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 8 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 8 - AutoRenamer.StatusForm: Listing the files from 'D:\Projects\Ben\AutoRenamer\Examples\Source'
+DEBUG 8 - AutoRenamer.StatusForm: Listing the files from 'D:\Projects\Ben\AutoRenamer\Examples\Source2'
+DEBUG 8 - AutoRenamer.StatusForm: Filebot expression: "%FILENAME%" -rename --action test -non-strict --format "/{n}/{n} - {s00e00} - {t}"
+DEBUG 8 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 10 - AutoRenamer.StatusForm: Refilter the grid
+INFO 8 - AutoRenamer.StatusForm: Saving the info into 'D:\Projects\Ben\AutoRenamer\Examples\treated.xml'
+INFO 8 - AutoRenamer.StatusForm: Saved!
+DEBUG 9 - AutoRenamer.StatusForm: Loading
+DEBUG 9 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 9 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 9 - AutoRenamer.StatusForm: Listing the files from 'D:\Projects\Ben\AutoRenamer\Examples\Source'
+DEBUG 9 - AutoRenamer.StatusForm: Listing the files from 'D:\Projects\Ben\AutoRenamer\Examples\Source2'
+DEBUG 9 - AutoRenamer.StatusForm: Filebot expression: "%FILENAME%" -rename --action test -non-strict --format "/{n}/{n} - {s00e00} - {t}"
+DEBUG 9 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 6 - AutoRenamer.StatusForm: Refilter the grid
+INFO 9 - AutoRenamer.StatusForm: Saving the info into 'D:\Projects\Ben\AutoRenamer\Examples\treated.xml'
+INFO 9 - AutoRenamer.StatusForm: Saved!
+DEBUG 8 - AutoRenamer.StatusForm: Loading
+DEBUG 8 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 8 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 8 - AutoRenamer.StatusForm: Listing the files from 'D:\Projects\Ben\AutoRenamer\Examples\Source'
+DEBUG 8 - AutoRenamer.StatusForm: Listing the files from 'D:\Projects\Ben\AutoRenamer\Examples\Source2'
+DEBUG 8 - AutoRenamer.StatusForm: Filebot expression: "%FILENAME%" -rename --action test -non-strict --format "/{n}/{n} - {s00e00} - {t}"
+DEBUG 8 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 10 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 8 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 8 - AutoRenamer.StatusForm: Refilter the grid
+DEBUG 8 - AutoRenamer.StatusForm: Refilter the grid
+INFO 8 - AutoRenamer.StatusForm: Saving the info into 'D:\Projects\Ben\AutoRenamer\Examples\treated.xml'
+INFO 8 - AutoRenamer.StatusForm: Saved!

@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoRenamer", "AutoRenamer\AutoRenamer.csproj", "{C09FCAE7-A4FE-4FF0-A64B-19E8B04FA0BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataGridViewAutoFilter", "DataGridViewAutoFilter\DataGridViewAutoFilter.csproj", "{5A4B4B14-D3B5-4D54-80EC-0877C1E6E73A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoRenamer.BOL", "AutoRenamer.BOL\AutoRenamer.BOL.csproj", "{424B777B-D7C4-4AE5-9547-B03869137921}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GRoovy", "GRoovy", "{941A8F5A-10B8-41AD-BDD4-C262F2F07DD2}"
+	ProjectSection(SolutionItems) = preProject
+		Groovy\GetName.groovy = Groovy\GetName.groovy
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C09FCAE7-A4FE-4FF0-A64B-19E8B04FA0BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C09FCAE7-A4FE-4FF0-A64B-19E8B04FA0BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C09FCAE7-A4FE-4FF0-A64B-19E8B04FA0BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C09FCAE7-A4FE-4FF0-A64B-19E8B04FA0BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A4B4B14-D3B5-4D54-80EC-0877C1E6E73A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A4B4B14-D3B5-4D54-80EC-0877C1E6E73A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A4B4B14-D3B5-4D54-80EC-0877C1E6E73A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A4B4B14-D3B5-4D54-80EC-0877C1E6E73A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{424B777B-D7C4-4AE5-9547-B03869137921}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{424B777B-D7C4-4AE5-9547-B03869137921}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{424B777B-D7C4-4AE5-9547-B03869137921}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{424B777B-D7C4-4AE5-9547-B03869137921}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

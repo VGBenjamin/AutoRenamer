@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Synchronization xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <StatusList>
+    <StatusDetail Id="1501bb09-d86d-4602-a5bb-ab03dd253661" SourceFile="D:\Projects\Ben\AutoRenamer\Examples\Source\Castle (2009) - 1x02 - Nanny McDead.avi" DestinationFile="D:\Projects\Ben\AutoRenamer\Examples\Destination\Castle (2009)\Castle (2009) - S01E02 - Nanny McDead.avi" DestinationFolder="D:\Projects\Ben\AutoRenamer\Examples\Destination" Status="NotSynched" SynchDate="2016-04-07T11:33:04.9875364+02:00" SourceFileStillExist="true">
+      <ReChecked>true</ReChecked>
+    </StatusDetail>
+    <StatusDetail Id="602b9a1c-9202-4859-a03f-83632a57d52a" SourceFile="D:\Projects\Ben\AutoRenamer\Examples\Source\the.big.bang.theory.s04e01.avi" DestinationFile="D:\Projects\Ben\AutoRenamer\Examples\Destination\The Big Bang Theory\The Big Bang Theory - S04E01 - The Robotic Manipulation.avi" DestinationFolder="D:\Projects\Ben\AutoRenamer\Examples\Destination" Status="NotSynched" SynchDate="2016-04-07T11:33:07.0326561+02:00" SourceFileStillExist="true">
+      <ReChecked>true</ReChecked>
+    </StatusDetail>
+    <StatusDetail Id="e30f0d19-b83a-4fe6-bdf3-8ee9937123da" SourceFile="D:\Projects\Ben\AutoRenamer\Examples\Source\the.big.bang.theory.s04e01.txt" DestinationFolder="D:\Projects\Ben\AutoRenamer\Examples\Destination" Status="NotSynched" SynchDate="0001-01-01T00:00:00" SourceFileStillExist="true">
+      <ReChecked>true</ReChecked>
+    </StatusDetail>
+    <StatusDetail Id="b190cd37-37c2-48ae-b595-1b65f04b47fb" SourceFile="D:\Projects\Ben\AutoRenamer\Examples\Source2\code.black.c01e05 - Copy.mpg" DestinationFile="D:\Projects\Ben\AutoRenamer\Examples\Destination\Code Black\Code Black - -.mpg" DestinationFolder="D:\Projects\Ben\AutoRenamer\Examples\Destination" Status="Synched" SynchDate="2016-04-07T11:33:11.5039076+02:00" SourceFileStillExist="false">
+      <ReChecked>false</ReChecked>
+    </StatusDetail>
+    <StatusDetail Id="64a325fe-cd21-4bf8-bc4a-8740d42acddb" SourceFile="D:\Projects\Ben\AutoRenamer\Examples\Source2\code.black.c01e06.mpg" DestinationFolder="D:\Projects\Ben\AutoRenamer\Examples\Destination" Status="NotSynched" SynchDate="0001-01-01T00:00:00" SourceFileStillExist="false">
+      <ReChecked>false</ReChecked>
+    </StatusDetail>
+    <StatusDetail Id="d45cd551-100a-44dd-8c3e-47c21f09c9a3" SourceFile="D:\Projects\Ben\AutoRenamer\Examples\Source2\code.black.s01e06.mpg" DestinationFolder="D:\Projects\Ben\AutoRenamer\Examples\Destination" Status="NotSynched" SynchDate="0001-01-01T00:00:00" SourceFileStillExist="true">
+      <ReChecked>true</ReChecked>
+    </StatusDetail>
+  </StatusList>
+</Synchronization>

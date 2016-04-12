@@ -1,0 +1,87 @@
+DEBUG 1 AutoRenamer.StatusForm - StatusForm - Loading
+ERROR 1 AutoRenamer.StatusForm - The watched source directory 'D:\Projects\Ben\AutoRenamer\Examples\Source' does not exist
+ERROR 1 AutoRenamer.StatusForm - The watched source directory 'D:\Projects\Ben\AutoRenamer\Examples\Source2' does not exist
+DEBUG 1 AutoRenamer.StatusForm - StatusForm - Loading
+DEBUG 1 AutoRenamer.StatusForm - Listing the files from 'D:\Projects\Ben\AutoRenamer\Examples\Source'
+DEBUG 1 AutoRenamer.StatusForm - D:\Projects\Ben\AutoRenamer\Examples\Source\castle.s01e02.hdtv.avi
+DEBUG 1 AutoRenamer.StatusForm - D:\Projects\Ben\AutoRenamer\Examples\Source\the.big.bang.theory.s04e01.avi
+DEBUG 1 AutoRenamer.StatusForm - D:\Projects\Ben\AutoRenamer\Examples\Source\the.big.bang.theory.s04e01.txt
+DEBUG 1 AutoRenamer.StatusForm - Listing the files from 'D:\Projects\Ben\AutoRenamer\Examples\Source2'
+DEBUG 1 AutoRenamer.StatusForm - D:\Projects\Ben\AutoRenamer\Examples\Source2\code.black.c01e05.mpg
+DEBUG 9 AutoRenamer.StatusForm - StatusForm - Loading
+DEBUG 1 AutoRenamer.StatusForm - StatusForm - Loading
+DEBUG 1 AutoRenamer.StatusForm - Listing the files from 'D:\Projects\Ben\AutoRenamer\Examples\Source'
+DEBUG 1 AutoRenamer.StatusForm - D:\Projects\Ben\AutoRenamer\Examples\Source\castle.s01e02.hdtv.avi
+DEBUG 1 AutoRenamer.StatusForm - D:\Projects\Ben\AutoRenamer\Examples\Source\the.big.bang.theory.s04e01.avi
+DEBUG 1 AutoRenamer.StatusForm - D:\Projects\Ben\AutoRenamer\Examples\Source\the.big.bang.theory.s04e01.txt
+DEBUG 1 AutoRenamer.StatusForm - Listing the files from 'D:\Projects\Ben\AutoRenamer\Examples\Source2'
+DEBUG 1 AutoRenamer.StatusForm - D:\Projects\Ben\AutoRenamer\Examples\Source2\code.black.c01e05.mpg
+DEBUG 1 AutoRenamer.StatusForm - StatusForm - Loading
+DEBUG 1 AutoRenamer.StatusForm - Listing the files from 'D:\Projects\Ben\AutoRenamer\Examples\Source'
+DEBUG 1 AutoRenamer.StatusForm - D:\Projects\Ben\AutoRenamer\Examples\Source\castle.s01e02.hdtv.avi
+DEBUG 1 AutoRenamer.StatusForm - D:\Projects\Ben\AutoRenamer\Examples\Source\the.big.bang.theory.s04e01.avi
+DEBUG 1 AutoRenamer.StatusForm - D:\Projects\Ben\AutoRenamer\Examples\Source\the.big.bang.theory.s04e01.txt
+DEBUG 1 AutoRenamer.StatusForm - Listing the files from 'D:\Projects\Ben\AutoRenamer\Examples\Source2'
+DEBUG 1 AutoRenamer.StatusForm - D:\Projects\Ben\AutoRenamer\Examples\Source2\code.black.c01e05.mpg
+DEBUG 1 AutoRenamer.StatusForm - StatusForm - Loading
+DEBUG 1 AutoRenamer.StatusForm - Listing the files from 'D:\Projects\Ben\AutoRenamer\Examples\Source'
+DEBUG 1 AutoRenamer.StatusForm - D:\Projects\Ben\AutoRenamer\Examples\Source\castle.s01e02.hdtv.avi
+DEBUG 1 AutoRenamer.StatusForm - D:\Projects\Ben\AutoRenamer\Examples\Source\the.big.bang.theory.s04e01.avi
+DEBUG 1 AutoRenamer.StatusForm - D:\Projects\Ben\AutoRenamer\Examples\Source\the.big.bang.theory.s04e01.txt
+DEBUG 1 AutoRenamer.StatusForm - Listing the files from 'D:\Projects\Ben\AutoRenamer\Examples\Source2'
+DEBUG 1 AutoRenamer.StatusForm - D:\Projects\Ben\AutoRenamer\Examples\Source2\code.black.c01e05.mpg
+DEBUG 1 AutoRenamer.StatusForm - AutoRenamer.StatusForm: StatusForm - Loading
+DEBUG 1 AutoRenamer.StatusForm - AutoRenamer.StatusForm: Listing the files from 'D:\Projects\Ben\AutoRenamer\Examples\Source'
+DEBUG 1 AutoRenamer.StatusForm - AutoRenamer.StatusForm: D:\Projects\Ben\AutoRenamer\Examples\Source\castle.s01e02.hdtv.avi
+DEBUG 1 AutoRenamer.StatusForm - AutoRenamer.StatusForm: D:\Projects\Ben\AutoRenamer\Examples\Source\the.big.bang.theory.s04e01.avi
+DEBUG 1 AutoRenamer.StatusForm - AutoRenamer.StatusForm: D:\Projects\Ben\AutoRenamer\Examples\Source\the.big.bang.theory.s04e01.txt
+DEBUG 1 AutoRenamer.StatusForm - AutoRenamer.StatusForm: Listing the files from 'D:\Projects\Ben\AutoRenamer\Examples\Source2'
+DEBUG 1 AutoRenamer.StatusForm - AutoRenamer.StatusForm: D:\Projects\Ben\AutoRenamer\Examples\Source2\code.black.c01e05.mpg
+DEBUG 1 AutoRenamer.StatusForm - AutoRenamer.StatusForm: Loading
+DEBUG 1 AutoRenamer.StatusForm - AutoRenamer.StatusForm: Listing the files from 'D:\Projects\Ben\AutoRenamer\Examples\Source'
+DEBUG 1 AutoRenamer.StatusForm - AutoRenamer.StatusForm: D:\Projects\Ben\AutoRenamer\Examples\Source\castle.s01e02.hdtv.avi
+DEBUG 1 AutoRenamer.StatusForm - AutoRenamer.StatusForm: D:\Projects\Ben\AutoRenamer\Examples\Source\the.big.bang.theory.s04e01.avi
+DEBUG 1 AutoRenamer.StatusForm - AutoRenamer.StatusForm: D:\Projects\Ben\AutoRenamer\Examples\Source\the.big.bang.theory.s04e01.txt
+DEBUG 1 AutoRenamer.StatusForm - AutoRenamer.StatusForm: Listing the files from 'D:\Projects\Ben\AutoRenamer\Examples\Source2'
+DEBUG 1 AutoRenamer.StatusForm - AutoRenamer.StatusForm: D:\Projects\Ben\AutoRenamer\Examples\Source2\code.black.c01e05.mpg
+DEBUG 1 - AutoRenamer.StatusForm: Loading
+DEBUG 1 - AutoRenamer.StatusForm: Listing the files from 'D:\Projects\Ben\AutoRenamer\Examples\Source'
+DEBUG 1 - AutoRenamer.StatusForm: D:\Projects\Ben\AutoRenamer\Examples\Source\castle.s01e02.hdtv.avi
+DEBUG 1 - AutoRenamer.StatusForm: D:\Projects\Ben\AutoRenamer\Examples\Source\the.big.bang.theory.s04e01.avi
+DEBUG 1 - AutoRenamer.StatusForm: D:\Projects\Ben\AutoRenamer\Examples\Source\the.big.bang.theory.s04e01.txt
+DEBUG 1 - AutoRenamer.StatusForm: Listing the files from 'D:\Projects\Ben\AutoRenamer\Examples\Source2'
+DEBUG 1 - AutoRenamer.StatusForm: D:\Projects\Ben\AutoRenamer\Examples\Source2\code.black.c01e05.mpg
+DEBUG 9 - AutoRenamer.StatusForm: Loading
+DEBUG 9 - AutoRenamer.StatusForm: Listing the files from 'D:\Projects\Ben\AutoRenamer\Examples\Source'
+DEBUG 1 - AutoRenamer.StatusForm: Loading
+DEBUG 1 - AutoRenamer.StatusForm: Loading
+DEBUG 9 - AutoRenamer.StatusForm: Loading
+DEBUG 9 - AutoRenamer.StatusForm: Loading
+DEBUG 9 - AutoRenamer.StatusForm: The file does not exist yet => create it in 'D:\Projects\Ben\AutoRenamer\Examples\treated.xml'
+DEBUG 9 - AutoRenamer.StatusForm: Loading
+DEBUG 9 - AutoRenamer.StatusForm: The file does not exist yet => create it in 'D:\Projects\Ben\AutoRenamer\Examples\treated.xml'
+DEBUG 1 - AutoRenamer.StatusForm: Loading
+DEBUG 10 - AutoRenamer.StatusForm: Loading
+DEBUG 10 - AutoRenamer.StatusForm: The file does not exist yet => create it in 'D:\Projects\Ben\AutoRenamer\Examples\treated.xml'
+DEBUG 1 - AutoRenamer.StatusForm: Loading
+DEBUG 9 - AutoRenamer.StatusForm: Loading
+DEBUG 9 - AutoRenamer.StatusForm: The file does not exist yet => create it in 'D:\Projects\Ben\AutoRenamer\Examples\treated.xml'
+DEBUG 8 - AutoRenamer.StatusForm: Loading
+DEBUG 8 - AutoRenamer.StatusForm: Loading
+DEBUG 9 - AutoRenamer.StatusForm: Loading
+DEBUG 1 - AutoRenamer.StatusForm: Loading
+DEBUG 1 - AutoRenamer.StatusForm: The file does not exist yet => create it in 'D:\Projects\Ben\AutoRenamer\Examples\treated.xml'
+DEBUG 1 - AutoRenamer.StatusForm: Listing the files from 'D:\Projects\Ben\AutoRenamer\Examples\Source'
+DEBUG 1 - AutoRenamer.StatusForm: Listing the files from 'D:\Projects\Ben\AutoRenamer\Examples\Source2'
+DEBUG 9 - AutoRenamer.StatusForm: Loading
+DEBUG 9 - AutoRenamer.StatusForm: Listing the files from 'D:\Projects\Ben\AutoRenamer\Examples\Source'
+DEBUG 9 - AutoRenamer.StatusForm: Listing the files from 'D:\Projects\Ben\AutoRenamer\Examples\Source2'
+INFO 9 - AutoRenamer.StatusForm: Saving the info into 'D:\Projects\Ben\AutoRenamer\Examples\treated.xml'
+DEBUG 1 - AutoRenamer.StatusForm: Loading
+DEBUG 1 - AutoRenamer.StatusForm: Listing the files from 'D:\Projects\Ben\AutoRenamer\Examples\Source'
+DEBUG 1 - AutoRenamer.StatusForm: Listing the files from 'D:\Projects\Ben\AutoRenamer\Examples\Source2'
+INFO 1 - AutoRenamer.StatusForm: Saving the info into 'D:\Projects\Ben\AutoRenamer\Examples\treated.xml'
+DEBUG 1 - AutoRenamer.StatusForm: Loading
+DEBUG 1 - AutoRenamer.StatusForm: Listing the files from 'D:\Projects\Ben\AutoRenamer\Examples\Source'
+DEBUG 1 - AutoRenamer.StatusForm: Listing the files from 'D:\Projects\Ben\AutoRenamer\Examples\Source2'
+INFO 1 - AutoRenamer.StatusForm: Saving the info into 'D:\Projects\Ben\AutoRenamer\Examples\treated.xml'
