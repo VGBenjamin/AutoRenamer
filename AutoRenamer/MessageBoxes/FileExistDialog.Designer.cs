@@ -32,6 +32,9 @@
             this.btnSkipButSynched = new System.Windows.Forms.Button();
             this.lblMessage = new System.Windows.Forms.Label();
             this.btnSkipAndLetStatus = new System.Windows.Forms.Button();
+            this.btnSkipAndLetStatusAll = new System.Windows.Forms.Button();
+            this.btnSkipButSynchedAll = new System.Windows.Forms.Button();
+            this.btnOverrideAll = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnOverride
@@ -57,7 +60,7 @@
             // lblMessage
             // 
             this.lblMessage.AutoSize = true;
-            this.lblMessage.Location = new System.Drawing.Point(34, 22);
+            this.lblMessage.Location = new System.Drawing.Point(30, 24);
             this.lblMessage.Name = "lblMessage";
             this.lblMessage.Size = new System.Drawing.Size(129, 13);
             this.lblMessage.TabIndex = 2;
@@ -67,17 +70,47 @@
             // 
             this.btnSkipAndLetStatus.Location = new System.Drawing.Point(279, 72);
             this.btnSkipAndLetStatus.Name = "btnSkipAndLetStatus";
-            this.btnSkipAndLetStatus.Size = new System.Drawing.Size(159, 23);
+            this.btnSkipAndLetStatus.Size = new System.Drawing.Size(197, 23);
             this.btnSkipAndLetStatus.TabIndex = 3;
             this.btnSkipAndLetStatus.Text = "Skip and let the previous status";
             this.btnSkipAndLetStatus.UseVisualStyleBackColor = true;
             this.btnSkipAndLetStatus.Click += new System.EventHandler(this.btnSkipAndLetStatus_Click);
             // 
+            // btnSkipAndLetStatusAll
+            // 
+            this.btnSkipAndLetStatusAll.Location = new System.Drawing.Point(279, 101);
+            this.btnSkipAndLetStatusAll.Name = "btnSkipAndLetStatusAll";
+            this.btnSkipAndLetStatusAll.Size = new System.Drawing.Size(197, 23);
+            this.btnSkipAndLetStatusAll.TabIndex = 6;
+            this.btnSkipAndLetStatusAll.Text = "Skip and let the previous status all";
+            this.btnSkipAndLetStatusAll.UseVisualStyleBackColor = true;
+            // 
+            // btnSkipButSynchedAll
+            // 
+            this.btnSkipButSynchedAll.Location = new System.Drawing.Point(114, 101);
+            this.btnSkipButSynchedAll.Name = "btnSkipButSynchedAll";
+            this.btnSkipButSynchedAll.Size = new System.Drawing.Size(159, 23);
+            this.btnSkipButSynchedAll.TabIndex = 5;
+            this.btnSkipButSynchedAll.Text = "Skip and march as synched all";
+            this.btnSkipButSynchedAll.UseVisualStyleBackColor = true;
+            // 
+            // btnOverrideAll
+            // 
+            this.btnOverrideAll.Location = new System.Drawing.Point(33, 101);
+            this.btnOverrideAll.Name = "btnOverrideAll";
+            this.btnOverrideAll.Size = new System.Drawing.Size(75, 23);
+            this.btnOverrideAll.TabIndex = 4;
+            this.btnOverrideAll.Text = "Override all";
+            this.btnOverrideAll.UseVisualStyleBackColor = true;
+            // 
             // FileExistDialog
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(480, 107);
+            this.ClientSize = new System.Drawing.Size(488, 133);
+            this.Controls.Add(this.btnSkipAndLetStatusAll);
+            this.Controls.Add(this.btnSkipButSynchedAll);
+            this.Controls.Add(this.btnOverrideAll);
             this.Controls.Add(this.btnSkipAndLetStatus);
             this.Controls.Add(this.lblMessage);
             this.Controls.Add(this.btnSkipButSynched);
@@ -95,5 +128,8 @@
         private System.Windows.Forms.Button btnSkipButSynched;
         private System.Windows.Forms.Label lblMessage;
         private System.Windows.Forms.Button btnSkipAndLetStatus;
+        private System.Windows.Forms.Button btnSkipAndLetStatusAll;
+        private System.Windows.Forms.Button btnSkipButSynchedAll;
+        private System.Windows.Forms.Button btnOverrideAll;
     }
 }

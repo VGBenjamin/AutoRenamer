@@ -36,6 +36,7 @@ namespace AutoRenamer
         public MenuItem ExcludeMenuItem { get; set; }
         public MenuItem ResetStatusMenuItem { get; set; }
         public MenuItem ExploreMenuItem { get; set; }
+        public MenuItem SynchronizeNow { get; set; }
         
         public int SelectedGridRow { get; set; }
 
@@ -201,6 +202,13 @@ namespace AutoRenamer
             ResetStatusMenuItem.Click += ResetStatusMenuItemOnClick;
             ExploreMenuItem = new MenuItem("Explore");
             ExploreMenuItem.Click += ExploreMenuItem_Click;
+            SynchronizeNow = new MenuItem("Synchronize this file now");
+            SynchronizeNow.Click += SynchronizeNowOnClick;
+        }
+
+        private void SynchronizeNowOnClick(object sender, EventArgs eventArgs)
+        {
+            SynchRow(dataGridViewSynchronization.Rows[SelectedGridRow]);
         }
 
         private void ExploreMenuItem_Click(object sender, EventArgs e)
@@ -372,53 +380,55 @@ namespace AutoRenamer
 
                     if ((bool) selectedCell.Value)
                     {
-                        var sourceFile = (string) row.Cells["SourceFileColumn"].Value;
-                        log.Info($"Calling filebot for the file: {sourceFile}");
-                        var arguments = AutoRenamerConfig.Instance.FilebotExpression.Value.Replace("%FILENAME%",
-                            sourceFile);
-                        log.Debug($"Filebot arguments: {arguments}");
-
-                        Process process = new Process
-                        {
-                            StartInfo = new ProcessStartInfo
-                            {
-                                WindowStyle = System.Diagnostics.ProcessWindowStyle.Hidden,
-                                FileName = "filebot",
-                                Arguments = arguments,
-                                UseShellExecute = false,
-                                RedirectStandardOutput = true
-                            }
-                        };
-                        process.Start();
-                        var output = process.StandardOutput.ReadToEnd();
-                        process.WaitForExit();
-
-                        log.Debug(output);
-                        var regex = new Regex(@"\[TEST\] Rename \[.+?\] to \[(.+?)\]");
-                        var match = regex.Match(output);
-
-                        if (match.Success && match.Groups.Count >= 2)
-                        {
-                            var newName = match.Groups[1].Value;
-                            log.Info($"Detected new name: {newName}.");
-
-                            var destinationFolder = (string) row.Cells["DestinationFolderColumn"].Value;
-                            var targetPath = Path.Combine(destinationFolder,
-                                newName.StartsWith("\\") ? newName.Substring(1) : newName);
-
-                            CopyFile(sourceFile, targetPath, row);
-
-                            
-                        }
-                        else
-                        {
-                            log.Error($"Cannot detect the tv show for the file: {sourceFile}");
-
-                        }
+                        SynchRow(row);
                     }
                 }
             }
             Save();
+        }
+
+        private void SynchRow(DataGridViewRow row)
+        {
+            var sourceFile = (string) row.Cells["SourceFileColumn"].Value;
+            log.Info($"Calling filebot for the file: {sourceFile}");
+            var arguments = AutoRenamerConfig.Instance.FilebotExpression.Value.Replace("%FILENAME%",
+                sourceFile);
+            log.Debug($"Filebot arguments: {arguments}");
+
+            Process process = new Process
+            {
+                StartInfo = new ProcessStartInfo
+                {
+                    WindowStyle = System.Diagnostics.ProcessWindowStyle.Hidden,
+                    FileName = "filebot",
+                    Arguments = arguments,
+                    UseShellExecute = false,
+                    RedirectStandardOutput = true
+                }
+            };
+            process.Start();
+            var output = process.StandardOutput.ReadToEnd();
+            process.WaitForExit();
+
+            log.Debug(output);
+            var regex = new Regex(@"\[TEST\] Rename \[.+?\] to \[(.+?)\]");
+            var match = regex.Match(output);
+
+            if (match.Success && match.Groups.Count >= 2)
+            {
+                var newName = match.Groups[1].Value;
+                log.Info($"Detected new name: {newName}.");
+
+                var destinationFolder = (string) row.Cells["DestinationFolderColumn"].Value;
+                var targetPath = Path.Combine(destinationFolder,
+                    newName.StartsWith("\\") ? newName.Substring(1) : newName);
+
+                CopyFile(sourceFile, targetPath, row);
+            }
+            else
+            {
+                log.Error($"Cannot detect the tv show for the file: {sourceFile}");
+            }
         }
 
         private void CopyFile(string sourceFile, string targetPath, DataGridViewRow row)
@@ -463,7 +473,7 @@ namespace AutoRenamer
                 CreateDirectory(new DirectoryInfo(directory));
 
                 log.Info($"Copying from: '{sourceFile}' to '{targetPath}'");
-                File.Copy(sourceFile, targetPath);
+                File.Copy(sourceFile, targetPath, true);
                 log.Info("File copied");
 
             }
@@ -471,6 +481,7 @@ namespace AutoRenamer
             {
                 row.Cells["DestinationFileColumn"].Value = targetPath;
                 row.Cells["SynchDateColumn"].Value = DateTime.Now;
+                row.Cells["StatusColumn"].Value = StatusEnum.Synched;
             }
         }
 
@@ -499,6 +510,8 @@ namespace AutoRenamer
                         var selectedRowStatus = (StatusEnum)dataGridViewSynchronization["StatusColumn", SelectedGridRow].Value;
 
                         GridContextMenu.MenuItems.Clear();
+                        GridContextMenu.MenuItems.Add(SynchronizeNow);
+
                         if (selectedRowStatus != StatusEnum.Excluded)
                             GridContextMenu.MenuItems.Add(ExcludeMenuItem);
                         if (selectedRowStatus != StatusEnum.NotSynched)

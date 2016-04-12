@@ -51,7 +51,6 @@
             this.tsslStatusText = new System.Windows.Forms.ToolStripStatusLabel();
             this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
             this.tsslStatusProgressBar = new System.Windows.Forms.ToolStripProgressBar();
-            this.rtbLog = new System.Windows.Forms.RichTextBox();
             this.SelectColumn = new System.Windows.Forms.DataGridViewCheckBoxColumn();
             this.StatusColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ReasonColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -62,6 +61,9 @@
             this.SynchDateColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.SourceFileStillExistColumn = new System.Windows.Forms.DataGridViewCheckBoxColumn();
             this.ReChecked = new System.Windows.Forms.DataGridViewCheckBoxColumn();
+            this.dockPanelFilters = new WeifenLuo.WinFormsUI.Docking.DockPanel();
+            this.dockPanelLogs = new WeifenLuo.WinFormsUI.Docking.DockPanel();
+            this.rtbLog = new System.Windows.Forms.RichTextBox();
             this.panel1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.gbFileTypes.SuspendLayout();
@@ -268,7 +270,6 @@
             // panel3
             // 
             this.panel3.Controls.Add(this.statusStrip2);
-            this.panel3.Controls.Add(this.rtbLog);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panel3.Location = new System.Drawing.Point(0, 381);
             this.panel3.Name = "panel3";
@@ -305,16 +306,6 @@
             this.tsslStatusProgressBar.Size = new System.Drawing.Size(100, 16);
             this.tsslStatusProgressBar.Visible = false;
             // 
-            // rtbLog
-            // 
-            this.rtbLog.Location = new System.Drawing.Point(4, 4);
-            this.rtbLog.Name = "rtbLog";
-            this.rtbLog.ReadOnly = true;
-            this.rtbLog.Size = new System.Drawing.Size(1156, 172);
-            this.rtbLog.TabIndex = 0;
-            this.rtbLog.Text = "";
-            this.rtbLog.TextChanged += new System.EventHandler(this.rtbLog_TextChanged);
-            // 
             // SelectColumn
             // 
             this.SelectColumn.Frozen = true;
@@ -349,7 +340,7 @@
             this.SourceFileColumn.HeaderText = "Source File";
             this.SourceFileColumn.Name = "SourceFileColumn";
             this.SourceFileColumn.ReadOnly = true;
-            this.SourceFileColumn.Width = 85;
+            this.SourceFileColumn.Width = 78;
             // 
             // DestinationFileColumn
             // 
@@ -401,11 +392,38 @@
             this.ReChecked.ReadOnly = true;
             this.ReChecked.Visible = false;
             // 
+            // dockPanelFilters
+            // 
+            this.dockPanelFilters.Dock = System.Windows.Forms.DockStyle.Left;
+            this.dockPanelFilters.Location = new System.Drawing.Point(0, 150);
+            this.dockPanelFilters.Name = "dockPanelFilters";
+            this.dockPanelFilters.Size = new System.Drawing.Size(200, 231);
+            this.dockPanelFilters.TabIndex = 8;
+            // 
+            // dockPanelLogs
+            // 
+            this.dockPanelLogs.Location = new System.Drawing.Point(998, -81);
+            this.dockPanelLogs.Name = "dockPanelLogs";
+            this.dockPanelLogs.Size = new System.Drawing.Size(200, 100);
+            this.dockPanelLogs.TabIndex = 10;
+            // 
+            // rtbLog
+            // 
+            this.rtbLog.Location = new System.Drawing.Point(0, 0);
+            this.rtbLog.Name = "rtbLog";
+            this.rtbLog.ReadOnly = true;
+            this.rtbLog.Size = new System.Drawing.Size(1156, 172);
+            this.rtbLog.TabIndex = 12;
+            this.rtbLog.Text = "";
+            // 
             // StatusForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1172, 569);
+            this.Controls.Add(this.dockPanelLogs);
+            this.Controls.Add(this.rtbLog);
+            this.Controls.Add(this.dockPanelFilters);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel1);
@@ -437,7 +455,6 @@
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.DataGridView dataGridViewSynchronization;
         private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.RichTextBox rtbLog;
         private System.Windows.Forms.Button btnSynchNow;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.CheckBox cbNonSyched;
@@ -465,6 +482,9 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn SynchDateColumn;
         private System.Windows.Forms.DataGridViewCheckBoxColumn SourceFileStillExistColumn;
         private System.Windows.Forms.DataGridViewCheckBoxColumn ReChecked;
+        private WeifenLuo.WinFormsUI.Docking.DockPanel dockPanelFilters;
+        private WeifenLuo.WinFormsUI.Docking.DockPanel dockPanelLogs;
+        private System.Windows.Forms.RichTextBox rtbLog;
     }
 }
 
