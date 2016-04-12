@@ -117,34 +117,6 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <metadata name="toolStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>133, 17</value>
-  </metadata>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="toolStripButton1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEhSURBVEhLzdYxS8NAGMbxgEInN5061NGl4Aco9At0KDi6
-        6eLoJm7dulqk0KUOIiiuXbqIjp3EQZdO3Spd+wH0/1xOCXLkvJcWfeAHLz0uDyFpkoxM8LFiV9iAi37o
-        oo0xnv08wqufY4ZY+PkIS9zAlahAC8oAKlEu8JSPwVTRy8fsFLN8dGlAJToTc4H2aK/ys0DRmbj1dRV8
-        r//bgm2c52NawRtO8ICpn2Pu8auCA8zxbnCJYoIFq8zfFNRxizuDQxQTLNBF1jUIHaCMHi/Jt2lKTP+D
-        GrSxTBOK5uSCY2hTmWsopoKUmAp0V7xE9KGYCvbQiWhBMRVUsB+xA8VUcAatlXmEYirYxG7EFpRoQeil
-        n6L40v+iY7qCdXy2eNnkEyzJ97aZbro9AAAAAElFTkSuQmCC
-</value>
-  </data>
-  <data name="toolStripButton2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGeSURBVEhLtdU7KIVhHMfx45pbym1gMGFQLAZGA4NSkktS
-        SuS+yCQUZWJSBgNCSRYZZHFJKblkIUkGKZdcIooMCt/fc95TJznnkOf86tN5/8/wnP953ud5jitIKcQG
-        wkxlOSE4xCPiNGA7NfhEj6ksR0tygjsEpft6qPsuU1lOBM5whSgN2E4r1H27qSxHHV/iHJEasJ1OqPsG
-        U1lOLG5xiqAcrG6o+1pTBSEd2EKoqSwlCwvQlhxDDKylEi/Qsni04N9JxhA+4D257OHP0a2YgWrM4g2r
-        aMIavL/gCD6TgmmMYw7L2MYzNOkuRpAN7xRgCfqCFQ34SgI02Tx0STWiAjkIR6DMOPxmEJuogiYvQzR+
-        k33oLPiNJtvBNUrx29swEw/QKigDuECxqb5F7+IArzjGJMrhfYCSnE9PFtHvfjTRn43eybCpfoju9F7c
-        Q90UoRlT0M7Jg6JfOIobxGvAiV68ljvVVH6ik6rd9A7PNsxHCfqceh1pUNKdTyURue7HwNHa1kHXwhO0
-        hBPOmM6Jol+t7erZFGqkzf3ocn0BZ+JZWbLgRlQAAAAASUVORK5CYII=
-</value>
-  </data>
   <metadata name="SelectColumn.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
@@ -204,11 +176,5 @@
   </metadata>
   <metadata name="ReChecked.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
-  </metadata>
-  <metadata name="statusStrip2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>238, 17</value>
-  </metadata>
-  <metadata name="statusStrip2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>238, 17</value>
   </metadata>
 </root>

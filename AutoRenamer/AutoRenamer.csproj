@@ -53,17 +53,51 @@
       <HintPath>..\packages\DockPanelSuite.ThemeVS2012Light.2.10.0-beta2\lib\net40\ThemeVS2012Light.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="ThemeVS2013Blue, Version=2.9.0.0, Culture=neutral, PublicKeyToken=5cded1a1a0a7b481, processorArchitecture=MSIL">
+      <HintPath>..\packages\DockPanelSuite.ThemeVS2013Blue.2.10.0-beta2\lib\net40\ThemeVS2013Blue.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="WeifenLuo.WinFormsUI.Docking, Version=2.9.0.0, Culture=neutral, PublicKeyToken=5cded1a1a0a7b481, processorArchitecture=MSIL">
       <HintPath>..\packages\DockPanelSuite.2.10.0-beta2\lib\net40\WeifenLuo.WinFormsUI.Docking.dll</HintPath>
       <Private>True</Private>
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="MessageBoxes\FileExistDialog.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="MessageBoxes\FileExistDialog.Designer.cs">
       <DependentUpon>FileExistDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Panels\FiltersUserControl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Panels\FiltersUserControl.Designer.cs">
+      <DependentUpon>FiltersUserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Panels\LogUserControl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Panels\LogUserControl.Designer.cs">
+      <DependentUpon>LogUserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Panels\MainUserControl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Panels\MainUserControl.Designer.cs">
+      <DependentUpon>MainUserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Panels\QueueUserControl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Panels\QueueUserControl.Designer.cs">
+      <DependentUpon>QueueUserControl.cs</DependentUpon>
     </Compile>
     <Compile Include="StatusForm.cs">
       <SubType>Form</SubType>
@@ -73,8 +107,24 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Synchronizer\Synchronizer.cs" />
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MessageBoxes\FileExistDialog.resx">
       <DependentUpon>FileExistDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels\FiltersUserControl.resx">
+      <DependentUpon>FiltersUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels\LogUserControl.resx">
+      <DependentUpon>LogUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels\MainUserControl.resx">
+      <DependentUpon>MainUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels\QueueUserControl.resx">
+      <DependentUpon>QueueUserControl.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="StatusForm.resx">
       <DependentUpon>StatusForm.cs</DependentUpon>

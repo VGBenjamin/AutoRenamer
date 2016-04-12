@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(StatusForm));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panel1 = new System.Windows.Forms.Panel();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.cbSourceStillExist = new System.Windows.Forms.CheckBox();
@@ -46,11 +46,6 @@
             this.toolStripButton2 = new System.Windows.Forms.ToolStripButton();
             this.panel2 = new System.Windows.Forms.Panel();
             this.dataGridViewSynchronization = new System.Windows.Forms.DataGridView();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.statusStrip2 = new System.Windows.Forms.StatusStrip();
-            this.tsslStatusText = new System.Windows.Forms.ToolStripStatusLabel();
-            this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
-            this.tsslStatusProgressBar = new System.Windows.Forms.ToolStripProgressBar();
             this.SelectColumn = new System.Windows.Forms.DataGridViewCheckBoxColumn();
             this.StatusColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ReasonColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -61,6 +56,11 @@
             this.SynchDateColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.SourceFileStillExistColumn = new System.Windows.Forms.DataGridViewCheckBoxColumn();
             this.ReChecked = new System.Windows.Forms.DataGridViewCheckBoxColumn();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.statusStrip2 = new System.Windows.Forms.StatusStrip();
+            this.tsslStatusText = new System.Windows.Forms.ToolStripStatusLabel();
+            this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
+            this.tsslStatusProgressBar = new System.Windows.Forms.ToolStripProgressBar();
             this.dockPanelFilters = new WeifenLuo.WinFormsUI.Docking.DockPanel();
             this.dockPanelLogs = new WeifenLuo.WinFormsUI.Docking.DockPanel();
             this.rtbLog = new System.Windows.Forms.RichTextBox();
@@ -267,45 +267,6 @@
             this.dataGridViewSynchronization.DataBindingComplete += new System.Windows.Forms.DataGridViewBindingCompleteEventHandler(this.dataGridViewSynchronization_DataBindingComplete);
             this.dataGridViewSynchronization.MouseClick += new System.Windows.Forms.MouseEventHandler(this.dataGridViewSynchronization_MouseClick);
             // 
-            // panel3
-            // 
-            this.panel3.Controls.Add(this.statusStrip2);
-            this.panel3.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel3.Location = new System.Drawing.Point(0, 381);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(1172, 188);
-            this.panel3.TabIndex = 4;
-            // 
-            // statusStrip2
-            // 
-            this.statusStrip2.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.tsslStatusText,
-            this.toolStripStatusLabel1,
-            this.tsslStatusProgressBar});
-            this.statusStrip2.Location = new System.Drawing.Point(0, 166);
-            this.statusStrip2.Name = "statusStrip2";
-            this.statusStrip2.Size = new System.Drawing.Size(1172, 22);
-            this.statusStrip2.TabIndex = 1;
-            this.statusStrip2.Text = "statusStrip2";
-            // 
-            // tsslStatusText
-            // 
-            this.tsslStatusText.Name = "tsslStatusText";
-            this.tsslStatusText.Size = new System.Drawing.Size(0, 17);
-            // 
-            // toolStripStatusLabel1
-            // 
-            this.toolStripStatusLabel1.Name = "toolStripStatusLabel1";
-            this.toolStripStatusLabel1.Size = new System.Drawing.Size(118, 17);
-            this.toolStripStatusLabel1.Text = "toolStripStatusLabel1";
-            this.toolStripStatusLabel1.Visible = false;
-            // 
-            // tsslStatusProgressBar
-            // 
-            this.tsslStatusProgressBar.Name = "tsslStatusProgressBar";
-            this.tsslStatusProgressBar.Size = new System.Drawing.Size(100, 16);
-            this.tsslStatusProgressBar.Visible = false;
-            // 
             // SelectColumn
             // 
             this.SelectColumn.Frozen = true;
@@ -331,7 +292,6 @@
             this.ReasonColumn.Name = "ReasonColumn";
             this.ReasonColumn.ReadOnly = true;
             this.ReasonColumn.Visible = false;
-            this.ReasonColumn.Width = 69;
             // 
             // SourceFileColumn
             // 
@@ -370,9 +330,9 @@
             // SynchDateColumn
             // 
             this.SynchDateColumn.DataPropertyName = "SynchDate";
-            dataGridViewCellStyle1.Format = "g";
-            dataGridViewCellStyle1.NullValue = null;
-            this.SynchDateColumn.DefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle2.Format = "g";
+            dataGridViewCellStyle2.NullValue = null;
+            this.SynchDateColumn.DefaultCellStyle = dataGridViewCellStyle2;
             this.SynchDateColumn.HeaderText = "Synch Date";
             this.SynchDateColumn.Name = "SynchDateColumn";
             this.SynchDateColumn.ReadOnly = true;
@@ -391,6 +351,45 @@
             this.ReChecked.Name = "ReChecked";
             this.ReChecked.ReadOnly = true;
             this.ReChecked.Visible = false;
+            // 
+            // panel3
+            // 
+            this.panel3.Controls.Add(this.statusStrip2);
+            this.panel3.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel3.Location = new System.Drawing.Point(0, 381);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(1172, 188);
+            this.panel3.TabIndex = 4;
+            // 
+            // statusStrip2
+            // 
+            this.statusStrip2.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.tsslStatusText,
+            this.toolStripStatusLabel1,
+            this.tsslStatusProgressBar});
+            this.statusStrip2.Location = new System.Drawing.Point(0, 166);
+            this.statusStrip2.Name = "statusStrip2";
+            this.statusStrip2.Size = new System.Drawing.Size(1172, 22);
+            this.statusStrip2.TabIndex = 1;
+            this.statusStrip2.Text = "statusStrip2";
+            // 
+            // tsslStatusText
+            // 
+            this.tsslStatusText.Name = "tsslStatusText";
+            this.tsslStatusText.Size = new System.Drawing.Size(0, 17);
+            // 
+            // toolStripStatusLabel1
+            // 
+            this.toolStripStatusLabel1.Name = "toolStripStatusLabel1";
+            this.toolStripStatusLabel1.Size = new System.Drawing.Size(118, 17);
+            this.toolStripStatusLabel1.Text = "toolStripStatusLabel1";
+            this.toolStripStatusLabel1.Visible = false;
+            // 
+            // tsslStatusProgressBar
+            // 
+            this.tsslStatusProgressBar.Name = "tsslStatusProgressBar";
+            this.tsslStatusProgressBar.Size = new System.Drawing.Size(100, 16);
+            this.tsslStatusProgressBar.Visible = false;
             // 
             // dockPanelFilters
             // 

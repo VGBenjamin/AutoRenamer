@@ -16,7 +16,7 @@ namespace AutoRenamer
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new StatusForm());
+            Application.Run(new MainForm());
         }
     }
 }

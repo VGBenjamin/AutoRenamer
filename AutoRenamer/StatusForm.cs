@@ -31,17 +31,17 @@ namespace AutoRenamer
 
         public Synchronization CurrentSynchronization { get; set; }
 
+        public int SelectedGridRow { get; set; }
+
+        public List<CheckBox> FileTypesCheckboxes { get; set; }
+        public CheckBox CheckboxAll { get; set; }
+
         #region menu properties
         public ContextMenu GridContextMenu { get; set; }
         public MenuItem ExcludeMenuItem { get; set; }
         public MenuItem ResetStatusMenuItem { get; set; }
         public MenuItem ExploreMenuItem { get; set; }
-        public MenuItem SynchronizeNow { get; set; }
-        
-        public int SelectedGridRow { get; set; }
-
-        public List<CheckBox> FileTypesCheckboxes { get; set; }
-        public CheckBox CheckboxAll { get; set; }
+        public MenuItem SynchronizeNow { get; set; }        
         #endregion
         #endregion
 
@@ -71,7 +71,7 @@ namespace AutoRenamer
             
             InitializeComponent();
             log.Debug("Loading");
-            LoadFileTypes();
+            //LoadFileTypes();
             LoadTreatedFile();
             LoadUnTreatedFiles();
             LoadGridContextMenu();
@@ -132,48 +132,7 @@ namespace AutoRenamer
         {
             tsslStatusText.Visible = false;
             tsslStatusProgressBar.Visible = false;
-        }
-
-        private void LoadFileTypes()
-        {
-            flowLayoutPanelFileTypes.SuspendLayout();
-
-            FileTypesCheckboxes = new List<CheckBox>();
-            var margin = new Padding(0, 0, 0, 0);
-
-            bool someChecked = false;
-
-            CheckboxAll = new CheckBox()
-            {
-                Text = "All",
-                Tag = "*",
-                Margin = margin
-            };
-            CheckboxAll.Click += CheckboxAll_Click;            
-            flowLayoutPanelFileTypes.Controls.Add(CheckboxAll);
-
-
-            foreach (FileType fileType in AutoRenamerConfig.Instance.FilesTypes)
-            {
-                var cb = new CheckBox()
-                {
-                    Checked = fileType.Checked,
-                    Text = fileType.Name,
-                    Tag = fileType.Extensions,
-                    Margin = margin
-                };
-                cb.Click += CbFileType_Click;
-
-                someChecked = someChecked || fileType.Checked;
-
-                FileTypesCheckboxes.Add(cb);
-                flowLayoutPanelFileTypes.Controls.Add(cb);
-            }
-
-            CheckboxAll.Checked = !someChecked;
-
-            flowLayoutPanelFileTypes.ResumeLayout();
-        }
+        }        
 
         private void CbFileType_Click(object sender, EventArgs eventArgs)
         {
@@ -542,6 +501,7 @@ namespace AutoRenamer
             }
         }
 
+        
         public void FilterGrid()
         {
             log.Debug("Refilter the grid");
