@@ -13,7 +13,10 @@ namespace AutoRenamer.Synchronizer
     {
         private static readonly log4net.ILog log = log4net.LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
 
-        public void Synch(StatusDetail statusDetail)
+        public Guid LastBatchId { get; set; } = Guid.Empty;
+        public FileExistDialog.FileExistActionEnum LastDecision { get; set; }
+
+        public void Synch(StatusDetail statusDetail, Guid batchId)
         {
             log.Info($"Calling filebot for the file: {statusDetail.SourceFile}");
             var arguments = AutoRenamerConfig.Instance.FilebotExpression.Value.Replace("%FILENAME%", statusDetail.SourceFile);
@@ -45,7 +48,7 @@ namespace AutoRenamer.Synchronizer
 
                 var targetPath = Path.Combine(statusDetail.DestinationFolder,
                     newName.StartsWith("\\") ? newName.Substring(1) : newName);
-                CopyFile(statusDetail, targetPath);
+                CopyFile(statusDetail, targetPath, batchId);
             }
             else
             {
@@ -56,34 +59,43 @@ namespace AutoRenamer.Synchronizer
             }
         }
 
-        private void CopyFile(StatusDetail statusDetail, string targetPath)
+        private void CopyFile(StatusDetail statusDetail, string targetPath, Guid batchId)
         {            
             bool copy = false;
             var status = statusDetail.Status;
             bool updated = true;
-          
+            FileExistDialog.FileExistActionEnum decision = FileExistDialog.FileExistActionEnum.None;
+
             if (File.Exists(targetPath))
             {
-                using (var msgBox = new FileExistDialog()
+                if (LastBatchId == batchId && 
+                       (LastDecision == FileExistDialog.FileExistActionEnum.OverrideAll ||
+                        LastDecision == FileExistDialog.FileExistActionEnum.SkipAndLetStatusAll ||
+                        LastDecision == FileExistDialog.FileExistActionEnum.SkipButSynchedAll))
                 {
-                    OriginalFilePath = statusDetail.SourceFile,
-                    TargetFilePath = targetPath
-                })
+                    decision = LastDecision;
+                }
+                else
                 {
-                    switch (msgBox.ShowDialog())
-                    {
-                        case DialogResult.Yes: // Override
-                            copy = true;
-                            statusDetail.Status = StatusEnum.Synched;
-                            break;
-                        case DialogResult.Retry: // Skip but mark as synched
-                            statusDetail.Status = StatusEnum.Synched;
-                            break;
-                        case DialogResult.No: //Skip and do not change the status
-                        default:
-                            updated = false;
-                            break;
-                    }
+                    decision = GetDecisionFromMessageBox(statusDetail, targetPath);
+                }
+
+                switch (decision)
+                {
+                    case FileExistDialog.FileExistActionEnum.Override: // Override
+                    case FileExistDialog.FileExistActionEnum.OverrideAll: // Override
+                        copy = true;
+                        statusDetail.Status = StatusEnum.Synched;
+                        break;
+                    case FileExistDialog.FileExistActionEnum.SkipButSynched: // Skip but mark as synched
+                    case FileExistDialog.FileExistActionEnum.SkipButSynchedAll: // Skip but mark as synched
+                        statusDetail.Status = StatusEnum.Synched;
+                        break;
+                    case FileExistDialog.FileExistActionEnum.None:
+                        return;
+                    default:
+                        updated = false;
+                        break;
                 }
 
                 log.Debug($"Conflict with the target file: '{targetPath}' - Source : '{statusDetail.SourceFile}' - Copy: {copy} - New status: {status}");
@@ -108,6 +120,19 @@ namespace AutoRenamer.Synchronizer
                 statusDetail.DestinationFile = targetPath;
                 statusDetail.SynchDate = DateTime.Now;
                 statusDetail.Status= StatusEnum.Synched;
+            }
+        }
+
+        private FileExistDialog.FileExistActionEnum GetDecisionFromMessageBox(StatusDetail statusDetail, string targetPath)
+        {
+            using (var msgBox = new FileExistDialog()
+            {
+                OriginalFilePath = statusDetail.SourceFile,
+                TargetFilePath = targetPath
+            })
+            {
+                msgBox.ShowDialog();
+                return msgBox.SelectedAction;
             }
         }
 

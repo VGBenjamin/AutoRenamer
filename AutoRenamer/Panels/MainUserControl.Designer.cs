@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panelTop = new System.Windows.Forms.Panel();
             this.btnSynchNow = new System.Windows.Forms.Button();
             this.panelMiddle = new System.Windows.Forms.Panel();
@@ -99,6 +99,7 @@
             this.dataGridViewSynchronization.Margin = new System.Windows.Forms.Padding(9);
             this.dataGridViewSynchronization.Name = "dataGridViewSynchronization";
             this.dataGridViewSynchronization.ReadOnly = true;
+            this.dataGridViewSynchronization.ShowEditingIcon = false;
             this.dataGridViewSynchronization.Size = new System.Drawing.Size(886, 393);
             this.dataGridViewSynchronization.TabIndex = 2;
             this.dataGridViewSynchronization.CellFormatting += new System.Windows.Forms.DataGridViewCellFormattingEventHandler(this.dataGridViewSynchronization_CellFormatting);
@@ -168,9 +169,9 @@
             // SynchDateColumn
             // 
             this.SynchDateColumn.DataPropertyName = "SynchDate";
-            dataGridViewCellStyle2.Format = "g";
-            dataGridViewCellStyle2.NullValue = null;
-            this.SynchDateColumn.DefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle1.Format = "g";
+            dataGridViewCellStyle1.NullValue = null;
+            this.SynchDateColumn.DefaultCellStyle = dataGridViewCellStyle1;
             this.SynchDateColumn.HeaderText = "Synch Date";
             this.SynchDateColumn.Name = "SynchDateColumn";
             this.SynchDateColumn.ReadOnly = true;

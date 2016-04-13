@@ -84,6 +84,7 @@
             this.btnSkipAndLetStatusAll.TabIndex = 6;
             this.btnSkipAndLetStatusAll.Text = "Skip and let the previous status all";
             this.btnSkipAndLetStatusAll.UseVisualStyleBackColor = true;
+            this.btnSkipAndLetStatusAll.Click += new System.EventHandler(this.btnSkipAndLetStatusAll_Click);
             // 
             // btnSkipButSynchedAll
             // 
@@ -93,6 +94,7 @@
             this.btnSkipButSynchedAll.TabIndex = 5;
             this.btnSkipButSynchedAll.Text = "Skip and march as synched all";
             this.btnSkipButSynchedAll.UseVisualStyleBackColor = true;
+            this.btnSkipButSynchedAll.Click += new System.EventHandler(this.btnSkipButSynchedAll_Click);
             // 
             // btnOverrideAll
             // 
@@ -102,6 +104,7 @@
             this.btnOverrideAll.TabIndex = 4;
             this.btnOverrideAll.Text = "Override all";
             this.btnOverrideAll.UseVisualStyleBackColor = true;
+            this.btnOverrideAll.Click += new System.EventHandler(this.btnOverrideAll_Click);
             // 
             // FileExistDialog
             // 
