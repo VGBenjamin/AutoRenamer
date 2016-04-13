@@ -28,8 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panelTop = new System.Windows.Forms.Panel();
+            this.btnSynchNow = new System.Windows.Forms.Button();
             this.panelMiddle = new System.Windows.Forms.Panel();
             this.dataGridViewSynchronization = new System.Windows.Forms.DataGridView();
             this.SelectColumn = new System.Windows.Forms.DataGridViewCheckBoxColumn();
@@ -42,7 +43,6 @@
             this.SynchDateColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.SourceFileStillExistColumn = new System.Windows.Forms.DataGridViewCheckBoxColumn();
             this.ReChecked = new System.Windows.Forms.DataGridViewCheckBoxColumn();
-            this.btnSynchNow = new System.Windows.Forms.Button();
             this.panelTop.SuspendLayout();
             this.panelMiddle.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewSynchronization)).BeginInit();
@@ -56,6 +56,17 @@
             this.panelTop.Name = "panelTop";
             this.panelTop.Size = new System.Drawing.Size(886, 36);
             this.panelTop.TabIndex = 0;
+            // 
+            // btnSynchNow
+            // 
+            this.btnSynchNow.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.btnSynchNow.Location = new System.Drawing.Point(0, 0);
+            this.btnSynchNow.Name = "btnSynchNow";
+            this.btnSynchNow.Size = new System.Drawing.Size(886, 36);
+            this.btnSynchNow.TabIndex = 3;
+            this.btnSynchNow.Text = "Synchronize now";
+            this.btnSynchNow.UseVisualStyleBackColor = true;
+            this.btnSynchNow.Click += new System.EventHandler(this.btnSynchNow_Click);
             // 
             // panelMiddle
             // 
@@ -90,6 +101,7 @@
             this.dataGridViewSynchronization.ReadOnly = true;
             this.dataGridViewSynchronization.Size = new System.Drawing.Size(886, 393);
             this.dataGridViewSynchronization.TabIndex = 2;
+            this.dataGridViewSynchronization.CellFormatting += new System.Windows.Forms.DataGridViewCellFormattingEventHandler(this.dataGridViewSynchronization_CellFormatting);
             this.dataGridViewSynchronization.DataBindingComplete += new System.Windows.Forms.DataGridViewBindingCompleteEventHandler(this.dataGridViewSynchronization_DataBindingComplete);
             this.dataGridViewSynchronization.MouseClick += new System.Windows.Forms.MouseEventHandler(this.dataGridViewSynchronization_MouseClick);
             // 
@@ -156,9 +168,9 @@
             // SynchDateColumn
             // 
             this.SynchDateColumn.DataPropertyName = "SynchDate";
-            dataGridViewCellStyle7.Format = "g";
-            dataGridViewCellStyle7.NullValue = null;
-            this.SynchDateColumn.DefaultCellStyle = dataGridViewCellStyle7;
+            dataGridViewCellStyle2.Format = "g";
+            dataGridViewCellStyle2.NullValue = null;
+            this.SynchDateColumn.DefaultCellStyle = dataGridViewCellStyle2;
             this.SynchDateColumn.HeaderText = "Synch Date";
             this.SynchDateColumn.Name = "SynchDateColumn";
             this.SynchDateColumn.ReadOnly = true;
@@ -177,17 +189,6 @@
             this.ReChecked.Name = "ReChecked";
             this.ReChecked.ReadOnly = true;
             this.ReChecked.Visible = false;
-            // 
-            // btnSynchNow
-            // 
-            this.btnSynchNow.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.btnSynchNow.Location = new System.Drawing.Point(0, 0);
-            this.btnSynchNow.Name = "btnSynchNow";
-            this.btnSynchNow.Size = new System.Drawing.Size(886, 36);
-            this.btnSynchNow.TabIndex = 3;
-            this.btnSynchNow.Text = "Synchronize now";
-            this.btnSynchNow.UseVisualStyleBackColor = true;
-            this.btnSynchNow.Click += new System.EventHandler(this.btnSynchNow_Click);
             // 
             // MainUserControl
             // 

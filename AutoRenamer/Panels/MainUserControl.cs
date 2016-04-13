@@ -34,7 +34,18 @@ namespace AutoRenamer.Panels
         public MenuItem ResetStatusMenuItem { get; set; }
         public MenuItem ExploreMenuItem { get; set; }
         public MenuItem SynchronizeNow { get; set; }
-        public Synchronization CurrentSynchronization { get; set; }
+
+
+        private Synchronization _currentSynchronization;
+        public Synchronization CurrentSynchronization
+        {
+            get { return _currentSynchronization; }
+            set
+            {
+                _currentSynchronization = value;
+                dataGridViewSynchronization.DataSource = _currentSynchronization.StatusList;
+            }
+        }
 
         #endregion
         public DataGridView MainGrid => dataGridViewSynchronization;
@@ -42,7 +53,7 @@ namespace AutoRenamer.Panels
         public MainUserControl()
         {
             InitializeComponent();
-
+            LoadGridContextMenu();
         }
 
         private void LoadGridContextMenu()
@@ -101,7 +112,24 @@ namespace AutoRenamer.Panels
 
         private void SynchronizeNowOnClick(object sender, EventArgs eventArgs)
         {
-            _synchronizer.Synch((StatusDetail)dataGridViewSynchronization.Rows[SelectedGridRow].DataBoundItem);
+            SynchRow(dataGridViewSynchronization.Rows[SelectedGridRow]);
+        }
+
+        private void SynchRow(DataGridViewRow dataGridViewRow)
+        {
+            var statusDetail = (StatusDetail) dataGridViewRow.DataBoundItem;
+            try
+            {
+                _synchronizer.Synch(statusDetail);
+            }
+            catch (Exception ex)
+            {
+                var msg = $"Unexpected error: {ex.Message}. Stack trace: {ex.StackTrace}";
+                log.Error(msg);
+                statusDetail.Reason = msg;
+                statusDetail.Status = StatusEnum.Error;
+            }
+            dataGridViewSynchronization.Refresh();
         }
 
         private void dataGridViewSynchronization_MouseClick(object sender, MouseEventArgs e)
@@ -175,14 +203,26 @@ namespace AutoRenamer.Panels
 
                     if ((bool)selectedCell.Value)
                     {
-                        _synchronizer.Synch((StatusDetail)row.DataBoundItem);
+                        SynchRow(row);
                     }
                 }
             }
 
             CurrentSynchronization.Save();
+            OnSynchRebinded?.Invoke(this, e);
         }
         #endregion
 
+        private void dataGridViewSynchronization_CellFormatting(object sender, DataGridViewCellFormattingEventArgs e)
+        {
+            var dataGridViewColumn = dataGridViewSynchronization.Columns["StatusColumn"];
+            if (dataGridViewColumn != null &&
+                e.ColumnIndex == dataGridViewColumn.Index &&
+                ((StatusDetail)dataGridViewSynchronization.Rows[e.RowIndex].DataBoundItem).Status == StatusEnum.Error)
+            {
+                var cell = dataGridViewSynchronization.Rows[e.RowIndex].Cells[e.ColumnIndex];               
+                cell.ToolTipText = dataGridViewSynchronization.Rows[e.RowIndex].Cells["ReasonColumn"].Value.ToString();
+            }
+        }
     }
 }

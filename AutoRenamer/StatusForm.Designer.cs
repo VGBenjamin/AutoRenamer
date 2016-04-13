@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(StatusForm));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panel1 = new System.Windows.Forms.Panel();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.cbSourceStillExist = new System.Windows.Forms.CheckBox();
@@ -330,9 +330,9 @@
             // SynchDateColumn
             // 
             this.SynchDateColumn.DataPropertyName = "SynchDate";
-            dataGridViewCellStyle2.Format = "g";
-            dataGridViewCellStyle2.NullValue = null;
-            this.SynchDateColumn.DefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle1.Format = "g";
+            dataGridViewCellStyle1.NullValue = null;
+            this.SynchDateColumn.DefaultCellStyle = dataGridViewCellStyle1;
             this.SynchDateColumn.HeaderText = "Synch Date";
             this.SynchDateColumn.Name = "SynchDateColumn";
             this.SynchDateColumn.ReadOnly = true;

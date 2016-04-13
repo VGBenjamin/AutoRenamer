@@ -147,7 +147,8 @@ namespace AutoRenamer.Panels
             return (cbNonSyched.Checked && statusColumn == StatusEnum.NotSynched)
                    || (cbInProgress.Checked && statusColumn == StatusEnum.InProgress)
                    || (cbSynched.Checked && statusColumn == StatusEnum.Synched)
-                   || (cbExcluded.Checked && statusColumn == StatusEnum.Excluded);
+                   || (cbExcluded.Checked && statusColumn == StatusEnum.Excluded)
+                   || (cbError.Checked && statusColumn == StatusEnum.Error);
         }
     }
 }

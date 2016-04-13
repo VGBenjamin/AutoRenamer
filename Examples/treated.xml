@@ -4,7 +4,7 @@
     <StatusDetail Id="1501bb09-d86d-4602-a5bb-ab03dd253661" SourceFile="D:\Projects\Ben\AutoRenamer\Examples\Source\Castle (2009) - 1x02 - Nanny McDead.avi" DestinationFile="D:\Projects\Ben\AutoRenamer\Examples\Destination\Castle (2009)\Castle (2009) - S01E02 - Nanny McDead.avi" DestinationFolder="D:\Projects\Ben\AutoRenamer\Examples\Destination" Status="Synched" SynchDate="2016-04-12T09:54:22.8041588+02:00" SourceFileStillExist="true">
       <ReChecked>true</ReChecked>
     </StatusDetail>
-    <StatusDetail Id="602b9a1c-9202-4859-a03f-83632a57d52a" SourceFile="D:\Projects\Ben\AutoRenamer\Examples\Source\the.big.bang.theory.s04e01.avi" DestinationFile="D:\Projects\Ben\AutoRenamer\Examples\Destination\The Big Bang Theory\The Big Bang Theory - S04E01 - The Robotic Manipulation.avi" DestinationFolder="D:\Projects\Ben\AutoRenamer\Examples\Destination" Status="Synched" SynchDate="2016-04-12T09:54:36.517424+02:00" SourceFileStillExist="true">
+    <StatusDetail Id="602b9a1c-9202-4859-a03f-83632a57d52a" SourceFile="D:\Projects\Ben\AutoRenamer\Examples\Source\the.big.bang.theory.s04e01.avi" DestinationFile="D:\Projects\Ben\AutoRenamer\Examples\Destination\The Big Bang Theory\The Big Bang Theory - S04E01 - The Robotic Manipulation.avi" DestinationFolder="D:\Projects\Ben\AutoRenamer\Examples\Destination" Status="Synched" SynchDate="2016-04-13T08:43:55.6373734+02:00" SourceFileStillExist="true">
       <ReChecked>true</ReChecked>
     </StatusDetail>
     <StatusDetail Id="e30f0d19-b83a-4fe6-bdf3-8ee9937123da" SourceFile="D:\Projects\Ben\AutoRenamer\Examples\Source\the.big.bang.theory.s04e01.txt" DestinationFolder="D:\Projects\Ben\AutoRenamer\Examples\Destination" Status="NotSynched" SynchDate="0001-01-01T00:00:00" SourceFileStillExist="true">

@@ -43,13 +43,16 @@ namespace AutoRenamer.Synchronizer
                 var newName = match.Groups[1].Value;
                 log.Info($"Detected new name: {newName}.");
 
-                var targetPath = Path.Combine(statusDetail.DestinationFile,
+                var targetPath = Path.Combine(statusDetail.DestinationFolder,
                     newName.StartsWith("\\") ? newName.Substring(1) : newName);
                 CopyFile(statusDetail, targetPath);
             }
             else
             {
-                log.Error($"Cannot detect the tv show for the file: {statusDetail.SourceFile}");
+                var msg = $"Cannot detect the tv show for the file: {statusDetail.SourceFile}";
+                log.Error(msg);
+                statusDetail.Reason = msg;
+                statusDetail.Status = StatusEnum.Error;                
             }
         }
 
@@ -104,7 +107,7 @@ namespace AutoRenamer.Synchronizer
             {
                 statusDetail.DestinationFile = targetPath;
                 statusDetail.SynchDate = DateTime.Now;
-                statusDetail .Status= StatusEnum.Synched;
+                statusDetail.Status= StatusEnum.Synched;
             }
         }
 

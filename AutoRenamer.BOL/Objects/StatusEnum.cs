@@ -11,6 +11,7 @@ namespace AutoRenamer.BOL.Objects
         Excluded,
         Synched,
         NotSynched,
-        InProgress
+        InProgress,
+        Error
     }
 }

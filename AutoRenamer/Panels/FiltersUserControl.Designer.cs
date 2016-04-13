@@ -37,6 +37,7 @@
             this.cbInProgress = new System.Windows.Forms.CheckBox();
             this.cbSynched = new System.Windows.Forms.CheckBox();
             this.cbNonSyched = new System.Windows.Forms.CheckBox();
+            this.cbError = new System.Windows.Forms.CheckBox();
             this.groupBox2.SuspendLayout();
             this.gbFileTypes.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -45,7 +46,7 @@
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.cbSourceStillExist);
-            this.groupBox2.Location = new System.Drawing.Point(12, 134);
+            this.groupBox2.Location = new System.Drawing.Point(12, 156);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(179, 100);
             this.groupBox2.TabIndex = 11;
@@ -68,7 +69,7 @@
             // gbFileTypes
             // 
             this.gbFileTypes.Controls.Add(this.flowLayoutPanelFileTypes);
-            this.gbFileTypes.Location = new System.Drawing.Point(12, 240);
+            this.gbFileTypes.Location = new System.Drawing.Point(12, 262);
             this.gbFileTypes.Name = "gbFileTypes";
             this.gbFileTypes.Size = new System.Drawing.Size(179, 137);
             this.gbFileTypes.TabIndex = 10;
@@ -86,13 +87,14 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.cbError);
             this.groupBox1.Controls.Add(this.cbExcluded);
             this.groupBox1.Controls.Add(this.cbInProgress);
             this.groupBox1.Controls.Add(this.cbSynched);
             this.groupBox1.Controls.Add(this.cbNonSyched);
             this.groupBox1.Location = new System.Drawing.Point(12, 10);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(179, 118);
+            this.groupBox1.Size = new System.Drawing.Size(179, 140);
             this.groupBox1.TabIndex = 9;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Status";
@@ -145,6 +147,19 @@
             this.cbNonSyched.UseVisualStyleBackColor = true;
             this.cbNonSyched.CheckedChanged += new System.EventHandler(this.cbStatus_CheckedChanged);
             // 
+            // cbError
+            // 
+            this.cbError.AutoSize = true;
+            this.cbError.Checked = true;
+            this.cbError.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.cbError.Location = new System.Drawing.Point(6, 113);
+            this.cbError.Name = "cbError";
+            this.cbError.Size = new System.Drawing.Size(48, 17);
+            this.cbError.TabIndex = 6;
+            this.cbError.Text = "Error";
+            this.cbError.UseVisualStyleBackColor = true;
+            this.cbError.Click += new System.EventHandler(this.cbStatus_CheckedChanged);
+            // 
             // FiltersUserControl
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -177,5 +192,6 @@
         private System.Windows.Forms.CheckBox cbInProgress;
         private System.Windows.Forms.CheckBox cbSynched;
         private System.Windows.Forms.CheckBox cbNonSyched;
+        private System.Windows.Forms.CheckBox cbError;
     }
 }
