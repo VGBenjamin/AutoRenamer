@@ -12,15 +12,17 @@ namespace AutoRenamer.MessageBoxes
 {
     public partial class FileExistDialog : Form
     {
+        [Flags]
         public enum FileExistActionEnum
         {
-            None,
-            Override,
-            OverrideAll,
-            SkipButSynched,
-            SkipButSynchedAll,
-            SkipAndLetStatus,
-            SkipAndLetStatusAll
+            None = 0, 
+            All = 1,
+            Override = 2, 
+            OverrideAll = All | Override,
+            SkipButSynched = 4, 
+            SkipButSynchedAll = All | SkipButSynched,
+            SkipAndLetStatus = 8, 
+            SkipAndLetStatusAll = All | SkipButSynched
         }
 
         public string OriginalFilePath { get; set; }
@@ -30,6 +32,15 @@ namespace AutoRenamer.MessageBoxes
 
         public FileExistDialog()
         {
+            InitializeComponent();
+            lblMessage.Text =
+                $"The file '{TargetFilePath}' allready exist (source file is: '{OriginalFilePath}'). {Environment.NewLine}What do you want to do?";
+        }
+
+        public FileExistDialog(string originalFilePath, string targetFilePath)
+        {
+            TargetFilePath = targetFilePath;
+            OriginalFilePath = originalFilePath;
             InitializeComponent();
             lblMessage.Text =
                 $"The file '{TargetFilePath}' allready exist (source file is: '{OriginalFilePath}'). {Environment.NewLine}What do you want to do?";

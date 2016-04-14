@@ -10,6 +10,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using AutoRenamer.BOL.Config;
 using AutoRenamer.BOL.Objects;
+using AutoRenamer.BOL.Objects.TasksQueue;
 using log4net;
 using WeifenLuo.WinFormsUI.Docking;
 
@@ -24,6 +25,8 @@ namespace AutoRenamer.Panels
 
         public List<CheckBox> FileTypesCheckboxes { get; set; }
         public CheckBox CheckboxAll { get; set; }
+        public TasksQueue Tasks { get; set; }
+
         private static readonly log4net.ILog log = log4net.LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
 
         public FiltersUserControl()

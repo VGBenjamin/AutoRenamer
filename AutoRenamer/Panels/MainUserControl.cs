@@ -11,6 +11,8 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using AutoRenamer.BOL.Config;
 using AutoRenamer.BOL.Objects;
+using AutoRenamer.BOL.Objects.TasksQueue;
+using AutoRenamer.Tasks;
 using log4net;
 using WeifenLuo.WinFormsUI.Docking;
 
@@ -19,7 +21,7 @@ namespace AutoRenamer.Panels
     public partial class MainUserControl : DockContent
     {
         private static readonly log4net.ILog log = log4net.LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
-        private Synchronizer.Synchronizer _synchronizer = new Synchronizer.Synchronizer();
+        private Synchronizer.Synchronizer _synchronizer = new Synchronizer.Synchronizer();        
 
         #region event FolderLoading
         public delegate void SynchRebindedEventHandler(object sender, EventArgs e);
@@ -50,6 +52,7 @@ namespace AutoRenamer.Panels
 
         #endregion
         public DataGridView MainGrid => dataGridViewSynchronization;
+        public TasksQueue Tasks { get; set; }
 
         public MainUserControl()
         {
@@ -153,7 +156,9 @@ namespace AutoRenamer.Panels
 
         private void SynchRow(DataGridViewRow dataGridViewRow, Guid batchId)
         {
-            var statusDetail = (StatusDetail) dataGridViewRow.DataBoundItem;
+            Tasks.AddTask(new RenameAndCopyTasks(batchId, (StatusDetail)dataGridViewRow.DataBoundItem));
+
+            /*var statusDetail = (StatusDetail) dataGridViewRow.DataBoundItem;
             try
             {
                 _synchronizer.Synch(statusDetail, batchId);
@@ -165,7 +170,7 @@ namespace AutoRenamer.Panels
                 statusDetail.Reason = msg;
                 statusDetail.Status = StatusEnum.Error;
             }
-            dataGridViewSynchronization.Refresh();
+            dataGridViewSynchronization.Refresh();*/
         }
 
         private IEnumerable<DataGridViewRow> GetSelectedRows()

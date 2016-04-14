@@ -10,7 +10,9 @@ using System.Windows.Forms;
 using AutoRenamer.BOL.Config;
 using AutoRenamer.BOL.Log4Net;
 using AutoRenamer.BOL.Objects;
+using AutoRenamer.BOL.Objects.TasksQueue;
 using AutoRenamer.Panels;
+using AutoRenamer.Tasks;
 using WeifenLuo.WinFormsUI.Docking;
 
 namespace AutoRenamer
@@ -23,6 +25,7 @@ namespace AutoRenamer
         private QueueUserControl _queueUserControl;
         private LogUserControl _logUserControl;
         private MainUserControl _mainUserControl;
+        private TasksQueueManager _tasksQueueManager;
 
         public Synchronization CurrentSynchronization { get; set; }
 
@@ -84,6 +87,8 @@ namespace AutoRenamer
 
         private void AddDocContents()
         {
+            _tasksQueueManager = new TasksQueueManager();
+
             var theme = new VS2012LightTheme();
             this.dockPanel.Theme = theme;
             this.dockPanel.DocumentStyle = DocumentStyle.DockingSdi;
@@ -95,10 +100,12 @@ namespace AutoRenamer
             _logUserControl.Show(this.dockPanel, DockState.DockBottom);
 
             _filtersUserControl = new FiltersUserControl();
+            _filtersUserControl.Tasks = _tasksQueueManager.TasksQueue;
             _filtersUserControl.Show(this.dockPanel, DockState.DockLeft);
             _filtersUserControl.OnFilterChanged += FiltersUserControlOnOnFilterChanged;
 
-            _mainUserControl = new MainUserControl();            
+            _mainUserControl = new MainUserControl();
+            _mainUserControl.Tasks = _tasksQueueManager.TasksQueue;
             _mainUserControl.Show(this.dockPanel, DockState.Document);
             _mainUserControl.OnSynchRebinded += _mainUserControl_OnSynchRebinded;
         }

@@ -44,7 +44,7 @@
             this.dockPanel.DockRightPortion = 280D;
             this.dockPanel.Location = new System.Drawing.Point(0, 0);
             this.dockPanel.Name = "dockPanel";
-            this.dockPanel.Size = new System.Drawing.Size(978, 602);
+            this.dockPanel.Size = new System.Drawing.Size(978, 580);
             this.dockPanel.TabIndex = 0;
             // 
             // statusStrip2
@@ -82,8 +82,8 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(978, 602);
-            this.Controls.Add(this.statusStrip2);
             this.Controls.Add(this.dockPanel);
+            this.Controls.Add(this.statusStrip2);
             this.Name = "MainForm";
             this.Text = "MainForm";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.MainForm_FormClosing);

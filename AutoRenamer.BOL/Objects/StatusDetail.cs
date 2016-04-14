@@ -7,10 +7,10 @@ using System.Xml.Serialization;
 
 namespace AutoRenamer.BOL.Objects
 {
-    public class StatusDetail
+    public class StatusDetail : IEquatable<StatusDetail>
     {
         [XmlAttribute]
-        public Guid Id { get; set; }
+        public Guid Id { get; }
         [XmlAttribute]
         public string SourceFile { get; set; }
         [XmlAttribute]
@@ -39,5 +39,14 @@ namespace AutoRenamer.BOL.Objects
             Id = Guid.NewGuid();
         }
 
+        public bool Equals(StatusDetail other)
+        {
+            return Id.Equals(other.Id);
+        }
+
+        public override int GetHashCode()
+        {
+            return Id.GetHashCode();
+        }
     }
 }

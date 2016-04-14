@@ -39,7 +39,7 @@
             // 
             // btnOverride
             // 
-            this.btnOverride.Location = new System.Drawing.Point(33, 72);
+            this.btnOverride.Location = new System.Drawing.Point(33, 136);
             this.btnOverride.Name = "btnOverride";
             this.btnOverride.Size = new System.Drawing.Size(75, 23);
             this.btnOverride.TabIndex = 0;
@@ -49,7 +49,7 @@
             // 
             // btnSkipButSynched
             // 
-            this.btnSkipButSynched.Location = new System.Drawing.Point(114, 72);
+            this.btnSkipButSynched.Location = new System.Drawing.Point(114, 136);
             this.btnSkipButSynched.Name = "btnSkipButSynched";
             this.btnSkipButSynched.Size = new System.Drawing.Size(159, 23);
             this.btnSkipButSynched.TabIndex = 1;
@@ -61,6 +61,7 @@
             // 
             this.lblMessage.AutoSize = true;
             this.lblMessage.Location = new System.Drawing.Point(30, 24);
+            this.lblMessage.MaximumSize = new System.Drawing.Size(400, 0);
             this.lblMessage.Name = "lblMessage";
             this.lblMessage.Size = new System.Drawing.Size(129, 13);
             this.lblMessage.TabIndex = 2;
@@ -68,7 +69,7 @@
             // 
             // btnSkipAndLetStatus
             // 
-            this.btnSkipAndLetStatus.Location = new System.Drawing.Point(279, 72);
+            this.btnSkipAndLetStatus.Location = new System.Drawing.Point(279, 136);
             this.btnSkipAndLetStatus.Name = "btnSkipAndLetStatus";
             this.btnSkipAndLetStatus.Size = new System.Drawing.Size(197, 23);
             this.btnSkipAndLetStatus.TabIndex = 3;
@@ -78,7 +79,7 @@
             // 
             // btnSkipAndLetStatusAll
             // 
-            this.btnSkipAndLetStatusAll.Location = new System.Drawing.Point(279, 101);
+            this.btnSkipAndLetStatusAll.Location = new System.Drawing.Point(279, 165);
             this.btnSkipAndLetStatusAll.Name = "btnSkipAndLetStatusAll";
             this.btnSkipAndLetStatusAll.Size = new System.Drawing.Size(197, 23);
             this.btnSkipAndLetStatusAll.TabIndex = 6;
@@ -88,7 +89,7 @@
             // 
             // btnSkipButSynchedAll
             // 
-            this.btnSkipButSynchedAll.Location = new System.Drawing.Point(114, 101);
+            this.btnSkipButSynchedAll.Location = new System.Drawing.Point(114, 165);
             this.btnSkipButSynchedAll.Name = "btnSkipButSynchedAll";
             this.btnSkipButSynchedAll.Size = new System.Drawing.Size(159, 23);
             this.btnSkipButSynchedAll.TabIndex = 5;
@@ -98,7 +99,7 @@
             // 
             // btnOverrideAll
             // 
-            this.btnOverrideAll.Location = new System.Drawing.Point(33, 101);
+            this.btnOverrideAll.Location = new System.Drawing.Point(33, 165);
             this.btnOverrideAll.Name = "btnOverrideAll";
             this.btnOverrideAll.Size = new System.Drawing.Size(75, 23);
             this.btnOverrideAll.TabIndex = 4;
@@ -110,7 +111,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(488, 133);
+            this.ClientSize = new System.Drawing.Size(513, 196);
             this.Controls.Add(this.btnSkipAndLetStatusAll);
             this.Controls.Add(this.btnSkipButSynchedAll);
             this.Controls.Add(this.btnOverrideAll);
