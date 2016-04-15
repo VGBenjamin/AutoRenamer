@@ -14,11 +14,15 @@ namespace AutoRenamer.BOL.Objects.TasksQueue
         public Guid TaskId { get; set; }
         public Guid TaskBatchId { get; set; }
         public int ProgressionPercentage { get; set; }
+        public string Title { get; set; }
+        public string Description { get; set; }
 
-        protected BaseTask(Guid taskBatchId)
+        protected BaseTask(Guid taskBatchId, string title, string description)
         {
             TaskId = Guid.NewGuid();
             TaskBatchId = taskBatchId;
+            Title = title;
+            Description = description;
         }
 
         protected void IncrementProgress(int percentage)

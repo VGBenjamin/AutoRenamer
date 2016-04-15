@@ -93,14 +93,13 @@ namespace AutoRenamer
             this.dockPanel.Theme = theme;
             this.dockPanel.DocumentStyle = DocumentStyle.DockingSdi;
 
-            _queueUserControl = new QueueUserControl();
+            _queueUserControl = new QueueUserControl(_tasksQueueManager.TasksQueue);
             _queueUserControl.Show(this.dockPanel, DockState.DockRight);
 
             _logUserControl = new LogUserControl();
             _logUserControl.Show(this.dockPanel, DockState.DockBottom);
 
             _filtersUserControl = new FiltersUserControl();
-            _filtersUserControl.Tasks = _tasksQueueManager.TasksQueue;
             _filtersUserControl.Show(this.dockPanel, DockState.DockLeft);
             _filtersUserControl.OnFilterChanged += FiltersUserControlOnOnFilterChanged;
 

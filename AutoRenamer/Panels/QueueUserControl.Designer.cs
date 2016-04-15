@@ -29,9 +29,9 @@
         private void InitializeComponent()
         {
             this.dataGridViewQueue = new System.Windows.Forms.DataGridView();
+            this.TitleColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.btnUp = new System.Windows.Forms.Button();
             this.btnDown = new System.Windows.Forms.Button();
-            this.SourceFileColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewQueue)).BeginInit();
             this.SuspendLayout();
             // 
@@ -40,13 +40,21 @@
             this.dataGridViewQueue.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridViewQueue.ColumnHeadersVisible = false;
             this.dataGridViewQueue.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.SourceFileColumn});
+            this.TitleColumn});
             this.dataGridViewQueue.Location = new System.Drawing.Point(13, 39);
             this.dataGridViewQueue.Name = "dataGridViewQueue";
             this.dataGridViewQueue.RowHeadersVisible = false;
             this.dataGridViewQueue.Size = new System.Drawing.Size(248, 405);
             this.dataGridViewQueue.TabIndex = 0;
             this.dataGridViewQueue.Tag = "";
+            // 
+            // TitleColumn
+            // 
+            this.TitleColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.TitleColumn.DataPropertyName = "Title";
+            this.TitleColumn.HeaderText = "Title";
+            this.TitleColumn.Name = "TitleColumn";
+            this.TitleColumn.ReadOnly = true;
             // 
             // btnUp
             // 
@@ -56,6 +64,7 @@
             this.btnUp.TabIndex = 1;
             this.btnUp.Text = "Up";
             this.btnUp.UseVisualStyleBackColor = true;
+            this.btnUp.Click += new System.EventHandler(this.btnUp_Click);
             // 
             // btnDown
             // 
@@ -65,13 +74,7 @@
             this.btnDown.TabIndex = 2;
             this.btnDown.Text = "Down";
             this.btnDown.UseVisualStyleBackColor = true;
-            // 
-            // SourceFileColumn
-            // 
-            this.SourceFileColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.SourceFileColumn.HeaderText = "SourceFile";
-            this.SourceFileColumn.Name = "SourceFileColumn";
-            this.SourceFileColumn.ReadOnly = true;
+            this.btnDown.Click += new System.EventHandler(this.btnDown_Click);
             // 
             // QueueUserControl
             // 
@@ -96,6 +99,6 @@
         private System.Windows.Forms.DataGridView dataGridViewQueue;
         private System.Windows.Forms.Button btnUp;
         private System.Windows.Forms.Button btnDown;
-        private System.Windows.Forms.DataGridViewTextBoxColumn SourceFileColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn TitleColumn;
     }
 }

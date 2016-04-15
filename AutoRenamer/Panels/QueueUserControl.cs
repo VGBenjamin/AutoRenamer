@@ -7,7 +7,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using AutoRenamer.BOL.Objects;
 using AutoRenamer.BOL.Objects.TasksQueue;
+using AutoRenamer.Tasks;
 using log4net;
 using WeifenLuo.WinFormsUI.Docking;
 
@@ -17,11 +19,21 @@ namespace AutoRenamer.Panels
     {
         public ILog Log { get; set; }
 
-        private TasksQueue Tasks { get; set; } = new TasksQueue();
+        public TasksQueue Tasks { get; set; }
 
-        public QueueUserControl()
+        private BindingSource _bindingSource;
+
+        public QueueUserControl(TasksQueue tasksQueue)
         {
+            Tasks = tasksQueue;
+
             InitializeComponent();
+
+            //_bindingSource = new BindingSource();
+            //_bindingSource.DataSource = Tasks.TasksList;
+
+               
+            dataGridViewQueue.AutoGenerateColumns = false;
             dataGridViewQueue.DataSource = Tasks.TasksList;
 
             Tasks.OnTaskAdded += TasksOnOnTaskAdded;            
@@ -29,13 +41,31 @@ namespace AutoRenamer.Panels
 
         private void TasksOnOnTaskAdded(object sender, TaskEventArgs taskEventArgs)
         {
-            taskEventArgs.Task.OnTaskFinished += TaskOnOnTaskFinished;
             dataGridViewQueue.Refresh();
+
+            taskEventArgs.Task.OnTaskFinished += TaskOnOnTaskFinished;
         }
 
         private void TaskOnOnTaskFinished(object sender, EventArgs eventArgs)
         {
+            //_bindingSource.ResetBindings(false);
             dataGridViewQueue.Refresh();
+        }
+
+        private void btnUp_Click(object sender, EventArgs e)
+        {
+            foreach (DataGridViewCell selectedCell in dataGridViewQueue.SelectedCells)
+            {
+                Tasks.MoveUp(((ITask)dataGridViewQueue.Rows[selectedCell.RowIndex].DataBoundItem));                
+            }
+        }
+
+        private void btnDown_Click(object sender, EventArgs e)
+        {
+            foreach (DataGridViewCell selectedCell in dataGridViewQueue.SelectedCells)
+            {
+                Tasks.MoveDown(((ITask)dataGridViewQueue.Rows[selectedCell.RowIndex].DataBoundItem));
+            }
         }
     }
 }

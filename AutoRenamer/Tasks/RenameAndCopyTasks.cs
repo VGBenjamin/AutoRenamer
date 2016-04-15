@@ -17,7 +17,8 @@ namespace AutoRenamer.Tasks
         private static readonly log4net.ILog log = log4net.LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
         private readonly StatusDetail _statusDetail;
 
-        public RenameAndCopyTasks(Guid taskBatchId, StatusDetail statusDetail) : base( taskBatchId)
+        public RenameAndCopyTasks(Guid taskBatchId, StatusDetail statusDetail) 
+            : base( taskBatchId, Path.GetFileName(statusDetail.SourceFile), statusDetail.SourceFile)
         {
             _statusDetail = statusDetail;
         }
@@ -44,7 +45,7 @@ namespace AutoRenamer.Tasks
             process.WaitForExit();
 
             #if DEBUG
-            Thread.Sleep(2000);
+            Thread.Sleep(20000);
             #endif
             IncrementProgress(10);
 

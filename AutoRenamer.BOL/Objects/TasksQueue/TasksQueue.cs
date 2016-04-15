@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -14,11 +15,14 @@ namespace AutoRenamer.BOL.Objects.TasksQueue
         public event TaskAddedEventHandler OnTaskAdded;
         #endregion
 
-        public List<ITask> TasksList { get; private set; }
+        public BindingList<ITask> TasksList { get; private set; }
+
+        public Guid TaskQueueId { get; private set; }
 
         public TasksQueue()
         {
-            TasksList = new List<ITask>();
+            TasksList = new BindingList<ITask>();
+            TaskQueueId = Guid.NewGuid();
         }
 
         public void AddTask(ITask statusDetail)

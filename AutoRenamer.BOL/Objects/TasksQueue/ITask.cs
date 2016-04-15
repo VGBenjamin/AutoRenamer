@@ -16,6 +16,9 @@ namespace AutoRenamer.BOL.Objects.TasksQueue
         Guid TaskBatchId { get; set; }
         int ProgressionPercentage { get; set; }
 
+        string Title { get; set; }
+        string Description { get; set; }
+
         ITask Execute();
 
         
