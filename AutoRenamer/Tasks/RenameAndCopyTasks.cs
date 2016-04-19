@@ -25,6 +25,8 @@ namespace AutoRenamer.Tasks
 
         public override ITask Execute()
         {
+            IncrementProgress(1);
+
             log.Info($"Calling filebot for the file: {_statusDetail.SourceFile}");
             var arguments = AutoRenamerConfig.Instance.FilebotExpression.Value.Replace("%FILENAME%", _statusDetail.SourceFile);
             log.Debug($"Filebot arguments: {arguments}");
@@ -44,9 +46,6 @@ namespace AutoRenamer.Tasks
             var output = process.StandardOutput.ReadToEnd();
             process.WaitForExit();
 
-            #if DEBUG
-            Thread.Sleep(20000);
-            #endif
             IncrementProgress(10);
 
             log.Debug(output);

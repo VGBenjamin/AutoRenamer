@@ -29,9 +29,11 @@
         private void InitializeComponent()
         {
             this.dataGridViewQueue = new System.Windows.Forms.DataGridView();
-            this.TitleColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.btnUp = new System.Windows.Forms.Button();
             this.btnDown = new System.Windows.Forms.Button();
+            this.dataGridViewPercentageColumn1 = new AutoRenamer.DataGridColumns.DataGridViewProgressColumn();
+            this.TitleColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ProgressColumn = new AutoRenamer.DataGridColumns.DataGridViewProgressColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewQueue)).BeginInit();
             this.SuspendLayout();
             // 
@@ -40,21 +42,14 @@
             this.dataGridViewQueue.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridViewQueue.ColumnHeadersVisible = false;
             this.dataGridViewQueue.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.TitleColumn});
+            this.TitleColumn,
+            this.ProgressColumn});
             this.dataGridViewQueue.Location = new System.Drawing.Point(13, 39);
             this.dataGridViewQueue.Name = "dataGridViewQueue";
             this.dataGridViewQueue.RowHeadersVisible = false;
             this.dataGridViewQueue.Size = new System.Drawing.Size(248, 405);
             this.dataGridViewQueue.TabIndex = 0;
             this.dataGridViewQueue.Tag = "";
-            // 
-            // TitleColumn
-            // 
-            this.TitleColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.TitleColumn.DataPropertyName = "Title";
-            this.TitleColumn.HeaderText = "Title";
-            this.TitleColumn.Name = "TitleColumn";
-            this.TitleColumn.ReadOnly = true;
             // 
             // btnUp
             // 
@@ -75,6 +70,29 @@
             this.btnDown.Text = "Down";
             this.btnDown.UseVisualStyleBackColor = true;
             this.btnDown.Click += new System.EventHandler(this.btnDown_Click);
+            // 
+            // dataGridViewPercentageColumn1
+            // 
+            this.dataGridViewPercentageColumn1.HeaderText = "Progress";
+            this.dataGridViewPercentageColumn1.Name = "dataGridViewPercentageColumn1";
+            this.dataGridViewPercentageColumn1.ProgressBarColor = System.Drawing.Color.Silver;
+            this.dataGridViewPercentageColumn1.ReadOnly = true;
+            // 
+            // TitleColumn
+            // 
+            this.TitleColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.TitleColumn.DataPropertyName = "Title";
+            this.TitleColumn.HeaderText = "Title";
+            this.TitleColumn.Name = "TitleColumn";
+            this.TitleColumn.ReadOnly = true;
+            // 
+            // ProgressColumn
+            // 
+            this.ProgressColumn.DataPropertyName = "ProgressionPercentage";
+            this.ProgressColumn.HeaderText = "Progress";
+            this.ProgressColumn.Name = "ProgressColumn";
+            this.ProgressColumn.ProgressBarColor = System.Drawing.Color.Silver;
+            this.ProgressColumn.ReadOnly = true;
             // 
             // QueueUserControl
             // 
@@ -99,6 +117,8 @@
         private System.Windows.Forms.DataGridView dataGridViewQueue;
         private System.Windows.Forms.Button btnUp;
         private System.Windows.Forms.Button btnDown;
+        private DataGridColumns.DataGridViewProgressColumn dataGridViewPercentageColumn1;
         private System.Windows.Forms.DataGridViewTextBoxColumn TitleColumn;
+        private DataGridColumns.DataGridViewProgressColumn ProgressColumn;
     }
 }

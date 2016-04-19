@@ -63,6 +63,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DataGridColumns\DataGridViewProgressCell.cs" />
+    <Compile Include="DataGridColumns\DataGridViewProgressColumn.cs" />
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
     </Compile>

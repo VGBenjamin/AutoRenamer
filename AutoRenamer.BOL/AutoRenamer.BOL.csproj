@@ -45,6 +45,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Base\Test.cs" />
     <Compile Include="Base\XmlSerializable.cs" />
     <Compile Include="Config\ConfigurationTextElement.cs" />
     <Compile Include="Config\AutoRenamerConfig.cs" />

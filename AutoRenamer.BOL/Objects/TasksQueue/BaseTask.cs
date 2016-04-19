@@ -8,6 +8,8 @@ namespace AutoRenamer.BOL.Objects.TasksQueue
 {
     public abstract class BaseTask : ITask
     {
+        private static readonly log4net.ILog log = log4net.LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
+
         public event TaskFinishedEventHandler OnTaskFinished;
         public event ProgressChangedEventHandler OnProgressChanged;
 
@@ -27,6 +29,7 @@ namespace AutoRenamer.BOL.Objects.TasksQueue
 
         protected void IncrementProgress(int percentage)
         {
+            log.Debug($"Task '{Title}' (Id: {TaskId}) - Progression: {ProgressionPercentage}");
             ProgressionPercentage = percentage;
             OnProgressChanged?.Invoke(this, percentage);
 

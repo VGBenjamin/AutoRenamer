@@ -19,5 +19,14 @@
     <StatusDetail SourceFile="D:\Projects\Ben\AutoRenamer\Examples\Source2\code.black.s01e06.mpg" DestinationFile="D:\Projects\Ben\AutoRenamer\Examples\Destination\Code Black\Code Black - S01E06 - In Extremis.mpg" DestinationFolder="D:\Projects\Ben\AutoRenamer\Examples\Destination" Status="Synched" SynchDate="2016-04-15T09:11:04.8507123+02:00" SourceFileStillExist="true">
       <ReChecked>true</ReChecked>
     </StatusDetail>
+    <StatusDetail SourceFile="D:\Projects\Ben\AutoRenamer\Examples\Source\Avatar.avi" DestinationFile="D:\Projects\Ben\AutoRenamer\Examples\Destination\Movies\Avatar (2009)\Avatar (2009).avi" DestinationFolder="D:\Projects\Ben\AutoRenamer\Examples\Destination" Status="Synched" SynchDate="2016-04-19T14:20:44.716227+02:00" SourceFileStillExist="true">
+      <ReChecked>true</ReChecked>
+    </StatusDetail>
+    <StatusDetail SourceFile="D:\Projects\Ben\AutoRenamer\Examples\Source\Titanic.avi" DestinationFile="D:\Projects\Ben\AutoRenamer\Examples\Destination\Movies\Titanic (1997)\Titanic (1997).avi" DestinationFolder="D:\Projects\Ben\AutoRenamer\Examples\Destination" Status="Synched" SynchDate="2016-04-19T14:20:53.3068798+02:00" SourceFileStillExist="true">
+      <ReChecked>true</ReChecked>
+    </StatusDetail>
+    <StatusDetail SourceFile="D:\Projects\Ben\AutoRenamer\Examples\Source\Shrek.avi" DestinationFile="D:\Projects\Ben\AutoRenamer\Examples\Destination\Movies\The Source (2011)\The Source (2011).avi" DestinationFolder="D:\Projects\Ben\AutoRenamer\Examples\Destination" Status="Synched" SynchDate="2016-04-19T14:20:35.1235509+02:00" SourceFileStillExist="true">
+      <ReChecked>true</ReChecked>
+    </StatusDetail>
   </StatusList>
 </Synchronization>

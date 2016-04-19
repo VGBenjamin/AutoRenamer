@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using AutoRenamer.BOL.Objects;
 using AutoRenamer.BOL.Objects.TasksQueue;
+using AutoRenamer.DataGridColumns;
 using AutoRenamer.Tasks;
 using log4net;
 using WeifenLuo.WinFormsUI.Docking;
@@ -44,6 +45,12 @@ namespace AutoRenamer.Panels
             dataGridViewQueue.Refresh();
 
             taskEventArgs.Task.OnTaskFinished += TaskOnOnTaskFinished;
+            taskEventArgs.Task.OnProgressChanged += Task_OnProgressChanged;
+        }
+
+        private void Task_OnProgressChanged(object sender, double percentage)
+        {
+            dataGridViewQueue.Refresh();
         }
 
         private void TaskOnOnTaskFinished(object sender, EventArgs eventArgs)
