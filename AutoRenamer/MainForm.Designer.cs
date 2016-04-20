@@ -33,7 +33,10 @@
             this.tsslStatusText = new System.Windows.Forms.ToolStripStatusLabel();
             this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
             this.tsslStatusProgressBar = new System.Windows.Forms.ToolStripProgressBar();
+            this.toolStrip1 = new System.Windows.Forms.ToolStrip();
+            this.tsRefresh = new System.Windows.Forms.ToolStripLabel();
             this.statusStrip2.SuspendLayout();
+            this.toolStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // dockPanel
@@ -77,11 +80,29 @@
             this.tsslStatusProgressBar.Size = new System.Drawing.Size(100, 16);
             this.tsslStatusProgressBar.Visible = false;
             // 
+            // toolStrip1
+            // 
+            this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.tsRefresh});
+            this.toolStrip1.Location = new System.Drawing.Point(0, 0);
+            this.toolStrip1.Name = "toolStrip1";
+            this.toolStrip1.Size = new System.Drawing.Size(978, 25);
+            this.toolStrip1.TabIndex = 3;
+            this.toolStrip1.Text = "toolStrip1";
+            // 
+            // tsRefresh
+            // 
+            this.tsRefresh.Name = "tsRefresh";
+            this.tsRefresh.Size = new System.Drawing.Size(46, 22);
+            this.tsRefresh.Text = "Refresh";
+            this.tsRefresh.Click += new System.EventHandler(this.tsRefresh_Click);
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(978, 602);
+            this.Controls.Add(this.toolStrip1);
             this.Controls.Add(this.dockPanel);
             this.Controls.Add(this.statusStrip2);
             this.Name = "MainForm";
@@ -89,6 +110,8 @@
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.MainForm_FormClosing);
             this.statusStrip2.ResumeLayout(false);
             this.statusStrip2.PerformLayout();
+            this.toolStrip1.ResumeLayout(false);
+            this.toolStrip1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -101,5 +124,7 @@
         private System.Windows.Forms.ToolStripStatusLabel tsslStatusText;
         private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel1;
         private System.Windows.Forms.ToolStripProgressBar tsslStatusProgressBar;
+        private System.Windows.Forms.ToolStrip toolStrip1;
+        private System.Windows.Forms.ToolStripLabel tsRefresh;
     }
 }

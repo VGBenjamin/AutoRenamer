@@ -46,7 +46,53 @@ namespace AutoRenamer.Panels
             set
             {
                 _currentSynchronization = value;
+                _currentSynchronization.OnFileRenamed += CurrentSynchronizationOnOnFileRenamed;
+                _currentSynchronization.OnFileAdded += CurrentSynchronizationOnOnFileChanged;
+                _currentSynchronization.OnFileDeleted += CurrentSynchronizationOnOnFileChanged;
                 dataGridViewSynchronization.DataSource = _currentSynchronization.StatusList;
+            }
+        }
+
+        delegate void CurrentSynchronizationOnOnFileChangedCallback(object sender, FileSystemEventArgs fileSystemEventArgs);
+        private void CurrentSynchronizationOnOnFileChanged(object sender, FileSystemEventArgs fileSystemEventArgs)
+        {
+            if (this.dataGridViewSynchronization.InvokeRequired) //Multi Thread work around
+            {
+                this.Invoke(new CurrentSynchronizationOnOnFileChangedCallback(CurrentSynchronizationOnOnFileChanged), new[] { sender, fileSystemEventArgs });
+            }
+            else
+            {
+                if (fileSystemEventArgs.ChangeType == WatcherChangeTypes.Created)
+                {
+                    CurrentSynchronization.StatusList.Add(new StatusDetail()
+                    {
+                        SourceFile = fileSystemEventArgs.FullPath
+                    });
+                }
+            }            
+
+            RefreshGrid();
+        }
+
+        private void CurrentSynchronizationOnOnFileRenamed(object sender, RenamedEventArgs renamedEventArgs)
+        {
+            RefreshGrid();
+        }
+
+        delegate void RefreshGridCallback();
+
+        public void RefreshGrid()
+        {
+            // InvokeRequired required compares the thread ID of the
+            // calling thread to the thread ID of the creating thread.
+            // If these threads are different, it returns true.
+            if (this.dataGridViewSynchronization.InvokeRequired)
+            {
+                this.Invoke(new RefreshGridCallback(RefreshGrid));
+            }
+            else
+            {
+                this.dataGridViewSynchronization.Refresh();
             }
         }
 
@@ -157,20 +203,6 @@ namespace AutoRenamer.Panels
         private void SynchRow(DataGridViewRow dataGridViewRow, Guid batchId)
         {
             Tasks.AddTask(new RenameAndCopyTasks(batchId, (StatusDetail)dataGridViewRow.DataBoundItem));
-
-            /*var statusDetail = (StatusDetail) dataGridViewRow.DataBoundItem;
-            try
-            {
-                _synchronizer.Synch(statusDetail, batchId);
-            }
-            catch (Exception ex)
-            {
-                var msg = $"Unexpected error: {ex.Message}. Stack trace: {ex.StackTrace}";
-                log.Error(msg);
-                statusDetail.Reason = msg;
-                statusDetail.Status = StatusEnum.Error;
-            }
-            dataGridViewSynchronization.Refresh();*/
         }
 
         private IEnumerable<DataGridViewRow> GetSelectedRows()

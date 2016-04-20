@@ -1,31 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Synchronization xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <StatusList>
-    <StatusDetail SourceFile="D:\Projects\Ben\AutoRenamer\Examples\Source\Castle (2009) - 1x02 - Nanny McDead.avi" DestinationFile="D:\Projects\Ben\AutoRenamer\Examples\Destination\Castle (2009)\Castle (2009) - S01E02 - Nanny McDead.avi" DestinationFolder="D:\Projects\Ben\AutoRenamer\Examples\Destination" Status="NotSynched" SynchDate="2016-04-12T09:54:22.8041588+02:00" SourceFileStillExist="true">
+    <StatusDetail SourceFile="D:\Projects\Ben\AutoRenamer\Examples\Source\Avatar - Copy (2).avi" DestinationFolder="D:\Projects\Ben\AutoRenamer\Examples\Destination" Status="NotSynched" SynchDate="0001-01-01T00:00:00" SourceFileStillExist="true">
       <ReChecked>true</ReChecked>
     </StatusDetail>
-    <StatusDetail SourceFile="D:\Projects\Ben\AutoRenamer\Examples\Source\the.big.bang.theory.s04e01.avi" DestinationFile="D:\Projects\Ben\AutoRenamer\Examples\Destination\The Big Bang Theory\The Big Bang Theory - S04E01 - The Robotic Manipulation.avi" DestinationFolder="D:\Projects\Ben\AutoRenamer\Examples\Destination" Status="Synched" Reason="Cannot detect the tv show for the file: D:\Projects\Ben\AutoRenamer\Examples\Source\the.big.bang.theory.s04e01.avi" SynchDate="2016-04-15T07:58:01.8519439+02:00" SourceFileStillExist="true">
+    <StatusDetail SourceFile="D:\Projects\Ben\AutoRenamer\Examples\Source\Avatar.avi" DestinationFolder="D:\Projects\Ben\AutoRenamer\Examples\Destination" Status="NotSynched" SynchDate="0001-01-01T00:00:00" SourceFileStillExist="true">
+      <ReChecked>true</ReChecked>
+    </StatusDetail>
+    <StatusDetail SourceFile="D:\Projects\Ben\AutoRenamer\Examples\Source\Castle (2009) - 1x02 - Nanny McDead.avi" DestinationFolder="D:\Projects\Ben\AutoRenamer\Examples\Destination" Status="NotSynched" SynchDate="0001-01-01T00:00:00" SourceFileStillExist="true">
+      <ReChecked>true</ReChecked>
+    </StatusDetail>
+    <StatusDetail SourceFile="D:\Projects\Ben\AutoRenamer\Examples\Source\Shrek 2.avi" DestinationFolder="D:\Projects\Ben\AutoRenamer\Examples\Destination" Status="NotSynched" SynchDate="0001-01-01T00:00:00" SourceFileStillExist="true">
+      <ReChecked>true</ReChecked>
+    </StatusDetail>
+    <StatusDetail SourceFile="D:\Projects\Ben\AutoRenamer\Examples\Source\the.big.bang.theory.s04e01.avi" DestinationFolder="D:\Projects\Ben\AutoRenamer\Examples\Destination" Status="NotSynched" SynchDate="0001-01-01T00:00:00" SourceFileStillExist="true">
       <ReChecked>true</ReChecked>
     </StatusDetail>
     <StatusDetail SourceFile="D:\Projects\Ben\AutoRenamer\Examples\Source\the.big.bang.theory.s04e01.txt" DestinationFolder="D:\Projects\Ben\AutoRenamer\Examples\Destination" Status="NotSynched" SynchDate="0001-01-01T00:00:00" SourceFileStillExist="true">
       <ReChecked>true</ReChecked>
     </StatusDetail>
-    <StatusDetail SourceFile="D:\Projects\Ben\AutoRenamer\Examples\Source2\code.black.c01e05 - Copy.mpg" DestinationFile="D:\Projects\Ben\AutoRenamer\Examples\Destination\Code Black\Code Black - -.mpg" DestinationFolder="D:\Projects\Ben\AutoRenamer\Examples\Destination" Status="NotSynched" SynchDate="2016-04-07T11:33:11.5039076+02:00" SourceFileStillExist="false">
+    <StatusDetail SourceFile="D:\Projects\Ben\AutoRenamer\Examples\Source2\code.black.s01e06.mpg" DestinationFolder="D:\Projects\Ben\AutoRenamer\Examples\Destination" Status="NotSynched" SynchDate="0001-01-01T00:00:00" SourceFileStillExist="true">
+      <ReChecked>true</ReChecked>
+    </StatusDetail>
+    <StatusDetail SourceFile="D:\Projects\Ben\AutoRenamer\Examples\Source\Avatar - Copy (3).avi" Status="NotSynched" SynchDate="0001-01-01T00:00:00" SourceFileStillExist="false">
       <ReChecked>false</ReChecked>
     </StatusDetail>
-    <StatusDetail SourceFile="D:\Projects\Ben\AutoRenamer\Examples\Source2\code.black.c01e06.mpg" DestinationFolder="D:\Projects\Ben\AutoRenamer\Examples\Destination" Status="NotSynched" SynchDate="0001-01-01T00:00:00" SourceFileStillExist="false">
+    <StatusDetail SourceFile="D:\Projects\Ben\AutoRenamer\Examples\Source\Avatar - Copy (4).avi" Status="NotSynched" SynchDate="0001-01-01T00:00:00" SourceFileStillExist="false">
       <ReChecked>false</ReChecked>
     </StatusDetail>
-    <StatusDetail SourceFile="D:\Projects\Ben\AutoRenamer\Examples\Source2\code.black.s01e06.mpg" DestinationFile="D:\Projects\Ben\AutoRenamer\Examples\Destination\Code Black\Code Black - S01E06 - In Extremis.mpg" DestinationFolder="D:\Projects\Ben\AutoRenamer\Examples\Destination" Status="Synched" SynchDate="2016-04-15T09:11:04.8507123+02:00" SourceFileStillExist="true">
+    <StatusDetail SourceFile="D:\Projects\Ben\AutoRenamer\Examples\Source\Avatar - Copy.avi" Status="NotSynched" SynchDate="0001-01-01T00:00:00" SourceFileStillExist="false">
+      <ReChecked>false</ReChecked>
+    </StatusDetail>
+    <StatusDetail SourceFile="D:\Projects\Ben\AutoRenamer\Examples\Source\Castle (2009) - 1x02 - Nanny McDead - Copy.avi" Status="NotSynched" SynchDate="0001-01-01T00:00:00" SourceFileStillExist="true">
       <ReChecked>true</ReChecked>
     </StatusDetail>
-    <StatusDetail SourceFile="D:\Projects\Ben\AutoRenamer\Examples\Source\Avatar.avi" DestinationFile="D:\Projects\Ben\AutoRenamer\Examples\Destination\Movies\Avatar (2009)\Avatar (2009).avi" DestinationFolder="D:\Projects\Ben\AutoRenamer\Examples\Destination" Status="Synched" SynchDate="2016-04-19T14:20:44.716227+02:00" SourceFileStillExist="true">
+    <StatusDetail SourceFile="D:\Projects\Ben\AutoRenamer\Examples\Source\Castle (2009) - 1x02 - Nanny McDead - Copy - Copy.avi" Status="NotSynched" SynchDate="0001-01-01T00:00:00" SourceFileStillExist="true">
       <ReChecked>true</ReChecked>
     </StatusDetail>
-    <StatusDetail SourceFile="D:\Projects\Ben\AutoRenamer\Examples\Source\Titanic.avi" DestinationFile="D:\Projects\Ben\AutoRenamer\Examples\Destination\Movies\Titanic (1997)\Titanic (1997).avi" DestinationFolder="D:\Projects\Ben\AutoRenamer\Examples\Destination" Status="Synched" SynchDate="2016-04-19T14:20:53.3068798+02:00" SourceFileStillExist="true">
+    <StatusDetail SourceFile="D:\Projects\Ben\AutoRenamer\Examples\Source\Castle (2010) - 1x02 - Nanny McDead - Copy.avi" DestinationFolder="D:\Projects\Ben\AutoRenamer\Examples\Destination" Status="NotSynched" SynchDate="0001-01-01T00:00:00" SourceFileStillExist="true">
       <ReChecked>true</ReChecked>
     </StatusDetail>
-    <StatusDetail SourceFile="D:\Projects\Ben\AutoRenamer\Examples\Source\Shrek.avi" DestinationFile="D:\Projects\Ben\AutoRenamer\Examples\Destination\Movies\The Source (2011)\The Source (2011).avi" DestinationFolder="D:\Projects\Ben\AutoRenamer\Examples\Destination" Status="Synched" SynchDate="2016-04-19T14:20:35.1235509+02:00" SourceFileStillExist="true">
+    <StatusDetail SourceFile="D:\Projects\Ben\AutoRenamer\Examples\Source\New Text.avi" DestinationFolder="D:\Projects\Ben\AutoRenamer\Examples\Destination" Status="NotSynched" SynchDate="0001-01-01T00:00:00" SourceFileStillExist="true">
+      <ReChecked>true</ReChecked>
+    </StatusDetail>
+    <StatusDetail SourceFile="D:\Projects\Ben\AutoRenamer\Examples\Source\New Text - Copy.avi" DestinationFolder="D:\Projects\Ben\AutoRenamer\Examples\Destination" Status="NotSynched" SynchDate="0001-01-01T00:00:00" SourceFileStillExist="true">
       <ReChecked>true</ReChecked>
     </StatusDetail>
   </StatusList>

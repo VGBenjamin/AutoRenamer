@@ -28,6 +28,7 @@ namespace AutoRenamer
         private TasksQueueManager _tasksQueueManager;
 
         public Synchronization CurrentSynchronization { get; set; }
+        private SynchronizationFactory _synchronizationFactory;
 
         public int SelectedGridRow { get; set; }
         
@@ -51,20 +52,24 @@ namespace AutoRenamer
            
             InitializeComponent();
             log.Debug("Loading");
+            InitSynchronizationFactory();
             LoadCurrentSynchronization();
 
             log.Debug($"Filebot expression: {AutoRenamerConfig.Instance.FilebotExpression.Value}");
         }
 
+        private void InitSynchronizationFactory()
+        {
+            _synchronizationFactory = new SynchronizationFactory();
+            _synchronizationFactory.OnFolderLoading += SynchronizationFactory_OnFolderLoading;
+            _synchronizationFactory.OnFolderLoaded += SynchronizationFactory_OnFolderLoaded;
+            _synchronizationFactory.OnFileLoaded += SynchronizationFactory_OnFileLoaded;
+        }
+
         private void LoadCurrentSynchronization()
         {
-            SynchronizationFactory synchronizationFactory = new SynchronizationFactory();
-            synchronizationFactory.OnFolderLoading += SynchronizationFactory_OnFolderLoading;
-            synchronizationFactory.OnFolderLoaded += SynchronizationFactory_OnFolderLoaded;
-            synchronizationFactory.OnFileLoaded += SynchronizationFactory_OnFileLoaded;
-
             CurrentSynchronization =
-                synchronizationFactory.GetSynchronizationFromFileAndDisk(AutoRenamerConfig.Instance.TreatedXMlPath);
+                _synchronizationFactory.GetSynchronizationFromFileAndDisk(AutoRenamerConfig.Instance.TreatedXMlPath);
 
             _mainUserControl.CurrentSynchronization = CurrentSynchronization;
         }
@@ -150,6 +155,10 @@ namespace AutoRenamer
             CurrentSynchronization.Save();
         }
 
-        
+        private void tsRefresh_Click(object sender, EventArgs e)
+        {
+            LoadCurrentSynchronization();
+            _mainUserControl.RefreshGrid();
+        }
     }
 }

@@ -36,6 +36,7 @@ namespace AutoRenamer.BOL.Objects
 
             //Get from saved file
             var currentSynchronization = Synchronization.DeserializeFromXml(xmlFilePath);
+            currentSynchronization.EnableFolderWatching();
             //Get from the file list
             return LoadUnTreatedFiles(currentSynchronization);
         }
