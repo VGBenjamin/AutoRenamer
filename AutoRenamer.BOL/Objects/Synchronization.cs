@@ -52,20 +52,29 @@ namespace AutoRenamer.BOL.Objects
         {
             foreach (FolderToWatch folderPath in AutoRenamerConfig.Instance.FoldersToWatch)
             {
-                FileSystemWatcher watcher = new FileSystemWatcher
+                if(Directory.Exists(folderPath.Source))
                 {
-                    Path = folderPath.Source,
-                    NotifyFilter = NotifyFilters.LastAccess | NotifyFilters.LastWrite
+                    FileSystemWatcher watcher = new FileSystemWatcher
+                    {
+                        Path = folderPath.Source,
+                        NotifyFilter = NotifyFilters.LastAccess | NotifyFilters.LastWrite
                                    | NotifyFilters.FileName | NotifyFilters.DirectoryName
-                };
+                    };
 
-                // Add event handlers.
-                watcher.Created += OnWatcherFileChanged;
-                watcher.Deleted += OnWatcherFileChanged;
-                watcher.Renamed += OnWatcherRenamed;
+                    // Add event handlers.
+                    watcher.Created += OnWatcherFileChanged;
+                    watcher.Deleted += OnWatcherFileChanged;
+                    watcher.Renamed += OnWatcherRenamed;
 
-                // Begin watching.
-                watcher.EnableRaisingEvents = true;
+                    // Begin watching.
+                    watcher.EnableRaisingEvents = true;
+                }
+                else
+                {
+                    log.Error($"Cannot watch the folder '{folderPath.Source}' because he doesn't exist");
+                }
+
+                
             }
         }
 
