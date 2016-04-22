@@ -46,5 +46,9 @@ namespace AutoRenamer.BOL.Config
                 return (FilesTypesCollection)this["filesTypes"];
             }
         }
+
+        [ConfigurationProperty("preferenceSettigns")]
+        public ConfigurationTextElement<string> PreferenceSettigns { get { return (ConfigurationTextElement<string>)this["preferenceSettigns"]; } }
+        
     }
 }

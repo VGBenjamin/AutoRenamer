@@ -70,7 +70,7 @@ namespace AutoRenamer.BOL.Objects
                 }
 
                 log.Debug($"Listing the files from '{folderPath.Source}'");
-                var files = Directory.GetFiles(folderPath.Source);
+                var files = Directory.GetFiles(folderPath.Source, "*", folderPath.IncludeSubdirectories? SearchOption.AllDirectories : SearchOption.TopDirectoryOnly);
                 OnFolderLoading?.Invoke(this, new FolderLoadingEventArgs(folderPath.Source, AutoRenamerConfig.Instance.FoldersToWatch.Count, folderTreated, files.Length));
 
                 foreach (var file in files)

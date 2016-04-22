@@ -58,7 +58,8 @@ namespace AutoRenamer.BOL.Objects
                     {
                         Path = folderPath.Source,
                         NotifyFilter = NotifyFilters.LastAccess | NotifyFilters.LastWrite
-                                   | NotifyFilters.FileName | NotifyFilters.DirectoryName
+                                   | NotifyFilters.FileName | NotifyFilters.DirectoryName,
+                        IncludeSubdirectories = folderPath.IncludeSubdirectories
                     };
 
                     // Add event handlers.

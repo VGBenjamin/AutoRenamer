@@ -139,7 +139,7 @@ namespace AutoRenamer.Tasks
                 CreateDirectory(new DirectoryInfo(directory));
 
                 log.Info($"Copying from: '{statusDetail.SourceFile}' to '{targetPath}'");
-                var fileCopier = new CustomFileCopier(statusDetail.SourceFile, targetPath);
+                var fileCopier = new CustomFileCopier(statusDetail.SourceFile, targetPath, this);
                 fileCopier.OnProgressChanged += (double persentage, ref bool cancel) =>
                 {
                     IncrementProgress(10 + (int)((persentage/100)*90)); //10% for the name the rest for the copy

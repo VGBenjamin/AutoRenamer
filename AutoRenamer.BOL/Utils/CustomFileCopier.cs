@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
+using AutoRenamer.BOL.Objects.TasksQueue;
 
 namespace AutoRenamer.BOL.Utils
 {
@@ -13,8 +14,11 @@ namespace AutoRenamer.BOL.Utils
 
     public class CustomFileCopier
     {
-        public CustomFileCopier(string Source, string Dest)
+        private readonly ITask _task;
+
+        public CustomFileCopier(string Source, string Dest, ITask task)
         {
+            _task = task;
             this.SourceFilePath = Source;
             this.DestFilePath = Dest;
 
@@ -38,17 +42,15 @@ namespace AutoRenamer.BOL.Utils
 
                     while ((currentBlockSize = source.Read(buffer, 0, buffer.Length)) > 0)
                     {
-                        #if DEBUG
-                        Thread.Sleep(10);
-                        #endif
-
                         totalBytes += currentBlockSize;
                         double persentage = (double)totalBytes * 100.0 / fileLength;
 
                         dest.Write(buffer, 0, currentBlockSize);
 
+                        CheckPause();
+
                         cancelFlag = false;
-                        OnProgressChanged(persentage, ref cancelFlag);
+                        OnProgressChanged?.Invoke(persentage, ref cancelFlag);
 
                         if (cancelFlag == true)
                         {
@@ -60,6 +62,14 @@ namespace AutoRenamer.BOL.Utils
             }
 
             OnComplete();
+        }
+
+        private void CheckPause()
+        {
+            while (_task.Paused)
+            {
+                Thread.Sleep(500);
+            }
         }
 
         public string SourceFilePath { get; set; }

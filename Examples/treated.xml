@@ -7,13 +7,13 @@
     <StatusDetail SourceFile="D:\Projects\Ben\AutoRenamer\Examples\Source\Avatar.avi" DestinationFolder="D:\Projects\Ben\AutoRenamer\Examples\Destination" Status="NotSynched" SynchDate="0001-01-01T00:00:00" SourceFileStillExist="true">
       <ReChecked>true</ReChecked>
     </StatusDetail>
-    <StatusDetail SourceFile="D:\Projects\Ben\AutoRenamer\Examples\Source\Castle (2009) - 1x02 - Nanny McDead.avi" DestinationFolder="D:\Projects\Ben\AutoRenamer\Examples\Destination" Status="NotSynched" SynchDate="0001-01-01T00:00:00" SourceFileStillExist="true">
+    <StatusDetail SourceFile="D:\Projects\Ben\AutoRenamer\Examples\Source\Castle (2009) - 1x02 - Nanny McDead.avi" DestinationFile="D:\Projects\Ben\AutoRenamer\Examples\Destination\TV Shows\Castle (2009)\Season 01\Castle (2009) - S01E02 - Nanny McDead.avi" DestinationFolder="D:\Projects\Ben\AutoRenamer\Examples\Destination" Status="Synched" SynchDate="2016-04-21T11:07:39.0345152+02:00" SourceFileStillExist="true">
       <ReChecked>true</ReChecked>
     </StatusDetail>
-    <StatusDetail SourceFile="D:\Projects\Ben\AutoRenamer\Examples\Source\Shrek 2.avi" DestinationFolder="D:\Projects\Ben\AutoRenamer\Examples\Destination" Status="NotSynched" SynchDate="0001-01-01T00:00:00" SourceFileStillExist="true">
+    <StatusDetail SourceFile="D:\Projects\Ben\AutoRenamer\Examples\Source\Shrek 2.avi" DestinationFile="D:\Projects\Ben\AutoRenamer\Examples\Destination\Movies\Shrek 2 (2004)\Shrek 2 (2004).avi" DestinationFolder="D:\Projects\Ben\AutoRenamer\Examples\Destination" Status="Synched" SynchDate="2016-04-21T11:08:16.3016529+02:00" SourceFileStillExist="true">
       <ReChecked>true</ReChecked>
     </StatusDetail>
-    <StatusDetail SourceFile="D:\Projects\Ben\AutoRenamer\Examples\Source\the.big.bang.theory.s04e01.avi" DestinationFolder="D:\Projects\Ben\AutoRenamer\Examples\Destination" Status="NotSynched" SynchDate="0001-01-01T00:00:00" SourceFileStillExist="true">
+    <StatusDetail SourceFile="D:\Projects\Ben\AutoRenamer\Examples\Source\the.big.bang.theory.s04e01.avi" DestinationFile="D:\Projects\Ben\AutoRenamer\Examples\Destination\TV Shows\The Big Bang Theory\Season 04\The Big Bang Theory - S04E01 - The Robotic Manipulation.avi" DestinationFolder="D:\Projects\Ben\AutoRenamer\Examples\Destination" Status="Synched" SynchDate="2016-04-21T11:04:01.0013276+02:00" SourceFileStillExist="true">
       <ReChecked>true</ReChecked>
     </StatusDetail>
     <StatusDetail SourceFile="D:\Projects\Ben\AutoRenamer\Examples\Source\the.big.bang.theory.s04e01.txt" DestinationFolder="D:\Projects\Ben\AutoRenamer\Examples\Destination" Status="NotSynched" SynchDate="0001-01-01T00:00:00" SourceFileStillExist="true">
