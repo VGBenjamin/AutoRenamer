@@ -24,6 +24,8 @@ namespace AutoRenamer.Panels
 
         private BindingSource _bindingSource;
 
+        private bool _inPause = false;
+
         public QueueUserControl(TasksQueue tasksQueue)
         {
             Tasks = tasksQueue;
@@ -56,7 +58,9 @@ namespace AutoRenamer.Panels
         private void TaskOnOnTaskFinished(object sender, EventArgs eventArgs)
         {
             //_bindingSource.ResetBindings(false);
-            
+            dataGridViewQueue.Refresh();
+
+            btnPause.Enabled = Tasks.TasksList.Any();
         }
 
         private void btnUp_Click(object sender, EventArgs e)
@@ -89,6 +93,17 @@ namespace AutoRenamer.Panels
             else
             {
                 this.dataGridViewQueue.Refresh();
+            }
+        }
+
+        private void btnPause_Click(object sender, EventArgs e)
+        {
+            _inPause = !_inPause;
+            var currentTask = Tasks.TasksList.FirstOrDefault();
+            if (currentTask != null)
+            {
+                currentTask.Paused = _inPause;
+                this.btnPause.Image = _inPause ? Properties.Resources.Play : Properties.Resources.Pause;
             }
         }
     }

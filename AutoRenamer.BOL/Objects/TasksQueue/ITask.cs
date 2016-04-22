@@ -20,9 +20,12 @@ namespace AutoRenamer.BOL.Objects.TasksQueue
         string Description { get; set; }
 
         ITask Execute();
-
         
         event TaskFinishedEventHandler OnTaskFinished;
         event ProgressChangedEventHandler OnProgressChanged;
+
+        bool Paused { get; set; }
+
+
     }
 }

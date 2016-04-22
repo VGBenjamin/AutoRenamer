@@ -153,12 +153,43 @@ namespace AutoRenamer
         private void MainForm_FormClosing(object sender, FormClosingEventArgs e)
         {
             CurrentSynchronization.Save();
+            dockPanel.SaveAsXml(AutoRenamerConfig.Instance.);
         }
 
         private void tsRefresh_Click(object sender, EventArgs e)
         {
+            
+        }
+
+        private void displayBaseSourceDirectoryToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void refreshToolStripMenuItem_Click(object sender, EventArgs e)
+        {
             LoadCurrentSynchronization();
             _mainUserControl.RefreshGrid();
+        }
+
+        private void saveToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            CurrentSynchronization.Save();
+        }
+
+        private void sourceDirectoryToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            _mainUserControl.DisplaySourceDirectory = sourceDirectoryToolStripMenuItem.Checked = !sourceDirectoryToolStripMenuItem.Checked;
+        }
+
+        private void destinationDirectoryToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            _mainUserControl.DisplayDestinationDirectory = destinationDirectoryToolStripMenuItem.Checked = !destinationDirectoryToolStripMenuItem.Checked;
         }
     }
 }

@@ -21,5 +21,14 @@ namespace AutoRenamer.BOL.Config
                 return (string)base["destination"];
             }
         }
+
+        [ConfigurationProperty("includeSubdirectories", IsRequired = true)]
+        public bool IncludeSubdirectories
+        {
+            get
+            {
+                return (bool)base["includeSubdirectories"];
+            }
+        }
     }
 }

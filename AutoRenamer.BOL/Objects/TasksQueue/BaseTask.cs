@@ -19,6 +19,9 @@ namespace AutoRenamer.BOL.Objects.TasksQueue
         public string Title { get; set; }
         public string Description { get; set; }
 
+        public bool Paused { get; set; }
+
+
         protected BaseTask(Guid taskBatchId, string title, string description)
         {
             TaskId = Guid.NewGuid();

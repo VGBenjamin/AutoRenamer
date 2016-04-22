@@ -30,6 +30,9 @@ namespace AutoRenamer.Panels
 
         public int SelectedGridRow { get; set; }
 
+        public bool DisplaySourceDirectory { get; set; }
+        public bool DisplayDestinationDirectory { get; set; }
+
         #region menu properties
         public ContextMenu GridContextMenu { get; set; }
         public MenuItem ExcludeMenuItem { get; set; }
@@ -49,6 +52,8 @@ namespace AutoRenamer.Panels
                 _currentSynchronization.OnFileRenamed += CurrentSynchronizationOnOnFileRenamed;
                 _currentSynchronization.OnFileAdded += CurrentSynchronizationOnOnFileChanged;
                 _currentSynchronization.OnFileDeleted += CurrentSynchronizationOnOnFileChanged;
+
+                SetDataPropertyNameOffileColumns();
                 dataGridViewSynchronization.DataSource = _currentSynchronization.StatusList;
             }
         }
@@ -92,8 +97,21 @@ namespace AutoRenamer.Panels
             }
             else
             {
+                SetDataPropertyNameOffileColumns();
+
                 this.dataGridViewSynchronization.Refresh();
             }
+        }
+
+        private void SetDataPropertyNameOffileColumns()
+        {
+            this.dataGridViewSynchronization.Columns["SourceFileColumn"].DataPropertyName = DisplaySourceDirectory
+                ? "SourceFile"
+                : "SourceFileWithoutDirectory";
+
+            this.dataGridViewSynchronization.Columns["DestinationFileColumn"].DataPropertyName = DisplaySourceDirectory
+                ? "DestinationFile"
+                : "DestinationFileWithoutDirectory";
         }
 
         #endregion
