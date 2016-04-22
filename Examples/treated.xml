@@ -1,49 +1,301 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Synchronization xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <StatusList>
-    <StatusDetail SourceFile="D:\Projects\Ben\AutoRenamer\Examples\Source\Avatar - Copy (2).avi" DestinationFolder="D:\Projects\Ben\AutoRenamer\Examples\Destination" Status="NotSynched" SynchDate="0001-01-01T00:00:00" SourceFileStillExist="true">
+    <StatusDetail SourceFile="D:\Torrent - Fini\ASCRD4BF.v101HOTFIXUPDATE.CRACK.V6.rar" DestinationFolder="H:\" Status="NotSynched" SynchDate="0001-01-01T00:00:00" SourceFileStillExist="true">
       <ReChecked>true</ReChecked>
     </StatusDetail>
-    <StatusDetail SourceFile="D:\Projects\Ben\AutoRenamer\Examples\Source\Avatar.avi" DestinationFolder="D:\Projects\Ben\AutoRenamer\Examples\Destination" Status="NotSynched" SynchDate="0001-01-01T00:00:00" SourceFileStillExist="true">
+    <StatusDetail SourceFile="D:\Torrent - Fini\Assassins Creed IV Black Flag - CRACK ONLY - [vtv].7z" DestinationFolder="H:\" Status="NotSynched" SynchDate="0001-01-01T00:00:00" SourceFileStillExist="true">
       <ReChecked>true</ReChecked>
     </StatusDetail>
-    <StatusDetail SourceFile="D:\Projects\Ben\AutoRenamer\Examples\Source\Castle (2009) - 1x02 - Nanny McDead.avi" DestinationFolder="D:\Projects\Ben\AutoRenamer\Examples\Destination" Status="NotSynched" SynchDate="0001-01-01T00:00:00" SourceFileStillExist="true">
+    <StatusDetail SourceFile="D:\Torrent - Fini\Blood.and.Oil.2015.S01E03.FASTSUB.VOSTFR.HDTV.XviD-ZT.www.Cpasbien.pw.avi" DestinationFolder="H:\" Status="NotSynched" SynchDate="0001-01-01T00:00:00" SourceFileStillExist="true">
       <ReChecked>true</ReChecked>
     </StatusDetail>
-    <StatusDetail SourceFile="D:\Projects\Ben\AutoRenamer\Examples\Source\Shrek 2.avi" DestinationFolder="D:\Projects\Ben\AutoRenamer\Examples\Destination" Status="NotSynched" SynchDate="0001-01-01T00:00:00" SourceFileStillExist="true">
+    <StatusDetail SourceFile="D:\Torrent - Fini\Blood.and.Oil.2015.S01E04.FASTSUB.VOSTFR.HDTV.XviD-ZT.www.Cpasbien.pw.avi" DestinationFolder="H:\" Status="NotSynched" SynchDate="0001-01-01T00:00:00" SourceFileStillExist="true">
       <ReChecked>true</ReChecked>
     </StatusDetail>
-    <StatusDetail SourceFile="D:\Projects\Ben\AutoRenamer\Examples\Source\the.big.bang.theory.s04e01.avi" DestinationFolder="D:\Projects\Ben\AutoRenamer\Examples\Destination" Status="NotSynched" SynchDate="0001-01-01T00:00:00" SourceFileStillExist="true">
+    <StatusDetail SourceFile="D:\Torrent - Fini\Blood.and.Oil.S01E02.FASTSUB.VOSTFR.HDTV.XviD-ZT.www.CpasBien.pw.avi" DestinationFolder="H:\" Status="NotSynched" SynchDate="0001-01-01T00:00:00" SourceFileStillExist="true">
       <ReChecked>true</ReChecked>
     </StatusDetail>
-    <StatusDetail SourceFile="D:\Projects\Ben\AutoRenamer\Examples\Source\the.big.bang.theory.s04e01.txt" DestinationFolder="D:\Projects\Ben\AutoRenamer\Examples\Destination" Status="NotSynched" SynchDate="0001-01-01T00:00:00" SourceFileStillExist="true">
+    <StatusDetail SourceFile="D:\Torrent - Fini\Bridge.of.Spies.2015.HDRip.XviD.AC3-EVO.avi" DestinationFolder="H:\" Status="NotSynched" SynchDate="0001-01-01T00:00:00" SourceFileStillExist="true">
       <ReChecked>true</ReChecked>
     </StatusDetail>
-    <StatusDetail SourceFile="D:\Projects\Ben\AutoRenamer\Examples\Source2\code.black.s01e06.mpg" DestinationFolder="D:\Projects\Ben\AutoRenamer\Examples\Destination" Status="NotSynched" SynchDate="0001-01-01T00:00:00" SourceFileStillExist="true">
+    <StatusDetail SourceFile="D:\Torrent - Fini\Flying.Home.2014.FRENCH.BDRiP.XViD-AViTECH.avi" DestinationFolder="H:\" Status="NotSynched" SynchDate="0001-01-01T00:00:00" SourceFileStillExist="true">
       <ReChecked>true</ReChecked>
     </StatusDetail>
-    <StatusDetail SourceFile="D:\Projects\Ben\AutoRenamer\Examples\Source\Avatar - Copy (3).avi" Status="NotSynched" SynchDate="0001-01-01T00:00:00" SourceFileStillExist="false">
-      <ReChecked>false</ReChecked>
-    </StatusDetail>
-    <StatusDetail SourceFile="D:\Projects\Ben\AutoRenamer\Examples\Source\Avatar - Copy (4).avi" Status="NotSynched" SynchDate="0001-01-01T00:00:00" SourceFileStillExist="false">
-      <ReChecked>false</ReChecked>
-    </StatusDetail>
-    <StatusDetail SourceFile="D:\Projects\Ben\AutoRenamer\Examples\Source\Avatar - Copy.avi" Status="NotSynched" SynchDate="0001-01-01T00:00:00" SourceFileStillExist="false">
-      <ReChecked>false</ReChecked>
-    </StatusDetail>
-    <StatusDetail SourceFile="D:\Projects\Ben\AutoRenamer\Examples\Source\Castle (2009) - 1x02 - Nanny McDead - Copy.avi" Status="NotSynched" SynchDate="0001-01-01T00:00:00" SourceFileStillExist="true">
+    <StatusDetail SourceFile="D:\Torrent - Fini\Grey's.Anatomys.S12E09.The.Sound.Of.Silence.720p.HDTV.x265.HEVC-Qman[UTR].mkv" DestinationFolder="H:\" Status="NotSynched" SynchDate="0001-01-01T00:00:00" SourceFileStillExist="true">
       <ReChecked>true</ReChecked>
     </StatusDetail>
-    <StatusDetail SourceFile="D:\Projects\Ben\AutoRenamer\Examples\Source\Castle (2009) - 1x02 - Nanny McDead - Copy - Copy.avi" Status="NotSynched" SynchDate="0001-01-01T00:00:00" SourceFileStillExist="true">
+    <StatusDetail SourceFile="D:\Torrent - Fini\Grey's.Anatomys.S12E10.All I Want Is You.720p.HDTV.x265.HEVC-Qman[UTR].mkv" DestinationFolder="H:\" Status="NotSynched" SynchDate="0001-01-01T00:00:00" SourceFileStillExist="true">
       <ReChecked>true</ReChecked>
     </StatusDetail>
-    <StatusDetail SourceFile="D:\Projects\Ben\AutoRenamer\Examples\Source\Castle (2010) - 1x02 - Nanny McDead - Copy.avi" DestinationFolder="D:\Projects\Ben\AutoRenamer\Examples\Destination" Status="NotSynched" SynchDate="0001-01-01T00:00:00" SourceFileStillExist="true">
+    <StatusDetail SourceFile="D:\Torrent - Fini\Grey's.Anatomys.S12E11.Unbreak.My.Heart.720p.HDTV.x265.HEVC-Qman[UTR].mkv" DestinationFolder="H:\" Status="NotSynched" SynchDate="0001-01-01T00:00:00" SourceFileStillExist="true">
       <ReChecked>true</ReChecked>
     </StatusDetail>
-    <StatusDetail SourceFile="D:\Projects\Ben\AutoRenamer\Examples\Source\New Text.avi" DestinationFolder="D:\Projects\Ben\AutoRenamer\Examples\Destination" Status="NotSynched" SynchDate="0001-01-01T00:00:00" SourceFileStillExist="true">
+    <StatusDetail SourceFile="D:\Torrent - Fini\Jekyll.And.Hyde.S01E01.FASTSUB.VOSTFR.HDTV.XviD-ZT.www.Cpasbien.pw.avi" DestinationFolder="H:\" Status="NotSynched" SynchDate="0001-01-01T00:00:00" SourceFileStillExist="true">
       <ReChecked>true</ReChecked>
     </StatusDetail>
-    <StatusDetail SourceFile="D:\Projects\Ben\AutoRenamer\Examples\Source\New Text - Copy.avi" DestinationFolder="D:\Projects\Ben\AutoRenamer\Examples\Destination" Status="NotSynched" SynchDate="0001-01-01T00:00:00" SourceFileStillExist="true">
+    <StatusDetail SourceFile="D:\Torrent - Fini\Madam.Secretary.S02E03.FASTSUB.VOSTFR.HDTV.XviD-ZT.www.Cpasbien.pw.avi" DestinationFolder="H:\" Status="NotSynched" SynchDate="0001-01-01T00:00:00" SourceFileStillExist="true">
+      <ReChecked>true</ReChecked>
+    </StatusDetail>
+    <StatusDetail SourceFile="D:\Torrent - Fini\Madam.Secretary.S02E04.FASTSUB.VOSTFR.HDTV.XviD-ZT.www.Cpasbien.io.avi" DestinationFolder="H:\" Status="NotSynched" SynchDate="0001-01-01T00:00:00" SourceFileStillExist="true">
+      <ReChecked>true</ReChecked>
+    </StatusDetail>
+    <StatusDetail SourceFile="D:\Torrent - Fini\Madam.Secretary.S02E10.FASTSUB.VOSTFR.HDTV.XviD-ZT.www.CpasBien.io.avi" DestinationFolder="H:\" Status="NotSynched" SynchDate="0001-01-01T00:00:00" SourceFileStillExist="true">
+      <ReChecked>true</ReChecked>
+    </StatusDetail>
+    <StatusDetail SourceFile="D:\Torrent - Fini\The.5th.Wave.2016.PROPER.HDRip.700MB.MkvCage.mkv" DestinationFolder="H:\" Status="NotSynched" SynchDate="0001-01-01T00:00:00" SourceFileStillExist="true">
+      <ReChecked>true</ReChecked>
+    </StatusDetail>
+    <StatusDetail SourceFile="D:\Torrent - Fini\The.Magicians.S01E01.FASTSUB.VOSTFR.HDTV.XviD-ZT.avi" DestinationFolder="H:\" Status="NotSynched" SynchDate="0001-01-01T00:00:00" SourceFileStillExist="true">
+      <ReChecked>true</ReChecked>
+    </StatusDetail>
+    <StatusDetail SourceFile="D:\Torrent - Fini\Vice Versa.2015.DVDRip.Francais.Film.Complet.avi" DestinationFolder="H:\" Status="NotSynched" SynchDate="0001-01-01T00:00:00" SourceFileStillExist="true">
+      <ReChecked>true</ReChecked>
+    </StatusDetail>
+    <StatusDetail SourceFile="D:\Torrent - Fini\Wolf.Hall - S01E01 - Pilot.avi" DestinationFolder="H:\" Status="NotSynched" SynchDate="0001-01-01T00:00:00" SourceFileStillExist="true">
+      <ReChecked>true</ReChecked>
+    </StatusDetail>
+    <StatusDetail SourceFile="D:\Torrent - Fini\[ www.CpasBien.cm ] Admiral.2015.FRENCH.BDRip.XviD-ViVi.avi" DestinationFolder="H:\" Status="NotSynched" SynchDate="0001-01-01T00:00:00" SourceFileStillExist="true">
+      <ReChecked>true</ReChecked>
+    </StatusDetail>
+    <StatusDetail SourceFile="D:\Torrent - Fini\[ www.CpasBien.cm ] Concussion.2015.FRENCH.BDRip.XviD-ViVi.avi" DestinationFolder="H:\" Status="NotSynched" SynchDate="0001-01-01T00:00:00" SourceFileStillExist="true">
+      <ReChecked>true</ReChecked>
+    </StatusDetail>
+    <StatusDetail SourceFile="D:\Torrent - Fini\[ www.CpasBien.cm ] Dissonance.2015.FANSUB.VOSTFR.WEBRip.X264.AC3-Hcar1.mkv" DestinationFolder="H:\" Status="NotSynched" SynchDate="0001-01-01T00:00:00" SourceFileStillExist="true">
+      <ReChecked>true</ReChecked>
+    </StatusDetail>
+    <StatusDetail SourceFile="D:\Torrent - Fini\[ www.CpasBien.cm ] Greys.Anatomy.S12E14.PROPER.VOSTFR.WEB-DL.XviD-McSteamy.avi" DestinationFolder="H:\" Status="NotSynched" SynchDate="0001-01-01T00:00:00" SourceFileStillExist="true">
+      <ReChecked>true</ReChecked>
+    </StatusDetail>
+    <StatusDetail SourceFile="D:\Torrent - Fini\[ www.CpasBien.cm ] Greys.Anatomy.S12E15.PROPER.VOSTFR.WEB-DL.XviD-McSteamy.avi" DestinationFolder="H:\" Status="NotSynched" SynchDate="0001-01-01T00:00:00" SourceFileStillExist="true">
+      <ReChecked>true</ReChecked>
+    </StatusDetail>
+    <StatusDetail SourceFile="D:\Torrent - Fini\[ www.CpasBien.cm ] Greys.Anatomy.S12E16.FASTSUB.VOSTFR.HDTV.XviD-ZT.avi" DestinationFolder="H:\" Status="NotSynched" SynchDate="0001-01-01T00:00:00" SourceFileStillExist="true">
+      <ReChecked>true</ReChecked>
+    </StatusDetail>
+    <StatusDetail SourceFile="D:\Torrent - Fini\[ www.CpasBien.cm ] Kung.Fu.Panda.Les.secrets.du.rouleau.2016.FRENCH.SUBFORCED.WEBRip.720p.h264.2.0.AC3-FlaW313.mkv" DestinationFolder="H:\" Status="NotSynched" SynchDate="0001-01-01T00:00:00" SourceFileStillExist="true">
+      <ReChecked>true</ReChecked>
+    </StatusDetail>
+    <StatusDetail SourceFile="D:\Torrent - Fini\[ www.CpasBien.cm ] La.Treve.S01E01.FRENCH.HDTV.XviD-ZT.avi" DestinationFolder="H:\" Status="NotSynched" SynchDate="0001-01-01T00:00:00" SourceFileStillExist="true">
+      <ReChecked>true</ReChecked>
+    </StatusDetail>
+    <StatusDetail SourceFile="D:\Torrent - Fini\[ www.CpasBien.cm ] Madam.Secretary.S02E15.FASTSUB.VOSTFR.HDTV.XviD-ZT.avi" DestinationFolder="H:\" Status="NotSynched" SynchDate="0001-01-01T00:00:00" SourceFileStillExist="true">
+      <ReChecked>true</ReChecked>
+    </StatusDetail>
+    <StatusDetail SourceFile="D:\Torrent - Fini\[ www.CpasBien.cm ] Madoff.S01E01.FASTSUB.VOSTFR.HDTV.XviD-ZT.avi" DestinationFolder="H:\" Status="NotSynched" SynchDate="0001-01-01T00:00:00" SourceFileStillExist="true">
+      <ReChecked>true</ReChecked>
+    </StatusDetail>
+    <StatusDetail SourceFile="D:\Torrent - Fini\[ www.CpasBien.cm ] Point.Break.2015.FRENCH.BDRip.XViD-FUNKKY.avi" DestinationFolder="H:\" Status="NotSynched" SynchDate="0001-01-01T00:00:00" SourceFileStillExist="true">
+      <ReChecked>true</ReChecked>
+    </StatusDetail>
+    <StatusDetail SourceFile="D:\Torrent - Fini\[ www.CpasBien.cm ] Room.2015.FRENCH.BDRip.x264-ToxiK.mkv" DestinationFolder="H:\" Status="NotSynched" SynchDate="0001-01-01T00:00:00" SourceFileStillExist="true">
+      <ReChecked>true</ReChecked>
+    </StatusDetail>
+    <StatusDetail SourceFile="D:\Torrent - Fini\[ www.CpasBien.cm ] Star.Wars.Episode.VII.The.Force.Awakens.2015.TRUEFRENCH.BRRip.XviD-FUNKKY.avi" DestinationFolder="H:\" Status="NotSynched" SynchDate="0001-01-01T00:00:00" SourceFileStillExist="true">
+      <ReChecked>true</ReChecked>
+    </StatusDetail>
+    <StatusDetail SourceFile="D:\Torrent - Fini\[ www.CpasBien.cm ] Star.Wars.Episode.VII.The.Force.Awakens.2015.VOSTFR.720p.BluRay.x264-CherryCoke.mkv" DestinationFolder="H:\" Status="NotSynched" SynchDate="0001-01-01T00:00:00" SourceFileStillExist="true">
+      <ReChecked>true</ReChecked>
+    </StatusDetail>
+    <StatusDetail SourceFile="D:\Torrent - Fini\[ www.CpasBien.cm ] The.Big.Short.2015.FRENCH.BDRiP.XViD-AViTECH.avi" DestinationFolder="H:\" Status="NotSynched" SynchDate="0001-01-01T00:00:00" SourceFileStillExist="true">
+      <ReChecked>true</ReChecked>
+    </StatusDetail>
+    <StatusDetail SourceFile="D:\Torrent - Fini\[ www.CpasBien.cm ] The.Catch.US.S01E01.FASTSUB.VOSTR.HDTV.XviD-ZT.avi" DestinationFolder="H:\" Status="NotSynched" SynchDate="0001-01-01T00:00:00" SourceFileStillExist="true">
+      <ReChecked>true</ReChecked>
+    </StatusDetail>
+    <StatusDetail SourceFile="D:\Torrent - Fini\[ www.CpasBien.cm ] The.Catch.US.S01E02.FASTSUB.VOSTFR.HDTV.XviD-ZT.avi" DestinationFolder="H:\" Status="NotSynched" SynchDate="0001-01-01T00:00:00" SourceFileStillExist="true">
+      <ReChecked>true</ReChecked>
+    </StatusDetail>
+    <StatusDetail SourceFile="D:\Torrent - Fini\[ www.CpasBien.cm ] The.Hunger.Games.Mockingjay.Part.2.2015.FRENCH.BluRay.720p.x264.AC3-KiKi.mkv" DestinationFolder="H:\" Status="NotSynched" SynchDate="0001-01-01T00:00:00" SourceFileStillExist="true">
+      <ReChecked>true</ReChecked>
+    </StatusDetail>
+    <StatusDetail SourceFile="D:\Torrent - Fini\[ www.CpasBien.cm ] The.Night.Manager.S01E01.FASTSUB.VOSTFR.HDTV.XviD-ZT.avi" DestinationFolder="H:\" Status="NotSynched" SynchDate="0001-01-01T00:00:00" SourceFileStillExist="true">
+      <ReChecked>true</ReChecked>
+    </StatusDetail>
+    <StatusDetail SourceFile="D:\Torrent - Fini\[ www.CpasBien.com ] Madam.Secretary.S02E14.FASTSUB.VOSTFR.HDTV.XviD-Yn1D.avi" DestinationFolder="H:\" Status="NotSynched" SynchDate="0001-01-01T00:00:00" SourceFileStillExist="true">
+      <ReChecked>true</ReChecked>
+    </StatusDetail>
+    <StatusDetail SourceFile="D:\Torrent - Fini\[ www.CpasBien.io ] 400.Days.2015.TRUEFRENCH.SUBFORCED.DVDRIP.XVid-LYS.avi" DestinationFolder="H:\" Status="NotSynched" SynchDate="0001-01-01T00:00:00" SourceFileStillExist="true">
+      <ReChecked>true</ReChecked>
+    </StatusDetail>
+    <StatusDetail SourceFile="D:\Torrent - Fini\[ www.CpasBien.io ] Anomalia.S01E01.FRENCH.HDTV.XviD-ZT.avi" DestinationFolder="H:\" Status="NotSynched" SynchDate="0001-01-01T00:00:00" SourceFileStillExist="true">
+      <ReChecked>true</ReChecked>
+    </StatusDetail>
+    <StatusDetail SourceFile="D:\Torrent - Fini\[ www.CpasBien.io ] Bridge.of.Spies.2015.FRENCH.720p.BluRay.x264-ULS.mkv" DestinationFolder="H:\" Status="NotSynched" SynchDate="0001-01-01T00:00:00" SourceFileStillExist="true">
+      <ReChecked>true</ReChecked>
+    </StatusDetail>
+    <StatusDetail SourceFile="D:\Torrent - Fini\[ www.CpasBien.io ] Code.Black.S01E15.FASTSUB.VOSTFR.HDTV.XviD-ZT.avi" DestinationFolder="H:\" Status="NotSynched" SynchDate="0001-01-01T00:00:00" SourceFileStillExist="true">
+      <ReChecked>true</ReChecked>
+    </StatusDetail>
+    <StatusDetail SourceFile="D:\Torrent - Fini\[ www.CpasBien.io ] Code.Black.S01E16.FASTSUB.VOSTFR.HDTV.XviD-ZT.avi" DestinationFolder="H:\" Status="NotSynched" SynchDate="0001-01-01T00:00:00" SourceFileStillExist="true">
+      <ReChecked>true</ReChecked>
+    </StatusDetail>
+    <StatusDetail SourceFile="D:\Torrent - Fini\[ www.CpasBien.io ] Colony.S01E02.FASTSUB.VOSTFR.HDTV.XviD-ZT.avi" DestinationFolder="H:\" Status="NotSynched" SynchDate="0001-01-01T00:00:00" SourceFileStillExist="true">
+      <ReChecked>true</ReChecked>
+    </StatusDetail>
+    <StatusDetail SourceFile="D:\Torrent - Fini\[ www.CpasBien.io ] Flesh.and.Bone.S01E02.FASTSUB.VOSTFR.HDTV.XviD-ZT.avi" DestinationFolder="H:\" Status="NotSynched" SynchDate="0001-01-01T00:00:00" SourceFileStillExist="true">
+      <ReChecked>true</ReChecked>
+    </StatusDetail>
+    <StatusDetail SourceFile="D:\Torrent - Fini\[ www.CpasBien.io ] Flesh.and.Bone.S01E03.FRENCH.HDTV.XviD-ZT.avi" DestinationFolder="H:\" Status="NotSynched" SynchDate="0001-01-01T00:00:00" SourceFileStillExist="true">
+      <ReChecked>true</ReChecked>
+    </StatusDetail>
+    <StatusDetail SourceFile="D:\Torrent - Fini\[ www.CpasBien.io ] Flesh.And.Bone.S01E04.FRENCH.HDTV.XviD-ZT.avi" DestinationFolder="H:\" Status="NotSynched" SynchDate="0001-01-01T00:00:00" SourceFileStillExist="true">
+      <ReChecked>true</ReChecked>
+    </StatusDetail>
+    <StatusDetail SourceFile="D:\Torrent - Fini\[ www.CpasBien.io ] Flesh.and.Bone.S01E05.VOSTFR.HDTV.XviD-ZT.avi" DestinationFolder="H:\" Status="NotSynched" SynchDate="0001-01-01T00:00:00" SourceFileStillExist="true">
+      <ReChecked>true</ReChecked>
+    </StatusDetail>
+    <StatusDetail SourceFile="D:\Torrent - Fini\[ www.CpasBien.io ] Flesh.and.Bone.S01E06.VOSTFR.HDTV.XviD-ZT.avi" DestinationFolder="H:\" Status="NotSynched" SynchDate="0001-01-01T00:00:00" SourceFileStillExist="true">
+      <ReChecked>true</ReChecked>
+    </StatusDetail>
+    <StatusDetail SourceFile="D:\Torrent - Fini\[ www.CpasBien.io ] Flesh.and.Bone.S01E07.VOSTFR.HDTV.XviD-ZT.avi" DestinationFolder="H:\" Status="NotSynched" SynchDate="0001-01-01T00:00:00" SourceFileStillExist="true">
+      <ReChecked>true</ReChecked>
+    </StatusDetail>
+    <StatusDetail SourceFile="D:\Torrent - Fini\[ www.CpasBien.io ] Greys.Anatomy.S12E08.FASTSUB.VOSTFR.HDTV.XviD-ZT.avi" DestinationFolder="H:\" Status="NotSynched" SynchDate="0001-01-01T00:00:00" SourceFileStillExist="true">
+      <ReChecked>true</ReChecked>
+    </StatusDetail>
+    <StatusDetail SourceFile="D:\Torrent - Fini\[ www.CpasBien.io ] Hotel.Transylvania.2.2015.FRENCH.720p.BluRay.x264-LOST.mkv" DestinationFolder="H:\" Status="NotSynched" SynchDate="0001-01-01T00:00:00" SourceFileStillExist="true">
+      <ReChecked>true</ReChecked>
+    </StatusDetail>
+    <StatusDetail SourceFile="D:\Torrent - Fini\[ www.CpasBien.io ] Je.suis.a.vous.tout.de.suite.2015.French.BDRip.Xvid.Mogadon.avi" DestinationFolder="H:\" Status="NotSynched" SynchDate="0001-01-01T00:00:00" SourceFileStillExist="true">
+      <ReChecked>true</ReChecked>
+    </StatusDetail>
+    <StatusDetail SourceFile="D:\Torrent - Fini\[ www.CpasBien.io ] Je.Suis.Mort.Mais.J.Ai.Des.Amis.2015.FRENCH.BDRip.XviD-ViVi.avi" DestinationFolder="H:\" Status="NotSynched" SynchDate="0001-01-01T00:00:00" SourceFileStillExist="true">
+      <ReChecked>true</ReChecked>
+    </StatusDetail>
+    <StatusDetail SourceFile="D:\Torrent - Fini\[ www.CpasBien.io ] L.Etudiante.et.Monsieur.Henri.2015.FRENCH.BDRip.x264-PRiDEHD.mkv" DestinationFolder="H:\" Status="NotSynched" SynchDate="0001-01-01T00:00:00" SourceFileStillExist="true">
+      <ReChecked>true</ReChecked>
+    </StatusDetail>
+    <StatusDetail SourceFile="D:\Torrent - Fini\[ www.CpasBien.io ] L.Etudiante.et.Monsieur.Henri.2015.FRENCH.BDRip.XViD-FUNKKY.avi" DestinationFolder="H:\" Status="NotSynched" SynchDate="0001-01-01T00:00:00" SourceFileStillExist="true">
+      <ReChecked>true</ReChecked>
+    </StatusDetail>
+    <StatusDetail SourceFile="D:\Torrent - Fini\[ www.CpasBien.io ] Madam.Secretary.S02E05.FASTSUB.VOSTFR.HDTV.XviD-ZT.avi" DestinationFolder="H:\" Status="NotSynched" SynchDate="0001-01-01T00:00:00" SourceFileStillExist="true">
+      <ReChecked>true</ReChecked>
+    </StatusDetail>
+    <StatusDetail SourceFile="D:\Torrent - Fini\[ www.CpasBien.io ] Madam.Secretary.S02E06.FASTSUB.VOSTFR.HDTV.XviD-ZT.avi" DestinationFolder="H:\" Status="NotSynched" SynchDate="0001-01-01T00:00:00" SourceFileStillExist="true">
+      <ReChecked>true</ReChecked>
+    </StatusDetail>
+    <StatusDetail SourceFile="D:\Torrent - Fini\[ www.CpasBien.io ] Madam.Secretary.S02E07.FASTSUB.VOSTFR.HDTV.XviD-ZT.avi" DestinationFolder="H:\" Status="NotSynched" SynchDate="0001-01-01T00:00:00" SourceFileStillExist="true">
+      <ReChecked>true</ReChecked>
+    </StatusDetail>
+    <StatusDetail SourceFile="D:\Torrent - Fini\[ www.CpasBien.io ] Madam.Secretary.S02E08.FASTSUB.VOSTFR.HDTV.XviD-ZT.avi" DestinationFolder="H:\" Status="NotSynched" SynchDate="0001-01-01T00:00:00" SourceFileStillExist="true">
+      <ReChecked>true</ReChecked>
+    </StatusDetail>
+    <StatusDetail SourceFile="D:\Torrent - Fini\[ www.CpasBien.io ] Madam.Secretary.S02E09.FASTSUB.VOSTFR.HDTV.XviD-ZT.avi" DestinationFolder="H:\" Status="NotSynched" SynchDate="0001-01-01T00:00:00" SourceFileStillExist="true">
+      <ReChecked>true</ReChecked>
+    </StatusDetail>
+    <StatusDetail SourceFile="D:\Torrent - Fini\[ www.CpasBien.io ] Madam.Secretary.S02E11.FASTSUB.VOSTFR.HDTV.XviD-ZT.avi" DestinationFolder="H:\" Status="NotSynched" SynchDate="0001-01-01T00:00:00" SourceFileStillExist="true">
+      <ReChecked>true</ReChecked>
+    </StatusDetail>
+    <StatusDetail SourceFile="D:\Torrent - Fini\[ www.CpasBien.io ] Madam.Secretary.S02E12.FASTSUB.VOSTFR.HDTV.XviD-ZT.avi" DestinationFolder="H:\" Status="NotSynched" SynchDate="0001-01-01T00:00:00" SourceFileStillExist="true">
+      <ReChecked>true</ReChecked>
+    </StatusDetail>
+    <StatusDetail SourceFile="D:\Torrent - Fini\[ www.CpasBien.io ] Madam.Secretary.S02E13.FASTSUB.VOSTFR.HDTV.XviD-ZT.avi" DestinationFolder="H:\" Status="NotSynched" SynchDate="0001-01-01T00:00:00" SourceFileStillExist="true">
+      <ReChecked>true</ReChecked>
+    </StatusDetail>
+    <StatusDetail SourceFile="D:\Torrent - Fini\[ www.CpasBien.io ] Ni.Le.Ciel.Ni.La.Terre.2015.FRENCH.WEBRiP.XViD.AC3-FUNKKY.avi" DestinationFolder="H:\" Status="NotSynched" SynchDate="0001-01-01T00:00:00" SourceFileStillExist="true">
+      <ReChecked>true</ReChecked>
+    </StatusDetail>
+    <StatusDetail SourceFile="D:\Torrent - Fini\[ www.CpasBien.io ] Pan.2015.VOSTFR.BRRiP.XviD-TeamSuW.avi" DestinationFolder="H:\" Status="NotSynched" SynchDate="0001-01-01T00:00:00" SourceFileStillExist="true">
+      <ReChecked>true</ReChecked>
+    </StatusDetail>
+    <StatusDetail SourceFile="D:\Torrent - Fini\[ www.CpasBien.io ] Second.Chance.2016.S01E01.PREAiR.FASTSUB.VOSTFR.WEBRip.XviD-Yn1D.avi" DestinationFolder="H:\" Status="NotSynched" SynchDate="0001-01-01T00:00:00" SourceFileStillExist="true">
+      <ReChecked>true</ReChecked>
+    </StatusDetail>
+    <StatusDetail SourceFile="D:\Torrent - Fini\[ www.CpasBien.io ] Second.Chance.2016.S01E03.FASTSUB.VOSTFR.HDTV.XviD-ZT.avi" DestinationFolder="H:\" Status="NotSynched" SynchDate="0001-01-01T00:00:00" SourceFileStillExist="true">
+      <ReChecked>true</ReChecked>
+    </StatusDetail>
+    <StatusDetail SourceFile="D:\Torrent - Fini\[ www.CpasBien.io ] Spectre 2015 FRENCH 720p BluRay x264-AMNESIA.mkv" DestinationFolder="H:\" Status="NotSynched" SynchDate="0001-01-01T00:00:00" SourceFileStillExist="true">
+      <ReChecked>true</ReChecked>
+    </StatusDetail>
+    <StatusDetail SourceFile="D:\Torrent - Fini\[ www.CpasBien.io ] Stan.Lees.Lucky.Man.S01E01.VOSTFR.HDTV.XviD-ZT.avi" DestinationFolder="H:\" Status="NotSynched" SynchDate="0001-01-01T00:00:00" SourceFileStillExist="true">
+      <ReChecked>true</ReChecked>
+    </StatusDetail>
+    <StatusDetail SourceFile="D:\Torrent - Fini\[ www.CpasBien.io ] Steve.Jobs.2015.FANSUB.VOSTFR.BDRip.XViD-DRONES.avi" DestinationFolder="H:\" Status="NotSynched" SynchDate="0001-01-01T00:00:00" SourceFileStillExist="true">
+      <ReChecked>true</ReChecked>
+    </StatusDetail>
+    <StatusDetail SourceFile="D:\Torrent - Fini\[ www.CpasBien.io ] The Little Prince 2015 FRENCH BDRip XviD-GLUPS.avi" DestinationFolder="H:\" Status="NotSynched" SynchDate="0001-01-01T00:00:00" SourceFileStillExist="true">
+      <ReChecked>true</ReChecked>
+    </StatusDetail>
+    <StatusDetail SourceFile="D:\Torrent - Fini\[ www.CpasBien.io ] The.Art.of.More.S01E01.FASTSUB.VOSTFR.HDTV.XviD-ZT.avi" DestinationFolder="H:\" Status="NotSynched" SynchDate="0001-01-01T00:00:00" SourceFileStillExist="true">
+      <ReChecked>true</ReChecked>
+    </StatusDetail>
+    <StatusDetail SourceFile="D:\Torrent - Fini\[ www.CpasBien.io ] The.Christmas.Dragon.2014.FRENCH.BDRiP.x264-AViTECH.mkv" DestinationFolder="H:\" Status="NotSynched" SynchDate="0001-01-01T00:00:00" SourceFileStillExist="true">
+      <ReChecked>true</ReChecked>
+    </StatusDetail>
+    <StatusDetail SourceFile="D:\Torrent - Fini\[ www.CpasBien.io ] The.Expanse.S01E01.FASTSUB.VOSTFR.HDTV.XviD-ZT.avi" DestinationFolder="H:\" Status="NotSynched" SynchDate="0001-01-01T00:00:00" SourceFileStillExist="true">
+      <ReChecked>true</ReChecked>
+    </StatusDetail>
+    <StatusDetail SourceFile="D:\Torrent - Fini\[ www.CpasBien.io ] The.Magicians.US.S01E02.FASTSUB.VOSTFR.HDTV.XviD-ZT.avi" DestinationFolder="H:\" Status="NotSynched" SynchDate="0001-01-01T00:00:00" SourceFileStillExist="true">
+      <ReChecked>true</ReChecked>
+    </StatusDetail>
+    <StatusDetail SourceFile="D:\Torrent - Fini\[ www.CpasBien.io ] The.Magicians.US.S01E03.FASTSUB.VOSTFR.HDTV.XviD-ZT.avi" DestinationFolder="H:\" Status="NotSynched" SynchDate="0001-01-01T00:00:00" SourceFileStillExist="true">
+      <ReChecked>true</ReChecked>
+    </StatusDetail>
+    <StatusDetail SourceFile="D:\Torrent - Fini\[ www.CpasBien.io ] The.Magicians.US.S01E04.FASTSUB.VOSTFR.HDTV.XviD-ZT.avi" DestinationFolder="H:\" Status="NotSynched" SynchDate="0001-01-01T00:00:00" SourceFileStillExist="true">
+      <ReChecked>true</ReChecked>
+    </StatusDetail>
+    <StatusDetail SourceFile="D:\Torrent - Fini\[ www.CpasBien.io ] The.Magicians.US.S01E05.FASTSUB.VOSTFR.HDTV.XviD-ZT.avi" DestinationFolder="H:\" Status="NotSynched" SynchDate="0001-01-01T00:00:00" SourceFileStillExist="true">
+      <ReChecked>true</ReChecked>
+    </StatusDetail>
+    <StatusDetail SourceFile="D:\Torrent - Fini\[ www.CpasBien.io ] The.Romeo.Section.S01E01.FASTSUB.VOSTFR.HDTV.XviD-ZT.avi" DestinationFolder="H:\" Status="NotSynched" SynchDate="0001-01-01T00:00:00" SourceFileStillExist="true">
+      <ReChecked>true</ReChecked>
+    </StatusDetail>
+    <StatusDetail SourceFile="D:\Torrent - Fini\[ www.CpasBien.io ] The.Saboteurs.S01E01.FASTSUB.VOSTFR.BDRip.XviD-ZT.avi" DestinationFolder="H:\" Status="NotSynched" SynchDate="0001-01-01T00:00:00" SourceFileStillExist="true">
+      <ReChecked>true</ReChecked>
+    </StatusDetail>
+    <StatusDetail SourceFile="D:\Torrent - Fini\[ www.CpasBien.io ] The.X-Files.S10E02.FASTSUB.VOSTFR.HDTV.XviD-TeamSuW.avi" DestinationFolder="H:\" Status="NotSynched" SynchDate="0001-01-01T00:00:00" SourceFileStillExist="true">
+      <ReChecked>true</ReChecked>
+    </StatusDetail>
+    <StatusDetail SourceFile="D:\Torrent - Fini\[ www.CpasBien.io ] The.X-Files.S10E03.FASTSUB.VOSTFR.HDTV.XviD-ZT.avi" DestinationFolder="H:\" Status="NotSynched" SynchDate="0001-01-01T00:00:00" SourceFileStillExist="true">
+      <ReChecked>true</ReChecked>
+    </StatusDetail>
+    <StatusDetail SourceFile="D:\Torrent - Fini\[ www.CpasBien.io ] The.X-Files.S10E04.Vostfr.avi" DestinationFolder="H:\" Status="NotSynched" SynchDate="0001-01-01T00:00:00" SourceFileStillExist="true">
+      <ReChecked>true</ReChecked>
+    </StatusDetail>
+    <StatusDetail SourceFile="D:\Torrent - Fini\[ www.CpasBien.io ] Trapped.S01E01.FRENCH.HDTV.FRENCH.HDTV.x264-LiBERTY.avi" DestinationFolder="H:\" Status="NotSynched" SynchDate="0001-01-01T00:00:00" SourceFileStillExist="true">
+      <ReChecked>true</ReChecked>
+    </StatusDetail>
+    <StatusDetail SourceFile="D:\Torrent - Fini\[ www.CpasBien.io ] Trepalium.S01E01.FRENCH.BDRip.XviD-ZT.avi" DestinationFolder="H:\" Status="NotSynched" SynchDate="0001-01-01T00:00:00" SourceFileStillExist="true">
+      <ReChecked>true</ReChecked>
+    </StatusDetail>
+    <StatusDetail SourceFile="D:\Torrent - Fini\[ www.CpasBien.io ] Une.Famille.A.Louer.2015.FRENCH.BDRip.XViD.AC3-FUNKKY.avi" DestinationFolder="H:\" Status="NotSynched" SynchDate="0001-01-01T00:00:00" SourceFileStillExist="true">
+      <ReChecked>true</ReChecked>
+    </StatusDetail>
+    <StatusDetail SourceFile="D:\Torrent - Fini\[ www.CpasBien.pw ] Blood.&amp;.Oil.S01E01.FASTSUB.VOSTFR.HDTV.XviD-TeamSuW.avi" DestinationFolder="H:\" Status="NotSynched" SynchDate="0001-01-01T00:00:00" SourceFileStillExist="true">
+      <ReChecked>true</ReChecked>
+    </StatusDetail>
+    <StatusDetail SourceFile="D:\Torrent - Fini\[ www.CpasBien.pw ] Citizenfour.2014.LIMITED.DOC.VOSTFR.1080p.BluRay.x264.DTS-exPM5.mkv" DestinationFolder="H:\" Status="NotSynched" SynchDate="0001-01-01T00:00:00" SourceFileStillExist="true">
+      <ReChecked>true</ReChecked>
+    </StatusDetail>
+    <StatusDetail SourceFile="D:\Torrent - Fini\[ www.CpasBien.pw ] Shaun.The.Sheep.Movie.2015.FRENCH.DVDRiP.XViD-AViTECH.avi" DestinationFolder="H:\" Status="NotSynched" SynchDate="0001-01-01T00:00:00" SourceFileStillExist="true">
+      <ReChecked>true</ReChecked>
+    </StatusDetail>
+    <StatusDetail SourceFile="D:\Torrent - Fini\[ www.Cpasbien.pw ] X.Company.S01E01.FASTSUB.VOSTFR.HDTV.XviD-ADDiCTiON.avi" DestinationFolder="H:\" Status="NotSynched" SynchDate="0001-01-01T00:00:00" SourceFileStillExist="true">
+      <ReChecked>true</ReChecked>
+    </StatusDetail>
+    <StatusDetail SourceFile="D:\Torrent - Fini\[ www.Cpasbien.pw ] X.Company.S01E02.FASTSUB.VOSTFR.HDTV.XviD-ADDiCTiON.avi" DestinationFolder="H:\" Status="NotSynched" SynchDate="0001-01-01T00:00:00" SourceFileStillExist="true">
+      <ReChecked>true</ReChecked>
+    </StatusDetail>
+    <StatusDetail SourceFile="D:\Torrent - Fini\[ www.Cpasbien.pw ] X.Company.S01E03.FASTSUB.VOSTFR.HDTV.XviD-ADDiCTiON.avi" DestinationFolder="H:\" Status="NotSynched" SynchDate="0001-01-01T00:00:00" SourceFileStillExist="true">
+      <ReChecked>true</ReChecked>
+    </StatusDetail>
+    <StatusDetail SourceFile="D:\Torrent - Fini\[ www.Cpasbien.pw ] X.Company.S01E04.FASTSUB.VOSTFR.HDTV.XviD-ADDiCTiON.avi" DestinationFolder="H:\" Status="NotSynched" SynchDate="0001-01-01T00:00:00" SourceFileStillExist="true">
+      <ReChecked>true</ReChecked>
+    </StatusDetail>
+    <StatusDetail SourceFile="D:\Torrent - Fini\[ www.Cpasbien.pw ] X.Company.S01E05.FASTSUB.VOSTFR.HDTV.XviD-ADDiCTiON.avi" DestinationFolder="H:\" Status="NotSynched" SynchDate="0001-01-01T00:00:00" SourceFileStillExist="true">
+      <ReChecked>true</ReChecked>
+    </StatusDetail>
+    <StatusDetail SourceFile="D:\Torrent - Fini\[ www.Cpasbien.pw ] X.Company.S01E06.FASTSUB.VOSTFR.HDTV.XviD-ADDiCTiON.avi" DestinationFolder="H:\" Status="NotSynched" SynchDate="0001-01-01T00:00:00" SourceFileStillExist="true">
+      <ReChecked>true</ReChecked>
+    </StatusDetail>
+    <StatusDetail SourceFile="D:\Torrent - Fini\[ www.Cpasbien.pw ] X.Company.S01E07.FASTSUB.VOSTFR.HDTV.XviD-ADDiCTiON.avi" DestinationFolder="H:\" Status="NotSynched" SynchDate="0001-01-01T00:00:00" SourceFileStillExist="true">
+      <ReChecked>true</ReChecked>
+    </StatusDetail>
+    <StatusDetail SourceFile="D:\Torrent - Fini\[ www.Cpasbien.pw ] X.Company.S01E08.FASTSUB.VOSTFR.HDTV.XviD-ADDiCTiON.avi" DestinationFolder="H:\" Status="NotSynched" SynchDate="0001-01-01T00:00:00" SourceFileStillExist="true">
+      <ReChecked>true</ReChecked>
+    </StatusDetail>
+    <StatusDetail SourceFile="D:\Torrent - Fini\[ultimate-torrent.com] Blood.&amp;.Oil.S01E06.FASTSUB.VOSTFR.HDTV.XviD-ZT.avi" DestinationFolder="H:\" Status="NotSynched" SynchDate="0001-01-01T00:00:00" SourceFileStillExist="true">
       <ReChecked>true</ReChecked>
     </StatusDetail>
   </StatusList>

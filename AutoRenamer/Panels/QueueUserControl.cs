@@ -42,7 +42,7 @@ namespace AutoRenamer.Panels
 
         private void TasksOnOnTaskAdded(object sender, TaskEventArgs taskEventArgs)
         {
-            dataGridViewQueue.Refresh();
+            RefreshGrid();
 
             taskEventArgs.Task.OnTaskFinished += TaskOnOnTaskFinished;
             taskEventArgs.Task.OnProgressChanged += Task_OnProgressChanged;
@@ -50,13 +50,13 @@ namespace AutoRenamer.Panels
 
         private void Task_OnProgressChanged(object sender, double percentage)
         {
-            dataGridViewQueue.Refresh();
+            RefreshGrid();
         }
 
         private void TaskOnOnTaskFinished(object sender, EventArgs eventArgs)
         {
             //_bindingSource.ResetBindings(false);
-            dataGridViewQueue.Refresh();
+            
         }
 
         private void btnUp_Click(object sender, EventArgs e)
@@ -72,6 +72,23 @@ namespace AutoRenamer.Panels
             foreach (DataGridViewCell selectedCell in dataGridViewQueue.SelectedCells)
             {
                 Tasks.MoveDown(((ITask)dataGridViewQueue.Rows[selectedCell.RowIndex].DataBoundItem));
+            }
+        }
+
+        delegate void RefreshGridCallback();
+
+        public void RefreshGrid()
+        {
+            // InvokeRequired required compares the thread ID of the
+            // calling thread to the thread ID of the creating thread.
+            // If these threads are different, it returns true.
+            if (this.dataGridViewQueue.InvokeRequired)
+            {
+                this.Invoke(new RefreshGridCallback(RefreshGrid));
+            }
+            else
+            {
+                this.dataGridViewQueue.Refresh();
             }
         }
     }
