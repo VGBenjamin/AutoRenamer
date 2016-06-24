@@ -55,6 +55,7 @@ namespace AutoRenamer.Panels
 
                 SetDataPropertyNameOffileColumns();
                 dataGridViewSynchronization.DataSource = _currentSynchronization.StatusList;
+                dataGridViewSynchronization_DataBindingComplete(null, null);
             }
         }
 

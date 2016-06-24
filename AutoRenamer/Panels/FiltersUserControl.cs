@@ -119,6 +119,7 @@ namespace AutoRenamer.Panels
             }
 
             dataGridView.CurrentCell = null;
+            dataGridView.SuspendLayout();
             foreach (DataGridViewRow row in dataGridView.Rows)
             {
                 if (row.Cells["StatusColumn"] != null && row.Cells["SourceFileColumn"] != null)
@@ -132,6 +133,7 @@ namespace AutoRenamer.Panels
                         && (!cbSourceStillExist.Checked || sourceFileStillExist);
                 }
             }
+            dataGridView.ResumeLayout();
         }
 
         private bool FileTypeIsAccepted(string sourceFile, List<string> allowedExtensions)

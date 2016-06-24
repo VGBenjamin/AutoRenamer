@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panelTop = new System.Windows.Forms.Panel();
             this.btnSynchNow = new System.Windows.Forms.Button();
             this.panelMiddle = new System.Windows.Forms.Panel();
@@ -102,8 +102,8 @@
             this.dataGridViewSynchronization.ShowEditingIcon = false;
             this.dataGridViewSynchronization.Size = new System.Drawing.Size(886, 393);
             this.dataGridViewSynchronization.TabIndex = 2;
+            this.dataGridViewSynchronization.VirtualMode = true;
             this.dataGridViewSynchronization.CellFormatting += new System.Windows.Forms.DataGridViewCellFormattingEventHandler(this.dataGridViewSynchronization_CellFormatting);
-            this.dataGridViewSynchronization.DataBindingComplete += new System.Windows.Forms.DataGridViewBindingCompleteEventHandler(this.dataGridViewSynchronization_DataBindingComplete);
             this.dataGridViewSynchronization.MouseClick += new System.Windows.Forms.MouseEventHandler(this.dataGridViewSynchronization_MouseClick);
             // 
             // SelectColumn
@@ -169,9 +169,9 @@
             // SynchDateColumn
             // 
             this.SynchDateColumn.DataPropertyName = "SynchDate";
-            dataGridViewCellStyle4.Format = "g";
-            dataGridViewCellStyle4.NullValue = null;
-            this.SynchDateColumn.DefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle3.Format = "g";
+            dataGridViewCellStyle3.NullValue = null;
+            this.SynchDateColumn.DefaultCellStyle = dataGridViewCellStyle3;
             this.SynchDateColumn.HeaderText = "Synch Date";
             this.SynchDateColumn.Name = "SynchDateColumn";
             this.SynchDateColumn.ReadOnly = true;
